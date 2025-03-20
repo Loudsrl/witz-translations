@@ -1,0 +1,55 @@
+{
+  "db_notifications": {
+    "ENGAGEMENT_1": {
+      "title": "Arena challenge for you: {THEME_NAME}",
+      "body": "Are you the undisputed champion? Challenge other experts on the topic and prove your knowledge!"
+    },
+    "ENGAGEMENT_2": {
+      "title": "Today's arenas are ready!",
+      "body": "Thrilling challenges await you—enter the arena and be the last gladiator standing!"
+    },
+    "RETENTION_1": {
+      "title": "It's been a long time since you trained your mind!",
+      "body": "There's a prize waiting to be claimed"
+    },
+    "RETENTION_2": {
+      "title": "It's quiz time!",
+      "body": "The other players are waiting for you in your World! Challenge them now!"
+    },
+    "RETENTION_3": {
+      "title": "New theme {THEME_NAME} added",
+      "body": "Congratulations, a new theme is now unlocked and shareable in the shop!"
+    },
+    "RETENTION_4": {
+      "title": "Less than a day left until the season ends!",
+      "body": "The other league players are climbing the leaderboard!"
+    },
+    "RETENTION_5": {
+      "title": "You have advanced to the {LEAGUE_NAME} league!",
+      "body": "Welcome to the new league! You have rewards to claim!"
+    },
+    "RETENTION_6": {
+      "title": "You have stayed afloat this season!",
+      "body": "You are still in the {LEAGUE_NAME} league! Get ready for some quizzes!"
+    },
+    "RETENTION_7": {
+      "title": "Oh no! You're about to be relegated!",
+      "body": "But don't worry, you still have a chance to save yourself and keep all your progress!"
+    },
+    "REFERRAL_1": {
+      "title": "Invite a friend!",
+      "body": "Prove that you are the undisputed quiz master!"
+    },
+    "REFERRAL_2": {
+      "title": "{USERNAME} wants to challenge you!",
+      "body": "Jump into the game now and win the VS Friends match!"
+    },
+    "REVIEW": {
+      "title": "Are you having fun with Witz?",
+      "body": "Leave a great review and help us grow!"
+    }
+  },
+  "db_themes": {
+    "harry_potter": "Harry Potter"
+  }
+}

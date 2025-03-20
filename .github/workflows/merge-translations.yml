@@ -1,0 +1,41 @@
+name: Merge Translations
+
+on:
+  push:
+    branches:
+      - main  # Change this to your target branch
+
+jobs:
+  merge-translations:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Merge translation files
+        run: |
+          mkdir -p merged_translations
+          for lang_file in back_translations/*.json; do
+            lang=$(basename "$lang_file")
+            front_file="front_translations/$lang"
+            merged_file="merged_translations/$lang"
+
+            if [ -f "$front_file" ]; then
+              jq -s '.[0] * .[1]' "$lang_file" "$front_file" > "$merged_file"
+            else
+              cp "$lang_file" "$merged_file"
+            fi
+          done
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add merged_translations/
+          git diff --staged --quiet || (git commit -m "Update merged translations" && git push)

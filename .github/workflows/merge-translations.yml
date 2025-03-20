@@ -3,7 +3,9 @@ name: Merge and Deploy Translations
 on:
   push:
     branches:
-      - main  # Change this if using a different branch!
+      - main
+      - staging
+      - internal
 
 jobs:
   merge-translations:

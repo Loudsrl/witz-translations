@@ -29,11 +29,9 @@ jobs:
             merged_file="merged_translations/$lang"
 
             if [ -f "$front_file" ]; then
-              jq 'to_entries | map({key: "db_" + .key, value: .value}) | from_entries' "$lang_file" > tmp_back.json
-              jq -s '.[0] * .[1]' tmp_back.json "$front_file" > "$merged_file"
-              rm tmp_back.json
+              jq -s '.[0] * .[1]' "$lang_file" "$front_file" > "$merged_file"
             else
-              jq 'to_entries | map({key: "db_" + .key, value: .value}) | from_entries' "$lang_file" > "$merged_file"
+              cp "$lang_file" "$merged_file"
             fi
           done
 

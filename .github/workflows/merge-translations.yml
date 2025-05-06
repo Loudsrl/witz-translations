@@ -23,24 +23,18 @@ jobs:
       - name: Merge translation files
         run: |
           mkdir -p merged_translations
-
           for lang_file in back_translations/*.json; do
             lang=$(basename "$lang_file")
             front_file="front_translations/$lang"
             merged_file="merged_translations/$lang"
 
-            # Transform back translations by prepending "back_" to all keys
-            jq 'to_entries | map({key: "back_" + .key, value: .value}) | from_entries' "$lang_file" > tmp_back.json
-
             if [ -f "$front_file" ]; then
-              # Merge transformed back translations with front translations
+              jq 'to_entries | map({key: "db_" + .key, value: .value}) | from_entries' "$lang_file" > tmp_back.json
               jq -s '.[0] * .[1]' tmp_back.json "$front_file" > "$merged_file"
+              rm tmp_back.json
             else
-              # No front file, just use transformed back translations
-              mv tmp_back.json "$merged_file"
+              jq 'to_entries | map({key: "db_" + .key, value: .value}) | from_entries' "$lang_file" > "$merged_file"
             fi
-
-            rm -f tmp_back.json
           done
 
       - name: Commit and push changes

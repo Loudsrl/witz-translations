@@ -1,1 +1,60 @@
-{}
+{
+  "notifications": {
+    "ENGAGEMENT_1": {
+      "title": "Arena-Herausforderung für dich: {ARENA_THEME_NAME}",
+      "body": "Bist du der unangefochtene Champion? Fordere andere Experten heraus und beweise dein Wissen!"
+    },
+    "ENGAGEMENT_2": {
+      "title": "Die heutigen Arenen sind bereit!",
+      "body": "Spannende Herausforderungen erwarten dich – betritt die Arena und sei der letzte überlebende Gladiator!"
+    },
+    "RETENTION_1": {
+      "title": "Es ist lange her, dass du deinen Geist trainiert hast!",
+      "body": "Es gibt einen Preis, der darauf wartet, eingelöst zu werden!"
+    },
+    "RETENTION_2": {
+      "title": "Es ist Zeit für ein Quiz!",
+      "body": "Die anderen Spieler warten auf dich in vs Welt! Fordere sie jetzt heraus!"
+    },
+    "RETENTION_3": {
+      "title": "Neues Thema  {THEME_NAME} hinzugefügt",
+      "body": "Glückwunsch, ein neues Thema ist jetzt freigeschaltet und im Shop teilbar!"
+    },
+    "RETENTION_4": {
+      "title": "Weniger als ein Tag bis zum Ende der Saison!",
+      "body": "Die anderen Ligaspieler klettern in der Rangliste!"
+    },
+    "RETENTION_5": {
+      "title": "Du bist in die {LEAGUE_NAME}-Liga aufgestiegen!",
+      "body": "Willkommen in der neuen Liga! Du hast Belohnungen zum Einlösen!"
+    },
+    "RETENTION_6": {
+      "title": "Du hast dich in dieser Saison über Wasser gehalten!",
+      "body": "Du bist immer noch in der {LEAGUE_NAME}-Liga! Mach dich bereit für ein paar Quizfragen!"
+    },
+    "RETENTION_7": {
+      "title": "Oh nein! Du stehst kurz vor dem Abstieg!",
+      "body": "Aber keine Sorge, du hast noch die Chance, dich zu retten und all deine Fortschritte zu behalten!"
+    },
+    "REFERRAL_1": {
+      "title": "Lade einen Freund ein!",
+      "body": "Beweise, dass du der unangefochtene Quizmeister bist!"
+    },
+    "REFERRAL_2": {
+      "title": "{INVITING_USER_NAME} will dich herausfordern!",
+      "body": "Steig sofort ins Spiel ein und gewinne das VS-Freunde-Duell!"
+    },
+    "REFERRAL_3": {
+      "title": "Neue Freundschaftsanfrage",
+      "body": "{INVITING_USER_NAME} user_name möchte dein Freund sein!"
+    },
+    "REFERRAL_4": {
+      "title": "{INVITED_USER_NAME} ist jetzt dein Freund!",
+      "body": "Spiele ein VS-Freunde-Match und zeig, dass du der Beste bist"
+    },
+    "REVIEW": {
+      "title": "Hast du Spaß mit Witz?",
+      "body": "Hinterlasse eine tolle Bewertung und hilf uns zu wachsen!"
+    }
+  }
+}

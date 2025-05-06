@@ -1,1 +1,60 @@
-{}
+{
+  "notifications": {
+    "ENGAGEMENT_1": {
+      "title": "Sfida in arena per te: {ARENA_THEME_NAME}",
+      "body": "Sei tu il campione indiscusso? Sfida gli altri esperti del tema e dimostra la tua conoscenza!"
+    },
+    "ENGAGEMENT_2": {
+      "title": "Le arene di oggi sono pronte!",
+      "body": "Ti aspettano sfide piene di colpi di scena, entra in arena e sii l'ultimo gladiatore a sopravvivere!"
+    },
+    "RETENTION_1": {
+      "title": "È da tanto che non alleni la mente!",
+      "body": "C'è un premio che aspetta di essere riscattato!"
+    },
+    "RETENTION_2": {
+      "title": "È l'ora di un quiz",
+      "body": "Gli altri giocatori ti aspettano nella vs Mondo! sfidali subito"
+    },
+    "RETENTION_3": {
+      "title": "Nuovo tema  {THEME_NAME} aggiunto",
+      "body": "Congratulazioni, un nuovo tema è ora sbloccato e consivisibile nello shop"
+    },
+    "RETENTION_4": {
+      "title": "Manca meno di un giorno alla fine della season!",
+      "body": "Gli altri giocatori della lega stanno scalando la classifica"
+    },
+    "RETENTION_5": {
+      "title": "Sei passato alla lega {LEAGUE_NAME}!",
+      "body": "Benvenuto nella nuova lega! Hai dei premi da riscattare"
+    },
+    "RETENTION_6": {
+      "title": "Sei rimasto a galla in questa stagione",
+      "body": "Sei ancora nella lega {LEAGUE_NAME}! Preparati per un po' di quiz!"
+    },
+    "RETENTION_7": {
+      "title": "Oh no! Stai per retrocedere",
+      "body": "Ma non temere, hai ancora la possibilità di salvarti e mantenere tutti i tuoi progressi"
+    },
+    "REFERRAL_1": {
+      "title": "Invita un amico!",
+      "body": "Dimostra di essere il quiz master indiscusso"
+    },
+    "REFERRAL_2": {
+      "title": "{INVITING_USER_NAME} vuole sfidarti!",
+      "body": "Entra subito in gioco e vinci la VS Amici"
+    },
+    "REFERRAL_3": {
+      "title": "Nuova richiesta di amicizia",
+      "body": "{INVITING_USER_NAME} vuole diventare tuo amico!"
+    },
+    "REFERRAL_4": {
+      "title": "{INVITED_USER_NAME} è ora tuo amico!",
+      "body": "Gioca una VS Amici e dimostra di essere il più forte"
+    },
+    "REVIEW": {
+      "title": "Ti diverti con Witz?",
+      "body": "Lascia una bella recensione e aiutaci a crescere!"
+    }
+  }
+}

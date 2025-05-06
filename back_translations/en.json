@@ -1,7 +1,7 @@
 {
-  "db_notifications": {
+  "notifications": {
     "ENGAGEMENT_1": {
-      "title": "Arena challenge for you: {THEME_NAME}",
+      "title": "Arena challenge for you: {ARENA_THEME_NAME}",
       "body": "Are you the undisputed champion? Challenge other experts on the topic and prove your knowledge!"
     },
     "ENGAGEMENT_2": {
@@ -41,15 +41,20 @@
       "body": "Prove that you are the undisputed quiz master!"
     },
     "REFERRAL_2": {
-      "title": "{USERNAME} wants to challenge you!",
+      "title": "{INVITING_USER_NAME} wants to challenge you!",
       "body": "Jump into the game now and win the VS Friends match!"
+    },
+    "REFERRAL_3": {
+      "title": "New friend request",
+      "body": "{INVITING_USER_NAME} wants to be your friend!"
+    },
+    "REFERRAL_4": {
+      "title": "{INVITED_USER_NAME} is now your friend!",
+      "body": "Play a VS Friends match and prove you're the strongest"
     },
     "REVIEW": {
       "title": "Are you having fun with Witz?",
       "body": "Leave a great review and help us grow!"
     }
-  },
-  "db_themes": {
-    "harry_potter": "Harry Potter"
   }
 }

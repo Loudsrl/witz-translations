@@ -363,6 +363,9 @@
   "shop": {
     "offers": {
       "title": "offres",
+      "2x1_themes": {
+        "title": "Offre 2 pour 1 sur les thèmes"
+      },
       "remove_ads_1m": {
         "badge": "zéro pub",
         "title": "Supprimer toutes les pubs",

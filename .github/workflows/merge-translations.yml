@@ -29,9 +29,11 @@ jobs:
             merged_file="merged_translations/$lang"
 
             if [ -f "$front_file" ]; then
-              jq -s '.[0] * .[1]' "$lang_file" "$front_file" > "$merged_file"
+              # Merge both translations under "back" and "front" keys
+              jq -n '{ back: input, front: input }' "$lang_file" "$front_file" > "$merged_file"
             else
-              cp "$lang_file" "$merged_file"
+              # Only include "back" translations if front file doesn't exist
+              jq '{ back: . }' "$lang_file" > "$merged_file"
             fi
           done
 

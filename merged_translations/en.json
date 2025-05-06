@@ -1,7 +1,7 @@
 {
-  "db_notifications": {
+  "notifications": {
     "ENGAGEMENT_1": {
-      "title": "Arena challenge for you: {THEME_NAME}",
+      "title": "Arena challenge for you: {ARENA_THEME_NAME}",
       "body": "Are you the undisputed champion? Challenge other experts on the topic and prove your knowledge!"
     },
     "ENGAGEMENT_2": {
@@ -41,23 +41,30 @@
       "body": "Prove that you are the undisputed quiz master!"
     },
     "REFERRAL_2": {
-      "title": "{USERNAME} wants to challenge you!",
+      "title": "{INVITING_USER_NAME} wants to challenge you!",
       "body": "Jump into the game now and win the VS Friends match!"
+    },
+    "REFERRAL_3": {
+      "title": "New friend request",
+      "body": "{INVITING_USER_NAME} wants to be your friend!"
+    },
+    "REFERRAL_4": {
+      "title": "{INVITED_USER_NAME} is now your friend!",
+      "body": "Play a VS Friends match and prove you're the strongest"
     },
     "REVIEW": {
       "title": "Are you having fun with Witz?",
       "body": "Leave a great review and help us grow!"
     }
   },
-  "db_themes": {
-    "harry_potter": "Harry Potter"
-  },
   "general": {
     "continue": "continue",
     "or": "or",
+    "and": "and",
     "skip": "skip",
     "pts": "pts",
     "play": "play",
+    "playAgain": "play again",
     "themes": "themes",
     "shop": "shop",
     "league": "league",
@@ -69,6 +76,7 @@
     "getMore": "get more",
     "playing": "playing",
     "invite": "invite",
+    "invited": "invited",
     "share": "share",
     "categories": "categories",
     "masteryLevel": "mastery level",
@@ -81,6 +89,7 @@
     "level": "level",
     "xp": "XP",
     "ok": "ok",
+    "save": "save",
     "online": "online",
     "lastLogin": "last login",
     "accept": "accept",
@@ -99,6 +108,16 @@
     "stepNumber": "step {}",
     "place": "place",
     "expiresIn": "expires in",
+    "start": "start",
+    "free": "free",
+    "watch": "watch",
+    "confirm": "confirm",
+    "select": "select",
+    "selected": "selected",
+    "purchaseCta": "buy",
+    "completed": "completed!",
+    "joinUs": "join us",
+    "everyoneElse": "everyone else ranked",
     "placeNumber": {
       "one": "{} place",
       "other": "{} places"
@@ -154,6 +173,7 @@
       }
     },
     "masteryLevels": {
+      "level_unlocked": "new level unlocked!",
       "beginner": "beginner",
       "apprentice_1": "apprentice 1",
       "apprentice_2": "apprentice 2",
@@ -167,19 +187,107 @@
       "master": "master"
     }
   },
+  "error": {
+    "general": {
+      "title": "Something went wrong...",
+      "description": "Trivia time: What’s unexpected, a bit annoying, and being fixed right now? This error! Be right back..."
+    }
+  },
+  "splash": "General\nknowledge quiz",
+  "auth": {
+    "signInWith": "Sign in with {}",
+    "signOut": "sign out",
+    "deleteAccount": "delete account",
+    "login": {
+      "startTitle": "First time on WITZ?",
+      "startButton": "get started",
+      "logTitle": "Already have an account?",
+      "logButton": "log in"
+    },
+    "bottomSheet": {
+      "title": "Choose your favourite log in method",
+      "disclaimer": "By registering on WITZ, you agree to our"
+    },
+    "addAccount": {
+      "title": "Save your progress",
+      "description": "Create your profile to keep your progress safe! If you continue as a guest, all your data may be lost if you uninstall the app or log out.",
+      "later": "later"
+    },
+    "signOutModal": {
+      "title": "Sign out of account?",
+      "message": "Your progress and purchases will be saved and can be accessed by re-signing in.",
+      "messageGuest": "@:auth.deleteModal.message",
+      "confirm": "@:auth.signOut"
+    },
+    "deleteModal": {
+      "title": "Delete account?",
+      "message": "You will lose all your progress and purchases permanently.",
+      "confirm": "@:auth.deleteAccount"
+    },
+    "errors": {
+      "account_exists_with_different_credential": {
+        "title": "Account conflict detected",
+        "message": "An account with this email already exists under a different sign-in method. Please sign in using your existing account and then link your credentials.",
+        "action": "ok"
+      },
+      "invalid_credential": {
+        "title": "Invalid or expired credentials",
+        "message": "The credential provided is invalid or has expired. Please try again.",
+        "action": "try again"
+      },
+      "provider_already_linked": {
+        "title": "You’re already connected",
+        "message": "Your account is already linked to this sign-in method. Please try again later.",
+        "action": "ok"
+      },
+      "credential_already_in_use": {
+        "title": "This account is already in use",
+        "message": "You have already created an account with this email. Please log out and log in with the desired method to use that account.",
+        "action": "ok"
+      },
+      "email_already_in_use": {
+        "title": "This email is already taken",
+        "message": "This email is already associated with an existing account. Please sign in using one of your linked methods.",
+        "action": "ok"
+      }
+    }
+  },
   "home": {
     "leagueInfo": "This is your League performances! Earn Delta Points based on your answers in VS Mode and climb the leaderboard to advance to the next league!",
-    "tgInfo": "Answer correctly in VS Mode to advance through the Training Ground! Reach the end of the path and unlock your first League!"
+    "tgInfo": "Answer correctly in VS Mode to advance through the Training Ground! Reach the end of the path and unlock your first League!",
+    "dailyLoginDialog": {
+      "title": "Daily gift",
+      "body": "Return tomorrow for the next reward!",
+      "dayNumber": {
+        "one": "day 1",
+        "other": "day {}"
+      },
+      "cta": "claim"
+    },
+    "cards": {
+      "account": {
+        "title": "back up your account",
+        "body": "Sign in to protect your account and save all your progresses!"
+      },
+      "friends": {
+        "title": "Invite your friends and get rewards!"
+      }
+    }
+  },
+  "socketErrors": {
+    "snackbar": "Unstable connection. Try again"
   },
   "game": {
-    "vsWorld": "vs world",
-    "vsFriends": "vs friends",
+    "vsWorld": "VS World",
+    "vsFriends": "VS Friends",
     "vsMode": "vs mode",
     "friends": "friends",
     "world": "world",
-    "inventoryTitle": "your inventory",
+    "inventoryTitle": "your powerups",
+    "themeSelectionTitle": "which theme do you want to play?",
     "vsWorldInfo": "Face random opponents from around the world in a series of questions. Whoever gets the highest score at the end of the match will be the winner!",
     "vsFriendsInfo": "Face your friends in a private match. Whoever gets the highest score at the end of the match will be the winner!",
+    "selectedThemeInfo": "tap the card and select a theme",
     "roundAmount": "{} rounds",
     "gameTypePage": {
       "title": "How do you want to start?",
@@ -230,37 +338,104 @@
     "resultsPage": {
       "results": "results",
       "youRanked": "you ranked",
-      "winnerReward": "winner reward"
+      "winnerReward": "winner reward:"
     },
-    "recapPage": {
-      "answers": "answers",
-      "deltaTokenInfo": "You can earn or lose Delta Tokens based on your performance during the match. A correct answer gives you one token, a wrong one takes one from you. Use the Shield power to protect you from losing tokens!",
-      "correctAnswers": "Correct answers",
-      "correctAnswersInfo": "Correct answers allow you to advance in the Training Ground ladder and unlock rewards."
+    "performance": {
+      "tokens": "league tokens",
+      "tokensTooltip": "You can earn League Tokens based on your performance during the match. The more Tokens you get, the higher you climb in your League. Aim for the top!",
+      "answers": "your answers",
+      "answersTooltip": "The more correct answers you give, the more Tokens you get! Each correct answer gives you {} League Tokens.",
+      "multiplier": "multiplier",
+      "rankMultiplier": "rank @:game.performance.multiplier",
+      "rankMultiplierTootip": "The rank multiplier increases your League Tokens according to how many players you passed in the final ranking of the match.",
+      "skip": "tap to skip"
     },
     "playerIsland": {
       "pos": "pos.",
       "score": "your score",
       "tags": {
-        "fastestAnswer": "fastest!",
+        "fastest_answer": "fastest!",
         "streak": "{} in a row!"
       },
       "shop": "Shop",
       "buyPower": "tap to buy"
+    },
+    "rejoinGame": {
+      "title": "Reconnect to your match?",
+      "message": "You were disconnected from an ongoing match. Do you want to reconnect and continue playing, or leave and lose all your progress?",
+      "reconnect": "reconnect",
+      "leave": "leave match",
+      "waitRejoin": "wait while we load the match"
+    },
+    "playAgain": {
+      "askToPlay": "Ready for another match?",
+      "waiting": "Waiting for host to decide whether to start a new match or end the game...",
+      "gameAvailable": "New game created",
+      "leagueProgress": "League progress"
+    },
+    "leaveGame": {
+      "title": "Leave match",
+      "description": "Do you want to leave the match? All your progresses will be lost.",
+      "confirm": "Leave",
+      "cancel": "@:general.cancel"
+    },
+    "hostLeft": {
+      "title": "Host left the match",
+      "description": "The host left the match. The lobby will be closed and all players will be disconnected.",
+      "confirm": "ok"
+    }
+  },
+  "paywall": {
+    "bundle": {
+      "badge": "super offer",
+      "title": "Become a Witzard",
+      "body": "Take advantage of this offer and become one of the Witz masters! Discover the Wizard within you!",
+      "cta": "purchase now"
+    },
+    "powers": {
+      "badge": "limited offer",
+      "title": "Stock up on Power-Ups",
+      "body": "Take advantage of this offer, gear up with power-ups, and win all your challenges!",
+      "cta": "purchase now"
+    },
+    "themes": {
+      "badge": "unique offer",
+      "title": "3x1 offer",
+      "body": "Rush to the shop to grab your favorite themes and challenge your friends!",
+      "cta": "purchase now"
+    },
+    "starter_bundle": {
+      "title": "New Player Pack"
+    },
+    "removeAds": {
+      "badge": "@:shop.offers.remove_ads_1m.badge",
+      "title": "Play without distractions",
+      "description": "Tired of interruptions? Unlock 30 days of uninterrupted trivia fun! No more ads bothering you—just pure, seamless gameplay.",
+      "card": {
+        "title": "@:shop.offers.remove_ads_1m.title",
+        "description": "@:shop.offers.remove_ads_1m.notes"
+      },
+      "buy": "buy now"
     }
   },
   "shop": {
     "offers": {
       "title": "offers",
       "remove_ads_1m": {
+        "badge": "zero ads",
         "title": "Remove all ads",
-        "description": "Remove ads at the end of the match for 30 days. @:pages.shop.remove_ads.notes",
+        "short_desc": "no more ads for 30 days",
+        "description": "Remove ads at the end of the match for 30 days. @:shop.offers.remove_ads_1m.notes",
         "notes": "NOTE: Does not apply to ads with rewards."
       },
       "purchase_bundle_confirm": {
         "title": "offer contents",
         "description": "With this bundle you'll get:"
       }
+    },
+    "missingGems": {
+      "title": "buy missing gems",
+      "body": "to complete this purchase, you need"
     },
     "themes": {
       "title": "themes",
@@ -280,6 +455,7 @@
       "info": "You need Hearts to play matches; don't run out!"
     },
     "power_ups": {
+      "bag": "in your bag",
       "title": "power-ups",
       "info": "Activate boosts to help you win tough rounds!"
     }
@@ -290,9 +466,14 @@
       "other": "{} themes"
     },
     "themeNumberOutOf": "{}/{} themes",
+    "theme": {
+      "info": "Test your knowledge with new questions!"
+    },
+    "newTheme": "new theme",
     "witzMastery": "witz mastery",
     "witzMasteryInfo": "Unlock themes in this category to increase your WITZ Mastery. Complete the bar to earn a special prize!",
     "themeDetailBody": "Test yourself on the {} theme with questionl like",
+    "themeDetailBundle": "get this bundle!",
     "themeMasterySheet": {
       "topBarLocked": "unlock this theme",
       "body": {
@@ -322,6 +503,14 @@
     "demotionTo": "demotion to",
     "seasonEndsIn": "season ends in",
     "info": "This is your current League. Finish the season in the top 10 to get promoted! The last 5 will relegate to the previous League.",
+    "places": "{} places",
+    "leagueDescription": {
+      "trainingGround": "Give correct answers in @:game.vsWorld or @:game.vsFriends to advance the ladder and access your first League!",
+      "currentLeague": "This is your league! It's time to play a match to climb the rankings and reach the next league by the end of the season",
+      "prevLeague": "Do you remember when you were in this league? It feels like just yesterday... Keep playing and watch out for relegations, or you might find yourself back here soon!",
+      "nextLeague": "Climb the leaderboard to reach this League! Only the top players of the season will be promoted, so do your best!",
+      "goToLeague": "Go to leagues!"
+    },
     "ctas": {
       "first": "stay on top",
       "promotion": "reach the top",
@@ -376,7 +565,22 @@
         }
       }
     },
-    "results": {}
+    "results": {
+      "promoted": "Great! You advance to {}",
+      "stayed": "Nice! You remain in {}",
+      "claim": "@:general.claim & @:general.continue",
+      "demoted": {
+        "message": "Damn! You are no longer in {}...",
+        "protection": {
+          "activate": "activate the",
+          "title": "league protection",
+          "description": "Stay in this league one more season",
+          "buy": "activate for",
+          "deny": "no, thanks"
+        },
+        "beBetter": "Do your best in the next season"
+      }
+    }
   },
   "arena": {
     "body": "Test your knowledge with these time-limited events and get rewards!",
@@ -390,7 +594,21 @@
     "leaderboard": "leaderboard",
     "retry": "try once more",
     "eventEndsIn": "event ends in",
+    "eventEndsRewards": "The event is still ongoing! Come back later to claim your rewards.",
     "showPosition": "show my position",
+    "eventEnded": "event concluded",
+    "noPlayers": "Be the first to challenge the arena and claim your throne",
+    "game": {
+      "youFailed": "game over",
+      "tryAgain": "Try again next time",
+      "finalRank": "Final rank",
+      "correctAnswers": "Correct answers",
+      "bestScore": "Best score",
+      "top3": "Top 3",
+      "keepPlaying": "Do you want to keep playing?",
+      "keepPlayingBody": "It’s not too late! You can still get another shot and stay in the match.",
+      "keepPlayingNotEnough": "You don't have enough gems"
+    },
     "welcomePage": {
       "title": "The Arena is now open",
       "cta": "Start playing",
@@ -408,10 +626,21 @@
           "body": "You can use Gems to revive and keep playing, or try again for a better score and climb the leaderboard!"
         }
       }
+    },
+    "themeUpsell": {
+      "title": "do you like this theme?",
+      "subtext": "Get it now and show that you’re an expert!",
+      "questionsTitle": "Test your knowledge with questions like",
+      "cta": "get this now!",
+      "buttonText": "get exclusive {} questions and prove your skills!"
     }
   },
   "profile": {
     "currentSeason": "current season",
+    "powerUps": {
+      "title": "your power-ups",
+      "info": "When you're in trouble, overcome your opponents with power-ups! You can get them as rewards or buy them in the Shop."
+    },
     "badges": {
       "title": "badges",
       "info": "View the badges of the thems you unlocked and showcase your favourite on your profile!",
@@ -441,20 +670,26 @@
     },
     "settingsSheet": {
       "title": "settings",
+      "signin": "Back up your account",
+      "signinBody": "Sign in to protect your account and save all your progresses!",
       "backgroundMusic": "background music",
       "soundEffects": "sound effects",
       "language": "language",
       "languageSheetBody": "Select the language of the app",
       "notifications": "notifications",
-      "gameNotices": "game notices",
-      "shopPromotions": "shop promotions",
-      "arenaEvents": "arena events",
+      "enableNotifications": "enable notifications",
+      "notificationTopics": {
+        "game": "game notices",
+        "shop": "shop promotions",
+        "arena": "arena events",
+        "leagues": "league events",
+        "rewards": "rewards",
+        "friends": "friends"
+      },
       "friends": "friends",
       "eula": "eula",
       "privacyPolicy": "privacy policy",
-      "termsAndConditions": "terms & conditions",
-      "deleteAccount": "delete account",
-      "logout": "log out"
+      "termsAndConditions": "terms & conditions"
     }
   },
   "friends": {
@@ -462,6 +697,10 @@
     "requests": "requests",
     "requestsNumber": "Requests: {}/{}",
     "friendsNumber": "Friends: {}/{}",
+    "noFriends": "You look pretty lonely in here...",
+    "noRequests": "You have no requests",
+    "inviteFriends": "invite new friends",
+    "addFriends": "add friends",
     "profile": {
       "add": "add",
       "removeDialogBody": "Do you want to remove this player from your friend list?"
@@ -475,14 +714,18 @@
       "body": "Complete daily missions and unlock the rewards!"
     },
     "dailyMissions": "daily missions",
-    "claimAll": "claim all"
-  },
-  "login": {
-    "googleSignIn": "sign in with google",
-    "appleSignIn": "sign in with apple",
-    "guest": "continue as guest"
+    "claimAll": "claim all",
+    "types": {
+      "CORRECT_ANSWER": "give correct answers",
+      "LOBBY_FRIENDS": "create lobby with 5 people",
+      "PLAY_GAMES": "play matches",
+      "PLAY_GAMES_FRIENDS": "play matches",
+      "TOP_3": "finish in top 3"
+    }
   },
   "tutorial": {
+    "startMatch": "start a match",
+    "startInfo": "In WITZ you'll face off against other players in a trivia match with 5 rounds. Let's start a match and see how it works!",
     "game": {
       "roundSpotlightInfo": "Each match has a theme! Each round's question will be based on a category related to this theme.",
       "dialogPowers": {
@@ -577,6 +820,8 @@
     "themeNavSpotlightInfo": "Want to expand your trivia experience? Start by accessing the Themes section to find new themes!",
     "themeSpotlightInfo": "Here's the WITZ Starter Pack! Select it to view its details and categories.",
     "buyThemeSpotlightInfo": "Kickstart your journey with the WITZ Starter Pack! Unlock it for free and start playing!",
+    "starterPack": "Witz starter pack",
+    "starterPackInfo": "This is the starter pack. It's a great way to start!",
     "dialogEndTutorial": {
       "title": "You're ready to play!",
       "body1": "It's time to dive into the game, challenge opponents, and climb the leaderboard.",
@@ -584,20 +829,29 @@
       "cta": "Start playing!"
     }
   },
-  "registration": {
-    "step1": {
+  "editUser": {
+    "username": {
       "title": "Choose your player name",
       "body": "Your player name will be visible to all players. Please choose a name not offensive to any player.",
       "placeholder": "enter name",
       "invalidWarning": "This name goes against our community policies. Please change it to another player name."
     },
-    "step2": {
+    "avatar": {
       "title": "Choose your avatar",
       "invalidWarning": "The image you uploaded was deemed offensive according to our guidelines."
     },
-    "step3": {
+    "topics": {
       "title": "What are your favourite topics?",
       "body": "Choose your favourite topics to have a personalized gaming experience."
+    }
+  },
+  "referral": {
+    "title": "refer-a-pal program",
+    "body": "Invite friends that are still not in the game, make them play a match and earn rewards!",
+    "cta": "invite friends",
+    "mission": {
+      "one": "invite 1 friend",
+      "other": "invite {} friends"
     }
   },
   "consumables": {
@@ -633,7 +887,7 @@
         "other": "{amount} double points"
       },
       "info": "For one round, doubles your round points! But beware! It works both positevely and negatively.",
-      "active": "@:powers.rockt.name active",
+      "active": "@:powers.rocket.name active",
       "activeDesc": "Your score doubles"
     },
     "bomb": {
@@ -666,5 +920,18 @@
       "active": "@:powers.shield.name active",
       "activeDesc": "You can't lose points"
     }
-  }
+  },
+  "news": {
+    "tag": {
+      "update": "update",
+      "event": "event",
+      "new": "new",
+      "offer": "offer"
+    }
+  },
+  "link_messages": {
+    "referral": "{} wants to invite you to play WITZ! Join the community.✨",
+    "code": "Join the match!"
+  },
+  "dynamic": {}
 }

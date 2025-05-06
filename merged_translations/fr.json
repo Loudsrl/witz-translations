@@ -501,6 +501,19 @@
       "cta2": "offre"
     }
   },
+  "topics": {
+    "all_themes": "Tous les thèmes",
+    "cinema": "cinéma",
+    "tv_series": "séries TV",
+    "video_games": "jeux vidéo",
+    "sport": "sport",
+    "food": "nourriture",
+    "music": "musique",
+    "back_to_school": "rentrée scolaire",
+    "history": "histoire",
+    "science": "science",
+    "geography": "géographie"
+  },
   "league": {
     "promotionTo": "promotion en",
     "demotionTo": "relégation en",

@@ -421,6 +421,9 @@
   "shop": {
     "offers": {
       "title": "ofertas",
+      "2x1_themes": {
+        "title": "Oferta 2 por 1 em temas"
+      },
       "remove_ads_1m": {
         "badge": "zero anúncios",
         "title": "Remover todos os anúncios",

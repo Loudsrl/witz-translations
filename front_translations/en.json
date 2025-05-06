@@ -443,6 +443,19 @@
       "cta2": "offer"
     }
   },
+  "topics": {
+    "all_themes": "All themes",
+    "cinema": "cinema",
+    "tv_series": "TV series",
+    "video_games": "video games",
+    "sport": "sport",
+    "food": "food",
+    "music": "music",
+    "back_to_school": "back to school",
+    "history": "history",
+    "science": "science",
+    "geography": "geography"
+  },
   "league": {
     "promotionTo": "promotion to",
     "demotionTo": "demotion to",

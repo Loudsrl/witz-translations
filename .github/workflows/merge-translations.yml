@@ -20,19 +20,23 @@ jobs:
         with:
           node-version: 18
 
+      - name: Get branch name
+        id: vars
+        run: |
+          branch="${GITHUB_REF#refs/heads/}"
+          echo "BRANCH_NAME=$branch" >> "$GITHUB_ENV"
+
       - name: Merge translation files
         run: |
-          mkdir -p merged_translations
+          mkdir -p "translations/$BRANCH_NAME"
           for lang_file in back_translations/*.json; do
             lang=$(basename "$lang_file")
             front_file="front_translations/$lang"
-            merged_file="merged_translations/$lang"
+            merged_file="translations/$BRANCH_NAME/$lang"
 
             if [ -f "$front_file" ]; then
-              # Merge both translations under "back" and "front" keys
               jq -n '{ back: input, front: input }' "$lang_file" "$front_file" > "$merged_file"
             else
-              # Only include "back" translations if front file doesn't exist
               jq '{ back: . }' "$lang_file" > "$merged_file"
             fi
           done
@@ -43,5 +47,19 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add merged_translations/
-          git diff --staged --quiet || (git commit -m "Update merged translations" && git push)
+          git add "translations/$BRANCH_NAME"
+          git diff --staged --quiet || (git commit -m "Update merged translations for $BRANCH_NAME" && git push)
+
+      - name: Install AWS CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y awscli
+
+      - name: Upload merged translations to DigitalOcean Space
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.DO_SPACES_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.DO_SPACES_SECRET }}
+        run: |
+          aws --endpoint-url https://${{ secrets.DO_SPACES_REGION }}.digitaloceanspaces.com \
+              s3 cp "translations/$BRANCH_NAME/" s3://${{ secrets.DO_SPACES_BUCKET }}/translations/$BRANCH_NAME/ \
+              --recursive --acl public-read

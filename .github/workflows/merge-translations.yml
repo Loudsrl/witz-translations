@@ -50,10 +50,12 @@ jobs:
           git add "translations/$BRANCH_NAME"
           git diff --staged --quiet || (git commit -m "Update merged translations for $BRANCH_NAME" && git push)
 
-      - name: Install AWS CLI
+      - name: Install AWS CLI (via official binary)
         run: |
-          sudo apt-get update
-          sudo apt-get install -y awscli
+          curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+          unzip awscliv2.zip
+          sudo ./aws/install
+          aws --version
 
       - name: Upload merged translations to DigitalOcean Space
         env:

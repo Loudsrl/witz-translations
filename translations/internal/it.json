@@ -912,899 +912,897 @@
       "coaches_and_strategies": "Allenatori e Strategie"
     }
   },
-  "front": {
+  "general": {
+    "continue": "continua",
+    "or": "o",
+    "and": "e",
+    "skip": "salta",
+    "pts": "punti",
+    "play": "gioca",
+    "playAgain": "gioca ancora",
+    "themes": "temi",
+    "shop": "negozio",
+    "league": "lega",
+    "arena": "arena",
+    "unlock": "sblocca",
+    "unlocked": "sbloccato",
+    "unlockedNumber": "{}/{} sbloccati",
+    "tapToContinue": "tocca per continuare",
+    "getMore": "ottieni di più",
+    "playing": "sta giocando",
+    "invite": "invita",
+    "invited": "invitato",
+    "share": "condividi",
+    "categories": "categorie",
+    "masteryLevel": "livello di maestria",
+    "discount": "{}% di sconto",
+    "rewards": "ricompense",
+    "viewAll": "vedi tutto",
+    "showMore": "mostra di più",
+    "showLess": "mostra meno",
+    "lv": "L.",
+    "level": "livello",
+    "xp": "XP",
+    "ok": "ok",
+    "save": "salva",
+    "online": "online",
+    "lastLogin": "ultimo accesso",
+    "accept": "accetta",
+    "reject": "rifiuta",
+    "friends": "amici",
+    "cancel": "annulla",
+    "remove": "rimuovi",
+    "news": "notizie",
+    "inbox": "posta in arrivo",
+    "claim": "riscatta",
+    "next": "prossimo",
+    "add": "aggiungi",
+    "of": "di",
+    "you": "tu",
+    "separator": ",",
+    "stepNumber": "passo {}",
+    "place": "posizione",
+    "expiresIn": "scade tra",
+    "start": "inizia",
+    "free": "gratis",
+    "watch": "guarda",
+    "confirm": "conferma",
+    "select": "seleziona",
+    "selected": "selezionato",
+    "purchaseCta": "sblocca",
+    "completed": "completato!",
+    "joinUs": "unisciti",
+    "everyoneElse": "tutti gli altri classificati",
+    "placeNumber": {
+      "one": "{} posizione",
+      "other": "{} posizioni"
+    },
+    "timeAgo": {
+      "minutes": {
+        "one": "1 minuto fa",
+        "other": "{} minuti fa"
+      },
+      "hour": {
+        "one": "1 ora fa",
+        "other": "{} ore fa"
+      },
+      "days": {
+        "one": "1 giorno fa",
+        "other": "{} giorni fa"
+      },
+      "weeks": {
+        "one": "1 settimana fa",
+        "other": "{} settimane fa"
+      },
+      "months": {
+        "one": "1 mese fa",
+        "other": "{} mesi fa"
+      },
+      "years": {
+        "one": "1 anno fa",
+        "other": "{} anni fa"
+      }
+    },
+    "time": {
+      "sec": "sec",
+      "min": "m",
+      "hour": "h",
+      "day": "g"
+    },
+    "ordinals": {
+      "st": {
+        "male": "°",
+        "female": "ª"
+      },
+      "nd": {
+        "male": "°",
+        "female": "ª"
+      },
+      "rd": {
+        "male": "°",
+        "female": "ª"
+      },
+      "th": {
+        "male": "°",
+        "female": "ª"
+      }
+    },
+    "masteryLevels": {
+      "level_unlocked": "nuovo livello sbloccato!",
+      "beginner": "principiante",
+      "apprentice_1": "apprendista 1",
+      "apprentice_2": "apprendista 2",
+      "apprentice_3": "apprendista 3",
+      "advanced_1": "avanzato 1",
+      "advanced_2": "avanzato 2",
+      "advanced_3": "avanzato 3",
+      "expert_1": "esperto 1",
+      "expert_2": "esperto 2",
+      "expert_3": "esperto 3",
+      "master": "maestro"
+    }
+  },
+  "error": {
     "general": {
-      "continue": "continua",
-      "or": "o",
-      "and": "e",
-      "skip": "salta",
-      "pts": "punti",
-      "play": "gioca",
-      "playAgain": "gioca ancora",
-      "themes": "temi",
-      "shop": "negozio",
-      "league": "lega",
-      "arena": "arena",
-      "unlock": "sblocca",
-      "unlocked": "sbloccato",
-      "unlockedNumber": "{}/{} sbloccati",
-      "tapToContinue": "tocca per continuare",
-      "getMore": "ottieni di più",
-      "playing": "sta giocando",
-      "invite": "invita",
-      "invited": "invitato",
-      "share": "condividi",
-      "categories": "categorie",
-      "masteryLevel": "livello di maestria",
-      "discount": "{}% di sconto",
-      "rewards": "ricompense",
-      "viewAll": "vedi tutto",
-      "showMore": "mostra di più",
-      "showLess": "mostra meno",
-      "lv": "L.",
-      "level": "livello",
-      "xp": "XP",
-      "ok": "ok",
-      "save": "salva",
-      "online": "online",
-      "lastLogin": "ultimo accesso",
-      "accept": "accetta",
-      "reject": "rifiuta",
-      "friends": "amici",
-      "cancel": "annulla",
-      "remove": "rimuovi",
-      "news": "notizie",
-      "inbox": "posta in arrivo",
-      "claim": "riscatta",
-      "next": "prossimo",
-      "add": "aggiungi",
-      "of": "di",
-      "you": "tu",
-      "separator": ",",
-      "stepNumber": "passo {}",
-      "place": "posizione",
-      "expiresIn": "scade tra",
-      "start": "inizia",
-      "free": "gratis",
-      "watch": "guarda",
-      "confirm": "conferma",
-      "select": "seleziona",
-      "selected": "selezionato",
-      "purchaseCta": "sblocca",
-      "completed": "completato!",
-      "joinUs": "unisciti",
-      "everyoneElse": "tutti gli altri classificati",
-      "placeNumber": {
-        "one": "{} posizione",
-        "other": "{} posizioni"
+      "title": "Qualcosa è andato storto...",
+      "description": "Momento quiz: Cosa è inaspettato, un po' fastidioso e in fase di risoluzione? Questo errore! Torniamo subito..."
+    }
+  },
+  "splash": "Quiz di cultura\ngenerale",
+  "auth": {
+    "signInWith": "Accedi con {}",
+    "signOut": "esci",
+    "deleteAccount": "elimina account",
+    "login": {
+      "startTitle": "Prima volta su WITZ?",
+      "startButton": "inizia",
+      "logTitle": "Hai già un account?",
+      "logButton": "accedi"
+    },
+    "bottomSheet": {
+      "title": "Scegli il tuo metodo di accesso preferito",
+      "disclaimer": "Registrandoti su WITZ, accetti i nostri"
+    },
+    "addAccount": {
+      "title": "Salva i tuoi progressi",
+      "description": "Crea il tuo profilo per tenere al sicuro i tuoi progressi! Se continui come ospite, tutti i tuoi dati potrebbero andare persi se disinstalli l'app o esci.",
+      "later": "più tardi"
+    },
+    "signOutModal": {
+      "title": "Disconnettersi dall'account?",
+      "message": "I tuoi progressi e acquisti verranno salvati e potrai accedervi accedendo nuovamente.",
+      "messageGuest": "@:auth.deleteModal.message",
+      "confirm": "@:auth.signOut"
+    },
+    "deleteModal": {
+      "title": "Eliminare l'account?",
+      "message": "Perderai tutti i tuoi progressi e acquisti in modo permanente.",
+      "confirm": "@:auth.deleteAccount"
+    },
+    "errors": {
+      "account_exists_with_different_credential": {
+        "title": "Conflitto account rilevato",
+        "message": "Un account con questa email esiste già con un metodo di accesso diverso. Accedi utilizzando il tuo account esistente e poi collega le tue credenziali.",
+        "action": "ok"
       },
-      "timeAgo": {
-        "minutes": {
-          "one": "1 minuto fa",
-          "other": "{} minuti fa"
-        },
-        "hour": {
-          "one": "1 ora fa",
-          "other": "{} ore fa"
-        },
-        "days": {
-          "one": "1 giorno fa",
-          "other": "{} giorni fa"
-        },
-        "weeks": {
-          "one": "1 settimana fa",
-          "other": "{} settimane fa"
-        },
-        "months": {
-          "one": "1 mese fa",
-          "other": "{} mesi fa"
-        },
-        "years": {
-          "one": "1 anno fa",
-          "other": "{} anni fa"
-        }
+      "invalid_credential": {
+        "title": "Credenziali non valide o scadute",
+        "message": "Le credenziali fornite non sono valide o sono scadute. Riprova.",
+        "action": "riprova"
       },
-      "time": {
-        "sec": "sec",
-        "min": "m",
-        "hour": "h",
-        "day": "g"
+      "provider_already_linked": {
+        "title": "Sei già connesso",
+        "message": "Il tuo account è già collegato a questo metodo di accesso. Riprova più tardi.",
+        "action": "ok"
       },
-      "ordinals": {
-        "st": {
-          "male": "°",
-          "female": "ª"
-        },
-        "nd": {
-          "male": "°",
-          "female": "ª"
-        },
-        "rd": {
-          "male": "°",
-          "female": "ª"
-        },
-        "th": {
-          "male": "°",
-          "female": "ª"
-        }
+      "credential_already_in_use": {
+        "title": "Questo account è già in uso",
+        "message": "Hai già creato un account con questa email. Esci e accedi con il metodo desiderato per utilizzare quell'account.",
+        "action": "ok"
       },
-      "masteryLevels": {
-        "level_unlocked": "nuovo livello sbloccato!",
-        "beginner": "principiante",
-        "apprentice_1": "apprendista 1",
-        "apprentice_2": "apprendista 2",
-        "apprentice_3": "apprendista 3",
-        "advanced_1": "avanzato 1",
-        "advanced_2": "avanzato 2",
-        "advanced_3": "avanzato 3",
-        "expert_1": "esperto 1",
-        "expert_2": "esperto 2",
-        "expert_3": "esperto 3",
-        "master": "maestro"
+      "email_already_in_use": {
+        "title": "Questa email è già in uso",
+        "message": "Questa email è già associata a un account esistente. Accedi utilizzando uno dei tuoi metodi collegati.",
+        "action": "ok"
+      }
+    }
+  },
+  "home": {
+    "leagueInfo": "Queste sono le tue performance nella Lega! Guadagna Punti Delta in base alle tue risposte in Modalità VS e scala la classifica per avanzare alla lega successiva!",
+    "tgInfo": "Rispondi correttamente in Modalità VS per avanzare nel Campo di Allenamento! Raggiungi la fine del percorso e sblocca la tua prima Lega!",
+    "dailyLoginDialog": {
+      "title": "Regalo giornaliero",
+      "body": "Torna domani per la prossima ricompensa!",
+      "dayNumber": {
+        "one": "giorno 1",
+        "other": "giorno {}"
+      },
+      "cta": "riscatta"
+    },
+    "cards": {
+      "account": {
+        "title": "fai il backup del tuo account",
+        "body": "Accedi per proteggere il tuo account e salvare tutti i tuoi progressi!"
+      },
+      "friends": {
+        "title": "Invita i tuoi amici e ottieni ricompense!"
+      }
+    }
+  },
+  "socketErrors": {
+    "snackbar": "Connessione instabile. Riprova"
+  },
+  "game": {
+    "vsWorld": "VS Mondo",
+    "vsFriends": "VS Amici",
+    "vsMode": "modalità vs",
+    "friends": "amici",
+    "world": "mondo",
+    "inventoryTitle": "i tuoi potenziamenti",
+    "themeSelectionTitle": "con quale tema vuoi giocare?",
+    "vsWorldInfo": "Affronta avversari casuali da tutto il mondo in una serie di domande. Chi ottiene il punteggio più alto alla fine della partita sarà il vincitore!",
+    "vsFriendsInfo": "Affronta i tuoi amici in una partita privata. Chi ottiene il punteggio più alto alla fine della partita sarà il vincitore!",
+    "selectedThemeInfo": "tocca la carta e seleziona un tema",
+    "roundAmount": "{} round",
+    "gameTypePage": {
+      "title": "Come vuoi iniziare?",
+      "createMatchBtn": {
+        "title": "crea partita",
+        "body": "Crea una lobby privata e invita i tuoi amici"
+      },
+      "joinMatchBtn": {
+        "title": "unisciti a partita",
+        "body": "Inserisci un codice partita per unirti a una partita esistente"
       }
     },
-    "error": {
-      "general": {
-        "title": "Qualcosa è andato storto...",
-        "description": "Momento quiz: Cosa è inaspettato, un po' fastidioso e in fase di risoluzione? Questo errore! Torniamo subito..."
-      }
+    "roundAmountPage": {
+      "title": "seleziona numero di round",
+      "body": "Quanti round vuoi giocare?"
     },
-    "splash": "Quiz di cultura\ngenerale",
-    "auth": {
-      "signInWith": "Accedi con {}",
-      "signOut": "esci",
-      "deleteAccount": "elimina account",
-      "login": {
-        "startTitle": "Prima volta su WITZ?",
-        "startButton": "inizia",
-        "logTitle": "Hai già un account?",
-        "logButton": "accedi"
-      },
-      "bottomSheet": {
-        "title": "Scegli il tuo metodo di accesso preferito",
-        "disclaimer": "Registrandoti su WITZ, accetti i nostri"
-      },
-      "addAccount": {
-        "title": "Salva i tuoi progressi",
-        "description": "Crea il tuo profilo per tenere al sicuro i tuoi progressi! Se continui come ospite, tutti i tuoi dati potrebbero andare persi se disinstalli l'app o esci.",
-        "later": "più tardi"
-      },
-      "signOutModal": {
-        "title": "Disconnettersi dall'account?",
-        "message": "I tuoi progressi e acquisti verranno salvati e potrai accedervi accedendo nuovamente.",
-        "messageGuest": "@:auth.deleteModal.message",
-        "confirm": "@:auth.signOut"
-      },
-      "deleteModal": {
-        "title": "Eliminare l'account?",
-        "message": "Perderai tutti i tuoi progressi e acquisti in modo permanente.",
-        "confirm": "@:auth.deleteAccount"
-      },
-      "errors": {
-        "account_exists_with_different_credential": {
-          "title": "Conflitto account rilevato",
-          "message": "Un account con questa email esiste già con un metodo di accesso diverso. Accedi utilizzando il tuo account esistente e poi collega le tue credenziali.",
-          "action": "ok"
-        },
-        "invalid_credential": {
-          "title": "Credenziali non valide o scadute",
-          "message": "Le credenziali fornite non sono valide o sono scadute. Riprova.",
-          "action": "riprova"
-        },
-        "provider_already_linked": {
-          "title": "Sei già connesso",
-          "message": "Il tuo account è già collegato a questo metodo di accesso. Riprova più tardi.",
-          "action": "ok"
-        },
-        "credential_already_in_use": {
-          "title": "Questo account è già in uso",
-          "message": "Hai già creato un account con questa email. Esci e accedi con il metodo desiderato per utilizzare quell'account.",
-          "action": "ok"
-        },
-        "email_already_in_use": {
-          "title": "Questa email è già in uso",
-          "message": "Questa email è già associata a un account esistente. Accedi utilizzando uno dei tuoi metodi collegati.",
-          "action": "ok"
-        }
-      }
+    "codePage": {
+      "title": "inserisci il codice partita",
+      "body": "chiedi all'host il codice a 5 cifre per unirti alla partita"
     },
-    "home": {
-      "leagueInfo": "Queste sono le tue performance nella Lega! Guadagna Punti Delta in base alle tue risposte in Modalità VS e scala la classifica per avanzare alla lega successiva!",
-      "tgInfo": "Rispondi correttamente in Modalità VS per avanzare nel Campo di Allenamento! Raggiungi la fine del percorso e sblocca la tua prima Lega!",
-      "dailyLoginDialog": {
-        "title": "Regalo giornaliero",
-        "body": "Torna domani per la prossima ricompensa!",
-        "dayNumber": {
-          "one": "giorno 1",
-          "other": "giorno {}"
-        },
-        "cta": "riscatta"
-      },
-      "cards": {
-        "account": {
-          "title": "fai il backup del tuo account",
-          "body": "Accedi per proteggere il tuo account e salvare tutti i tuoi progressi!"
-        },
-        "friends": {
-          "title": "Invita i tuoi amici e ottieni ricompense!"
-        }
-      }
+    "lobbyPage": {
+      "searching": "ricerca giocatori...",
+      "playerCount": "{} giocatori",
+      "matchStartsIn": "la partita inizia tra",
+      "inviteFriends": "invita amici",
+      "waitingRoom": "sala d'attesa",
+      "start": "inizia partita"
     },
-    "socketErrors": {
-      "snackbar": "Connessione instabile. Riprova"
+    "inviteSheet": {
+      "title": "invita amici",
+      "cta": "invia invito ({}/{})"
     },
-    "game": {
-      "vsWorld": "VS Mondo",
-      "vsFriends": "VS Amici",
-      "vsMode": "modalità vs",
-      "friends": "amici",
-      "world": "mondo",
-      "inventoryTitle": "i tuoi potenziamenti",
-      "themeSelectionTitle": "con quale tema vuoi giocare?",
-      "vsWorldInfo": "Affronta avversari casuali da tutto il mondo in una serie di domande. Chi ottiene il punteggio più alto alla fine della partita sarà il vincitore!",
-      "vsFriendsInfo": "Affronta i tuoi amici in una partita privata. Chi ottiene il punteggio più alto alla fine della partita sarà il vincitore!",
-      "selectedThemeInfo": "tocca la carta e seleziona un tema",
-      "roundAmount": "{} round",
-      "gameTypePage": {
-        "title": "Come vuoi iniziare?",
-        "createMatchBtn": {
-          "title": "crea partita",
-          "body": "Crea una lobby privata e invita i tuoi amici"
-        },
-        "joinMatchBtn": {
-          "title": "unisciti a partita",
-          "body": "Inserisci un codice partita per unirti a una partita esistente"
-        }
-      },
-      "roundAmountPage": {
-        "title": "seleziona numero di round",
-        "body": "Quanti round vuoi giocare?"
-      },
-      "codePage": {
-        "title": "inserisci il codice partita",
-        "body": "chiedi all'host il codice a 5 cifre per unirti alla partita"
-      },
-      "lobbyPage": {
-        "searching": "ricerca giocatori...",
-        "playerCount": "{} giocatori",
-        "matchStartsIn": "la partita inizia tra",
-        "inviteFriends": "invita amici",
-        "waitingRoom": "sala d'attesa",
-        "start": "inizia partita"
-      },
-      "inviteSheet": {
-        "title": "invita amici",
-        "cta": "invia invito ({}/{})"
-      },
-      "matchLanguageSheet": {
-        "title": "lingua della partita",
-        "body": "puoi cambiare la lingua di questa partita",
-        "cta": "conferma"
-      },
-      "powerupSheet": {
-        "title": "potenzia il tuo gioco",
-        "body": "preparati alla battaglia con i potenziamenti",
-        "cta": "vai al negozio"
-      },
-      "roundNumberPage": {
-        "round": "round",
-        "last": "ultimo",
-        "difficulty": "difficoltà"
-      },
-      "resultsPage": {
-        "results": "risultati",
-        "youRanked": "ti sei classificato",
-        "winnerReward": "ricompensa vincitore:"
-      },
-      "performance": {
-        "tokens": "gettoni lega",
-        "tokensTooltip": "Puoi guadagnare Gettoni Lega in base alla tua performance durante la partita. Più Gettoni ottieni, più in alto sali nella tua Lega. Punta alla vetta!",
-        "answers": "le tue risposte",
-        "answersTooltip": "Più risposte corrette dai, più Gettoni ottieni! Ogni risposta corretta ti dà {} Gettoni Lega.",
-        "multiplier": "moltiplicatore",
-        "rankMultiplier": "moltiplicatore classifica",
-        "rankMultiplierTootip": "Il moltiplicatore di classifica aumenta i tuoi Gettoni Lega in base a quanti giocatori hai superato nella classifica finale della partita.",
-        "skip": "tocca per saltare"
-      },
-      "playerIsland": {
-        "pos": "pos.",
-        "score": "il tuo punteggio",
-        "tags": {
-          "fastest_answer": "più veloce!",
-          "streak": "{} di fila!"
-        },
-        "shop": "Negozio",
-        "buyPower": "tocca per acquistare"
-      },
-      "rejoinGame": {
-        "title": "Riconnettersi alla partita?",
-        "message": "Sei stato disconnesso da una partita in corso. Vuoi riconnetterti e continuare a giocare, o uscire e perdere tutti i tuoi progressi?",
-        "reconnect": "riconnetti",
-        "leave": "abbandona partita",
-        "waitRejoin": "attendi mentre carichiamo la partita"
-      },
-      "playAgain": {
-        "askToPlay": "Pronto per un'altra partita?",
-        "waiting": "In attesa che l'host decida se iniziare una nuova partita o terminare il gioco...",
-        "gameAvailable": "Nuova partita creata",
-        "leagueProgress": "Progresso lega"
-      },
-      "leaveGame": {
-        "title": "Abbandona partita",
-        "description": "Vuoi abbandonare la partita? Tutti i tuoi progressi andranno persi.",
-        "confirm": "Abbandona",
-        "cancel": "@:general.cancel"
-      },
-      "hostLeft": {
-        "title": "L'host ha abbandonato la partita",
-        "description": "L'host ha abbandonato la partita. La lobby verrà chiusa e tutti i giocatori verranno disconnessi.",
-        "confirm": "ok"
-      }
+    "matchLanguageSheet": {
+      "title": "lingua della partita",
+      "body": "puoi cambiare la lingua di questa partita",
+      "cta": "conferma"
     },
-    "paywall": {
-      "bundle": {
-        "badge": "super offerta",
-        "title": "Diventa un Witzard",
-        "body": "Approfitta di questa offerta e diventa uno dei maestri di Witz! Scopri il Mago che è in te!",
-        "cta": "acquista ora"
-      },
-      "powers": {
-        "badge": "offerta limitata",
-        "title": "Fai scorta di Potenziamenti",
-        "body": "Approfitta di questa offerta, equipaggiati con i potenziamenti e vinci tutte le tue sfide!",
-        "cta": "acquista ora"
-      },
-      "themes": {
-        "badge": "offerta unica",
-        "title": "Offerta 3x1",
-        "body": "Corri al negozio per prendere i tuoi temi preferiti e sfidare i tuoi amici!",
-        "cta": "acquista ora"
-      },
-      "starter_bundle": {
-        "title": "Pacchetto Nuovo Giocatore"
-      },
-      "removeAds": {
-        "badge": "@:shop.offers.remove_ads_1m.badge",
-        "title": "Gioca senza distrazioni",
-        "description": "Stanco delle interruzioni? Sblocca 30 giorni di divertimento trivia senza interruzioni! Niente più pubblicità che ti disturbano—solo gameplay puro e senza interruzioni.",
-        "card": {
-          "title": "@:shop.offers.remove_ads_1m.title",
-          "description": "@:shop.offers.remove_ads_1m.notes"
-        },
-        "buy": "sblocca ora"
-      }
+    "powerupSheet": {
+      "title": "potenzia il tuo gioco",
+      "body": "preparati alla battaglia con i potenziamenti",
+      "cta": "vai al negozio"
     },
-    "shop": {
-      "offers": {
-        "title": "offerte",
-        "2x1_themes": {
-          "title": "Offerta temi 2x1"
-        },
-        "remove_ads_1m": {
-          "badge": "zero pubblicità",
-          "title": "Rimuovi tutte le pubblicità",
-          "short_desc": "niente più pubblicità per 30 giorni",
-          "description": "Rimuovi le pubblicità alla fine della partita per 30 giorni. @:shop.offers.remove_ads_1m.notes",
-          "notes": "NOTA: Non si applica alle pubblicità con ricompense."
-        },
-        "purchase_bundle_confirm": {
-          "title": "contenuti dell'offerta",
-          "description": "Con questo pacchetto otterrai:"
-        }
-      },
-      "missingGems": {
-        "title": "Ottieni le gemme mancanti",
-        "body": "per completare questo acquisto, hai bisogno di"
-      },
-      "themes": {
-        "title": "temi",
-        "info": "Personalizza il tuo gioco con i tuoi argomenti preferiti!",
-        "featured": "in primo piano",
-        "viewAll": "vedi tutti i temi",
-        "moreSoon": "altri temi in arrivo!",
-        "allUnlocked": "Hai sbloccato tutti i temi per questa categoria",
-        "newUnlocked": "Nuovo tema sbloccato!"
-      },
-      "gems": {
-        "title": "gemme",
-        "info": "Usa le Gemme per ottenere oggetti speciali e potenziamenti!"
-      },
-      "hearts": {
-        "title": "cuori",
-        "info": "Hai bisogno di Cuori per giocare le partite; non rimanere senza!"
-      },
-      "power_ups": {
-        "bag": "nella tua borsa",
-        "title": "potenziamenti",
-        "info": "Attiva i potenziamenti per aiutarti a vincere i round difficili!"
-      }
+    "roundNumberPage": {
+      "round": "round",
+      "last": "ultimo",
+      "difficulty": "difficoltà"
     },
-    "themes": {
-      "themeNumber": {
-        "one": "1 tema",
-        "other": "{} temi"
-      },
-      "themeNumberOutOf": "{}/{} temi",
-      "theme": {
-        "info": "Metti alla prova le tue conoscenze con nuove domande!"
-      },
-      "newTheme": "nuovo tema",
-      "witzMastery": "maestria witz",
-      "witzMasteryInfo": "Sblocca temi in questa categoria per aumentare la tua Maestria WITZ. Completa la barra per guadagnare un premio speciale!",
-      "themeDetailBody": "Mettiti alla prova sul tema {} con domande come",
-      "themeDetailBundle": "ottieni questo pacchetto!",
-      "themeMasterySheet": {
-        "topBarLocked": "sblocca questo tema",
-        "body": {
-          "default": "per sbloccare il livello successivo",
-          "locked": "Ottieni il tema per sbloccare questa missione",
-          "master": "congratulazioni"
-        },
-        "congratsButtonText": "Hai sbloccato il livello di maestria finale",
-        "missionSubtext": "Completa questa missione per sbloccare il prossimo livello di maestria",
-        "missionInfo": "Completa questa missione per sbloccare il prossimo livello di maestria di questo tema!",
-        "cta": "gioca ora",
-        "mission": {
-          "one": "Dai 1 risposta corretta su questo tema",
-          "other": "Dai {} risposte corrette su questo tema"
-        },
-        "congratulations": "Congratulazioni!!",
-        "congratulationsBody": "Hai sbloccato il livello di maestria finale!"
-      },
-      "witzMasterySheet": {
-        "body": "Sblocca {} temi di questa categoria per ottenere una ricompensa speciale",
-        "cta1": "sblocca tutto",
-        "cta2": "offerta"
-      }
+    "resultsPage": {
+      "results": "risultati",
+      "youRanked": "ti sei classificato",
+      "winnerReward": "ricompensa vincitore:"
     },
-    "topics": {
-      "all_themes": "Tutti i temi",
-      "cinema": "cinema",
-      "tv_series": "serie tv",
-      "video_games": "videogiochi",
-      "sport": "sport",
-      "food": "cibo",
-      "music": "musica",
-      "back_to_school": "ritorno a scuola",
-      "history": "storia",
-      "science": "scienza",
-      "geography": "geografia"
+    "performance": {
+      "tokens": "gettoni lega",
+      "tokensTooltip": "Puoi guadagnare Gettoni Lega in base alla tua performance durante la partita. Più Gettoni ottieni, più in alto sali nella tua Lega. Punta alla vetta!",
+      "answers": "le tue risposte",
+      "answersTooltip": "Più risposte corrette dai, più Gettoni ottieni! Ogni risposta corretta ti dà {} Gettoni Lega.",
+      "multiplier": "moltiplicatore",
+      "rankMultiplier": "moltiplicatore classifica",
+      "rankMultiplierTootip": "Il moltiplicatore di classifica aumenta i tuoi Gettoni Lega in base a quanti giocatori hai superato nella classifica finale della partita.",
+      "skip": "tocca per saltare"
     },
-    "league": {
-      "promotionTo": "promozione a",
-      "demotionTo": "retrocessione a",
-      "seasonEndsIn": "la stagione termina tra",
-      "info": "Questa è la tua Lega attuale. Termina la stagione tra i primi 10 per essere promosso! Gli ultimi 5 retrocederanno alla Lega precedente.",
-      "places": "{} posizioni",
-      "leagueDescription": {
-        "trainingGround": "Dai risposte corrette in @:game.vsWorld o @:game.vsFriends per avanzare nella classifica e accedere alla tua prima Lega!",
-        "currentLeague": "Questa è la tua lega! È ora di giocare una partita per scalare la classifica e raggiungere la prossima lega entro la fine della stagione",
-        "prevLeague": "Ti ricordi quando eri in questa lega? Sembra ieri... Continua a giocare e fai attenzione alle retrocessioni, o potresti ritrovarti presto qui!",
-        "nextLeague": "Scala la classifica per raggiungere questa Lega! Solo i migliori giocatori della stagione saranno promossi, quindi fai del tuo meglio!",
-        "goToLeague": "Vai alle leghe!"
+    "playerIsland": {
+      "pos": "pos.",
+      "score": "il tuo punteggio",
+      "tags": {
+        "fastest_answer": "più veloce!",
+        "streak": "{} di fila!"
       },
-      "ctas": {
-        "first": "resta in cima",
-        "promotion": "raggiungi la vetta",
-        "default": "scala la classifica",
-        "demotion": "risali"
-      },
-      "welcomePage": {
-        "title": "Ce l'hai fatta, sei nelle leghe",
-        "cta": "inizia a classificarti",
-        "cards": {
-          "1": {
-            "title": "Scala le classifiche",
-            "body": "Competi in una Lega classificata e guadagna Punti Delta durante la Stagione. La tua posizione in classifica determina il tuo destino!"
-          },
-          "2": {
-            "title": "Guadagna Punti Delta",
-            "body": "I Punti Delta determinano la tua classifica nella Lega! Il tuo punteggio si basa sulla differenza tra risposte corrette e sbagliate—quindi ogni partita conta!"
-          },
-          "3": {
-            "title": "Progressione della stagione",
-            "body": "Ogni Stagione è a tempo! Alla fine, il 10% migliore dei giocatori sale, il 10% peggiore scende e il resto rimane nella propria Lega."
-          },
-          "4": {
-            "title": "Ottieni ricompense",
-            "body": "Classifiche più alte significano ricompense migliori! Continua a salire per raggiungere la vetta e sbloccare premi più grandi nelle Leghe migliori."
-          }
-        }
-      },
-      "tg": {
-        "title": "Campo di allenamento",
-        "info": "Dai risposte corrette in Modalità VS per avanzare nella classifica e accedere alla tua prima Lega!",
-        "welcomePage": {
-          "title": "Benvenuto nel campo di allenamento",
-          "cta": "Iniziamo",
-          "cards": {
-            "1": {
-              "title": "Dimostra le tue abilità",
-              "body": "Prima di unirti alle Leghe classificate, completa il Campo di Allenamento. Avanza nel percorso dimostrando le tue abilità!"
-            },
-            "2": {
-              "title": "Progredisci giocando",
-              "body": "Rispondi correttamente nelle modalità “VS Mondo” e “VS Amici” per andare avanti. Ogni risposta corretta ti avvicina alla tua prima Lega."
-            },
-            "3": {
-              "title": "Sblocca ricompense",
-              "body": "Lungo il percorso, guadagna ricompense speciali man mano che progredisci. Raggiungi la fine del percorso per entrare nella tua prima Lega classificata e ottenere ricompense ancora migliori!"
-            }
-          },
-          "startZone": {
-            "title": "Zona di partenza",
-            "body": "Dai risposte corrette per avanzare nella classifica e accedere alla tua prima lega"
-          }
-        }
-      },
-      "results": {
-        "promoted": "Fantastico! Avanzi a {}",
-        "stayed": "Bene! Rimani in {}",
-        "claim": "@:general.claim & @:general.continue",
-        "demoted": {
-          "message": "Accidenti! Non sei più in {}...",
-          "protection": {
-            "activate": "attiva la",
-            "title": "protezione lega",
-            "description": "Rimani in questa lega per un'altra stagione",
-            "buy": "attiva per",
-            "deny": "no, grazie"
-          },
-          "beBetter": "Fai del tuo meglio nella prossima stagione"
-        }
-      }
+      "shop": "Negozio",
+      "buyPower": "tocca per acquistare"
     },
-    "arena": {
-      "body": "Metti alla prova le tue conoscenze con questi eventi a tempo limitato e ottieni ricompense!",
-      "info": "In modalità Arena, gioca eventi a tempo e metti alla prova le tue abilità! Rispondi a quante più domande possibili senza commettere errori. Un errore e sei fuori!",
-      "activeEvents": "eventi attivi",
-      "upcomingEvents": "eventi imminenti",
-      "yourRank": "la tua classifica",
-      "startsIn": "inizia tra",
-      "claim": "riscatta ricompense",
-      "viewRewards": "vedi ricompense",
-      "leaderboard": "classifica",
-      "retry": "prova ancora una volta",
-      "eventEndsIn": "l'evento termina tra",
-      "eventEndsRewards": "L'evento è ancora in corso! Torna più tardi per riscattare le tue ricompense.",
-      "showPosition": "mostra la mia posizione",
-      "eventEnded": "evento concluso",
-      "noPlayers": "Sii il primo a sfidare l'arena e reclama il tuo trono",
-      "game": {
-        "youFailed": "game over",
-        "tryAgain": "Riprova la prossima volta",
-        "finalRank": "Classifica finale",
-        "correctAnswers": "Risposte corrette",
-        "bestScore": "Punteggio migliore",
-        "top3": "Top 3",
-        "keepPlaying": "Vuoi continuare a giocare?",
-        "keepPlayingBody": "Non è troppo tardi! Puoi ancora avere un'altra possibilità e rimanere in partita.",
-        "keepPlayingNotEnough": "Non hai abbastanza gemme"
-      },
-      "welcomePage": {
-        "title": "L'Arena è ora aperta",
-        "cta": "Inizia a giocare",
-        "cards": {
-          "1": {
-            "title": "Entra nell'arena",
-            "body": "Competi in sfide tematiche giornaliere contro tutti i giocatori. Ogni giorno porta nuovi temi per mettere alla prova le tue conoscenze!"
-          },
-          "2": {
-            "title": "Rimani in gioco",
-            "body": "Rispondi a quante più domande possibili senza errori. Una risposta sbagliata e sei fuori—quindi pensa attentamente!"
-          },
-          "3": {
-            "title": "Ottieni una seconda possibilità",
-            "body": "Puoi usare le Gemme per resuscitare e continuare a giocare, o riprovare per un punteggio migliore e scalare la classifica!"
-          }
-        }
-      },
-      "themeUpsell": {
-        "title": "ti piace questo tema?",
-        "subtext": "Prendilo ora e dimostra che sei un esperto!",
-        "questionsTitle": "Metti alla prova le tue conoscenze con domande come",
-        "cta": "prendilo ora!",
-        "buttonText": "ottieni {} domande esclusive e dimostra le tue abilità!"
-      }
+    "rejoinGame": {
+      "title": "Riconnettersi alla partita?",
+      "message": "Sei stato disconnesso da una partita in corso. Vuoi riconnetterti e continuare a giocare, o uscire e perdere tutti i tuoi progressi?",
+      "reconnect": "riconnetti",
+      "leave": "abbandona partita",
+      "waitRejoin": "attendi mentre carichiamo la partita"
     },
-    "profile": {
-      "currentSeason": "stagione attuale",
-      "powerUps": {
-        "title": "i tuoi potenziamenti",
-        "info": "Quando sei in difficoltà, supera i tuoi avversari con i potenziamenti! Puoi ottenerli come ricompense o trovarli nel Negozio."
-      },
-      "badges": {
-        "title": "distintivi",
-        "info": "Visualizza i distintivi dei temi che hai sbloccato e mostra il tuo preferito sul tuo profilo!",
-        "setFavourite": "imposta il tuo distintivo preferito",
-        "sheetBody": "Seleziona un distintivo per impostarlo come preferito"
-      },
-      "stats": {
-        "title": "statistiche witz",
-        "info": "Controlla le tue statistiche di sempre! Quanto sei stato bravo?",
-        "matches": "partite",
-        "victories": "vittorie",
-        "correctAnswers": "risposte corrette",
-        "wrongAnswers": "risposte sbagliate",
-        "favMacro": "categoria preferita",
-        "vsMode": "modalità vs",
-        "arenaMode": "modalità arena",
-        "participations": "partecipazioni",
-        "longestStreak": "serie più lunga"
-      },
-      "avatarSheet": {
-        "title": "avatar",
-        "body": "imposta il tuo avatar del profilo"
-      },
-      "nameSheet": {
-        "title": "Nome Giocatore",
-        "body": "Il tuo nome giocatore sarà visibile a tutti i giocatori. Scegli un nome non offensivo per nessun giocatore."
-      },
-      "settingsSheet": {
-        "title": "impostazioni",
-        "signin": "Fai il backup del tuo account",
-        "signinBody": "Accedi per proteggere il tuo account e salvare tutti i tuoi progressi!",
-        "backgroundMusic": "musica di sottofondo",
-        "soundEffects": "effetti sonori",
-        "language": "lingua",
-        "languageSheetBody": "Seleziona la lingua dell'app",
-        "notifications": "notifiche",
-        "enableNotifications": "abilita notifiche",
-        "notificationTopics": {
-          "game": "avvisi di gioco",
-          "shop": "promozioni del negozio",
-          "arena": "eventi arena",
-          "leagues": "eventi lega",
-          "rewards": "ricompense",
-          "friends": "amici"
-        },
-        "friends": "amici",
-        "eula": "eula",
-        "privacyPolicy": "informativa sulla privacy",
-        "termsAndConditions": "termini e condizioni"
-      }
+    "playAgain": {
+      "askToPlay": "Pronto per un'altra partita?",
+      "waiting": "In attesa che l'host decida se iniziare una nuova partita o terminare il gioco...",
+      "gameAvailable": "Nuova partita creata",
+      "leagueProgress": "Progresso lega"
     },
-    "friends": {
-      "title": "amici",
-      "requests": "richieste",
-      "requestsNumber": "Richieste: {}/{}",
-      "friendsNumber": "Amici: {}/{}",
-      "noFriends": "Sembri piuttosto solo qui...",
-      "noRequests": "Non hai richieste",
-      "inviteFriends": "invita nuovi amici",
-      "addFriends": "aggiungi amici",
-      "profile": {
-        "add": "aggiungi",
-        "removeDialogBody": "Vuoi rimuovere questo giocatore dalla tua lista amici?"
-      }
+    "leaveGame": {
+      "title": "Abbandona partita",
+      "description": "Vuoi abbandonare la partita? Tutti i tuoi progressi andranno persi.",
+      "confirm": "Abbandona",
+      "cancel": "@:general.cancel"
     },
-    "missions": {
-      "title": "missioni",
-      "weeklyChallenge": {
-        "title": "Missioni settimanali",
-        "info": "Completa le missioni giornaliere per riempire la barra della sfida settimanale—sblocca ricompense più grandi in base a quante missioni completi in una settimana.",
-        "body": "Completa le missioni giornaliere e sblocca le ricompense!"
-      },
-      "dailyMissions": "missioni giornaliere",
-      "claimAll": "riscatta tutto",
-      "types": {
-        "CORRECT_ANSWER": "dai risposte corrette",
-        "LOBBY_FRIENDS": "crea lobby con 5 persone",
-        "PLAY_GAMES": "gioca partite",
-        "PLAY_GAMES_FRIENDS": "gioca partite",
-        "TOP_3": "finisci tra i primi 3"
-      }
-    },
-    "tutorial": {
-      "startMatch": "inizia una partita",
-      "startInfo": "In WITZ affronterai altri giocatori in una partita trivia con 5 round. Iniziamo una partita e vediamo come funziona!",
-      "game": {
-        "roundSpotlightInfo": "Ogni partita ha un tema! La domanda di ogni round sarà basata su una categoria relativa a questo tema.",
-        "dialogPowers": {
-          "title": "Aumenta il tuo punteggio!",
-          "body1": "Hai bisogno di un vantaggio per superare i tuoi avversari? Usa i Potenziamenti!",
-          "body2": "Ognuno offre un vantaggio unico per aiutarti a ottenere grandi punteggi e rimanere in cima.",
-          "cta": "proviamo"
-        },
-        "rocketSpotlightInfo": "Usa Punti X2 per raddoppiare il punteggio del round. Aumenta sia le risposte corrette che quelle errate, quindi usalo saggiamente!",
-        "eraserSpotlightInfo": "Usa 50/50 per eliminare due opzioni errate. È ottimo per restringere le scelte difficili!",
-        "peekSpotlightInfo": "Usa Sbircia Avversari per vedere cosa stanno rispondendo gli altri in tempo reale. È perfetto per ottenere un vantaggio!",
-        "shieldSpotlightInfo": "Usa Scudo Errore per evitare che la tua risposta conti come errata. Una grande rete di sicurezza!",
-        "questions": {
-          "1": {
-            "category": "Pacchetto iniziale Witz",
-            "theme": "musica",
-            "question": "Quale artista detiene il record per la canzone più ascoltata su Spotify?",
-            "answers": {
-              "1": "Ed Sheeran",
-              "2": "Drake",
-              "3": "Taylor Swift",
-              "4": "The Weeknd"
-            },
-            "correctAnswer": "@:tutorial.game.questions.1.answers.4",
-            "suggestedAnswer": "@:tutorial.game.questions.1.answers.4"
-          },
-          "2": {
-            "category": "Pacchetto iniziale Witz",
-            "theme": "serie TV",
-            "question": "In quale serie TV appare il personaggio Walter White?",
-            "answers": {
-              "1": "Breaking Bad",
-              "2": "Sons of Anarchy",
-              "3": "Il giorno dello sciacallo",
-              "4": "Ozark"
-            },
-            "correctAnswer": "@:tutorial.game.questions.2.answers.1",
-            "suggestedAnswer": "@:tutorial.game.questions.2.answers.1"
-          },
-          "3": {
-            "category": "Pacchetto iniziale Witz",
-            "theme": "biologia",
-            "question": "Di cosa consiste principalmente la dieta di un panda?",
-            "answers": {
-              "1": "Pesce",
-              "2": "Bambù",
-              "3": "Frutta",
-              "4": "Insetti"
-            },
-            "correctAnswer": "@:tutorial.game.questions.3.answers.2",
-            "suggestedAnswer": "@:tutorial.game.questions.3.answers.2"
-          },
-          "4": {
-            "category": "Pacchetto iniziale Witz",
-            "theme": "culture del mondo",
-            "question": "Qual è la lingua più parlata al mondo?",
-            "answers": {
-              "1": "Inglese",
-              "2": "Spagnolo",
-              "3": "Hindi",
-              "4": "Cinese mandarino"
-            },
-            "correctAnswer": "@:tutorial.game.questions.4.answers.4",
-            "suggestedAnswer": "@:tutorial.game.questions.4.answers.4"
-          },
-          "5": {
-            "category": "Pacchetto iniziale Witz",
-            "theme": "astronomia",
-            "question": "Quale pianeta del nostro sistema solare ha più lune?",
-            "answers": {
-              "1": "Saturno",
-              "2": "Marte",
-              "3": "Urano",
-              "4": "Giove"
-            },
-            "correctAnswer": "@:tutorial.game.questions.5.answers.4",
-            "suggestedAnswer": "@:tutorial.game.questions.5.answers.1"
-          }
-        }
-      },
-      "dialogEndGame": {
-        "title": "Ben fatto!",
-        "body1": "Ecco come funziona una partita. Ora è il momento di mettere alla prova le tue abilità contro i tuoi avversari.",
-        "body2": "Scala la classifica della tua lega e rivendica la vittoria!",
-        "cta": "Iniziamo"
-      },
-      "dialogAuthentication": {
-        "title": "Salva i tuoi progressi!",
-        "body": "Crea il tuo profilo per tenere al sicuro i tuoi progressi! Se continui come ospite, tutti i tuoi dati potrebbero andare persi se disinstalli l'app o esci.",
-        "cta": "più tardi"
-      },
-      "themeNavSpotlightInfo": "Vuoi espandere la tua esperienza trivia? Inizia accedendo alla sezione Temi per trovare nuovi temi!",
-      "themeSpotlightInfo": "Ecco il Pacchetto Iniziale WITZ! Selezionalo per visualizzare i suoi dettagli e le categorie.",
-      "buyThemeSpotlightInfo": "Inizia il tuo viaggio con il Pacchetto Iniziale WITZ! Sbloccalo gratuitamente e inizia a giocare!",
-      "starterPack": "Pacchetto iniziale Witz",
-      "starterPackInfo": "Questo è il pacchetto iniziale. È un ottimo modo per iniziare!",
-      "dialogEndTutorial": {
-        "title": "Sei pronto a giocare!",
-        "body1": "È ora di tuffarsi nel gioco, sfidare gli avversari e scalare la classifica.",
-        "body2": "Buona fortuna e buon divertimento!",
-        "cta": "Inizia a giocare!"
-      }
-    },
-    "editUser": {
-      "username": {
-        "title": "Scegli il tuo nome giocatore",
-        "body": "Il tuo nome giocatore sarà visibile a tutti i giocatori. Scegli un nome non offensivo per nessun giocatore.",
-        "placeholder": "inserisci nome",
-        "invalidWarning": "Questo nome va contro le nostre politiche della community. Cambialo con un altro nome giocatore."
-      },
-      "avatar": {
-        "title": "Scegli il tuo avatar",
-        "invalidWarning": "L'immagine che hai caricato è stata ritenuta offensiva secondo le nostre linee guida."
-      },
-      "topics": {
-        "title": "Quali sono i tuoi argomenti preferiti?",
-        "body": "Scegli i tuoi argomenti preferiti per avere un'esperienza di gioco personalizzata."
-      }
-    },
-    "referral": {
-      "title": "programma invita-un-amico",
-      "body": "Invita amici che non sono ancora nel gioco, falli giocare una partita e guadagna ricompense!",
-      "cta": "invita amici",
-      "mission": {
-        "one": "invita 1 amico",
-        "other": "invita {} amici"
-      }
-    },
-    "consumables": {
-      "gem": {
-        "name": {
-          "one": "gemma",
-          "other": "gemme"
-        },
-        "amount": {
-          "one": "1 gemma",
-          "other": "{amount} gemme"
-        },
-        "info": "Usa le Gemme per ottenere oggetti speciali e potenziamenti!",
-        "purchase_pack": "acquista il pacchetto da {} gemme!"
-      },
-      "heart": {
-        "name": {
-          "one": "cuore",
-          "other": "cuori"
-        },
-        "amount": {
-          "one": "1 cuore",
-          "other": "{amount} cuori"
-        },
-        "info": "Hai bisogno di Cuori per giocare le partite; non rimanere senza!"
-      }
+    "hostLeft": {
+      "title": "L'host ha abbandonato la partita",
+      "description": "L'host ha abbandonato la partita. La lobby verrà chiusa e tutti i giocatori verranno disconnessi.",
+      "confirm": "ok"
+    }
+  },
+  "paywall": {
+    "bundle": {
+      "badge": "super offerta",
+      "title": "Diventa un Witzard",
+      "body": "Approfitta di questa offerta e diventa uno dei maestri di Witz! Scopri il Mago che è in te!",
+      "cta": "acquista ora"
     },
     "powers": {
-      "rocket": {
-        "name": "punti doppi",
-        "amount": {
-          "one": "{amount} punti doppi",
-          "other": "{amount} punti doppi"
-        },
-        "info": "Per un round, raddoppia i tuoi punti del round! Ma attenzione! Funziona sia positivamente che negativamente.",
-        "active": "@:powers.rocket.name attivo",
-        "activeDesc": "Il tuo punteggio raddoppia"
+      "badge": "offerta limitata",
+      "title": "Fai scorta di Potenziamenti",
+      "body": "Approfitta di questa offerta, equipaggiati con i potenziamenti e vinci tutte le tue sfide!",
+      "cta": "acquista ora"
+    },
+    "themes": {
+      "badge": "offerta unica",
+      "title": "Offerta 3x1",
+      "body": "Corri al negozio per prendere i tuoi temi preferiti e sfidare i tuoi amici!",
+      "cta": "acquista ora"
+    },
+    "starter_bundle": {
+      "title": "Pacchetto Nuovo Giocatore"
+    },
+    "removeAds": {
+      "badge": "@:shop.offers.remove_ads_1m.badge",
+      "title": "Gioca senza distrazioni",
+      "description": "Stanco delle interruzioni? Sblocca 30 giorni di divertimento trivia senza interruzioni! Niente più pubblicità che ti disturbano—solo gameplay puro e senza interruzioni.",
+      "card": {
+        "title": "@:shop.offers.remove_ads_1m.title",
+        "description": "@:shop.offers.remove_ads_1m.notes"
       },
-      "bomb": {
-        "name": "50/50",
-        "amount": {
-          "one": "1 50/50",
-          "other": "{amount} 50/50"
-        },
-        "info": "Per un round, cancella immediatamente due risposte sbagliate.",
-        "active": "@:powers.bomb.name attivo",
-        "activeDesc": "Cancella due risposte sbagliate"
+      "buy": "sblocca ora"
+    }
+  },
+  "shop": {
+    "offers": {
+      "title": "offerte",
+      "2x1_themes": {
+        "title": "Offerta temi 2x1"
       },
-      "peek": {
-        "name": "sbircia avversari",
-        "amount": {
-          "one": "{amount} sbircia avversari",
-          "other": "{amount} sbircia avversari"
-        },
-        "info": "Per un round, dai un'occhiata a cosa stanno rispondendo i tuoi avversari.",
-        "active": "@:powers.peek.name attivo",
-        "activeDesc": "Vedi cosa rispondono i tuoi avversari"
+      "remove_ads_1m": {
+        "badge": "zero pubblicità",
+        "title": "Rimuovi tutte le pubblicità",
+        "short_desc": "niente più pubblicità per 30 giorni",
+        "description": "Rimuovi le pubblicità alla fine della partita per 30 giorni. @:shop.offers.remove_ads_1m.notes",
+        "notes": "NOTA: Non si applica alle pubblicità con ricompense."
       },
-      "shield": {
-        "name": "scudo errore",
-        "amount": {
-          "one": "{amount} scudo errore",
-          "other": "{amount} scudo errore"
-        },
-        "info": "Per un round, una risposta sbagliata non conta come errore.",
-        "active": "@:powers.shield.name attivo",
-        "activeDesc": "Non puoi perdere punti"
+      "purchase_bundle_confirm": {
+        "title": "contenuti dell'offerta",
+        "description": "Con questo pacchetto otterrai:"
       }
     },
-    "news": {
-      "tag": {
-        "update": "aggiornamento",
-        "event": "evento",
-        "new": "nuovo",
-        "offer": "offerta"
+    "missingGems": {
+      "title": "Ottieni le gemme mancanti",
+      "body": "per completare questo acquisto, hai bisogno di"
+    },
+    "themes": {
+      "title": "temi",
+      "info": "Personalizza il tuo gioco con i tuoi argomenti preferiti!",
+      "featured": "in primo piano",
+      "viewAll": "vedi tutti i temi",
+      "moreSoon": "altri temi in arrivo!",
+      "allUnlocked": "Hai sbloccato tutti i temi per questa categoria",
+      "newUnlocked": "Nuovo tema sbloccato!"
+    },
+    "gems": {
+      "title": "gemme",
+      "info": "Usa le Gemme per ottenere oggetti speciali e potenziamenti!"
+    },
+    "hearts": {
+      "title": "cuori",
+      "info": "Hai bisogno di Cuori per giocare le partite; non rimanere senza!"
+    },
+    "power_ups": {
+      "bag": "nella tua borsa",
+      "title": "potenziamenti",
+      "info": "Attiva i potenziamenti per aiutarti a vincere i round difficili!"
+    }
+  },
+  "themes": {
+    "themeNumber": {
+      "one": "1 tema",
+      "other": "{} temi"
+    },
+    "themeNumberOutOf": "{}/{} temi",
+    "theme": {
+      "info": "Metti alla prova le tue conoscenze con nuove domande!"
+    },
+    "newTheme": "nuovo tema",
+    "witzMastery": "maestria witz",
+    "witzMasteryInfo": "Sblocca temi in questa categoria per aumentare la tua Maestria WITZ. Completa la barra per guadagnare un premio speciale!",
+    "themeDetailBody": "Mettiti alla prova sul tema {} con domande come",
+    "themeDetailBundle": "ottieni questo pacchetto!",
+    "themeMasterySheet": {
+      "topBarLocked": "sblocca questo tema",
+      "body": {
+        "default": "per sbloccare il livello successivo",
+        "locked": "Ottieni il tema per sbloccare questa missione",
+        "master": "congratulazioni"
+      },
+      "congratsButtonText": "Hai sbloccato il livello di maestria finale",
+      "missionSubtext": "Completa questa missione per sbloccare il prossimo livello di maestria",
+      "missionInfo": "Completa questa missione per sbloccare il prossimo livello di maestria di questo tema!",
+      "cta": "gioca ora",
+      "mission": {
+        "one": "Dai 1 risposta corretta su questo tema",
+        "other": "Dai {} risposte corrette su questo tema"
+      },
+      "congratulations": "Congratulazioni!!",
+      "congratulationsBody": "Hai sbloccato il livello di maestria finale!"
+    },
+    "witzMasterySheet": {
+      "body": "Sblocca {} temi di questa categoria per ottenere una ricompensa speciale",
+      "cta1": "sblocca tutto",
+      "cta2": "offerta"
+    }
+  },
+  "topics": {
+    "all_themes": "Tutti i temi",
+    "cinema": "cinema",
+    "tv_series": "serie tv",
+    "video_games": "videogiochi",
+    "sport": "sport",
+    "food": "cibo",
+    "music": "musica",
+    "back_to_school": "ritorno a scuola",
+    "history": "storia",
+    "science": "scienza",
+    "geography": "geografia"
+  },
+  "league": {
+    "promotionTo": "promozione a",
+    "demotionTo": "retrocessione a",
+    "seasonEndsIn": "la stagione termina tra",
+    "info": "Questa è la tua Lega attuale. Termina la stagione tra i primi 10 per essere promosso! Gli ultimi 5 retrocederanno alla Lega precedente.",
+    "places": "{} posizioni",
+    "leagueDescription": {
+      "trainingGround": "Dai risposte corrette in @:game.vsWorld o @:game.vsFriends per avanzare nella classifica e accedere alla tua prima Lega!",
+      "currentLeague": "Questa è la tua lega! È ora di giocare una partita per scalare la classifica e raggiungere la prossima lega entro la fine della stagione",
+      "prevLeague": "Ti ricordi quando eri in questa lega? Sembra ieri... Continua a giocare e fai attenzione alle retrocessioni, o potresti ritrovarti presto qui!",
+      "nextLeague": "Scala la classifica per raggiungere questa Lega! Solo i migliori giocatori della stagione saranno promossi, quindi fai del tuo meglio!",
+      "goToLeague": "Vai alle leghe!"
+    },
+    "ctas": {
+      "first": "resta in cima",
+      "promotion": "raggiungi la vetta",
+      "default": "scala la classifica",
+      "demotion": "risali"
+    },
+    "welcomePage": {
+      "title": "Ce l'hai fatta, sei nelle leghe",
+      "cta": "inizia a classificarti",
+      "cards": {
+        "1": {
+          "title": "Scala le classifiche",
+          "body": "Competi in una Lega classificata e guadagna Punti Delta durante la Stagione. La tua posizione in classifica determina il tuo destino!"
+        },
+        "2": {
+          "title": "Guadagna Punti Delta",
+          "body": "I Punti Delta determinano la tua classifica nella Lega! Il tuo punteggio si basa sulla differenza tra risposte corrette e sbagliate—quindi ogni partita conta!"
+        },
+        "3": {
+          "title": "Progressione della stagione",
+          "body": "Ogni Stagione è a tempo! Alla fine, il 10% migliore dei giocatori sale, il 10% peggiore scende e il resto rimane nella propria Lega."
+        },
+        "4": {
+          "title": "Ottieni ricompense",
+          "body": "Classifiche più alte significano ricompense migliori! Continua a salire per raggiungere la vetta e sbloccare premi più grandi nelle Leghe migliori."
+        }
       }
     },
-    "link_messages": {
-      "referral": "{} vuole invitarti a giocare a WITZ! Unisciti alla community.✨",
-      "code": "Unisciti alla partita!"
+    "tg": {
+      "title": "Campo di allenamento",
+      "info": "Dai risposte corrette in Modalità VS per avanzare nella classifica e accedere alla tua prima Lega!",
+      "welcomePage": {
+        "title": "Benvenuto nel campo di allenamento",
+        "cta": "Iniziamo",
+        "cards": {
+          "1": {
+            "title": "Dimostra le tue abilità",
+            "body": "Prima di unirti alle Leghe classificate, completa il Campo di Allenamento. Avanza nel percorso dimostrando le tue abilità!"
+          },
+          "2": {
+            "title": "Progredisci giocando",
+            "body": "Rispondi correttamente nelle modalità “VS Mondo” e “VS Amici” per andare avanti. Ogni risposta corretta ti avvicina alla tua prima Lega."
+          },
+          "3": {
+            "title": "Sblocca ricompense",
+            "body": "Lungo il percorso, guadagna ricompense speciali man mano che progredisci. Raggiungi la fine del percorso per entrare nella tua prima Lega classificata e ottenere ricompense ancora migliori!"
+          }
+        },
+        "startZone": {
+          "title": "Zona di partenza",
+          "body": "Dai risposte corrette per avanzare nella classifica e accedere alla tua prima lega"
+        }
+      }
     },
-    "dynamic": {}
-  }
+    "results": {
+      "promoted": "Fantastico! Avanzi a {}",
+      "stayed": "Bene! Rimani in {}",
+      "claim": "@:general.claim & @:general.continue",
+      "demoted": {
+        "message": "Accidenti! Non sei più in {}...",
+        "protection": {
+          "activate": "attiva la",
+          "title": "protezione lega",
+          "description": "Rimani in questa lega per un'altra stagione",
+          "buy": "attiva per",
+          "deny": "no, grazie"
+        },
+        "beBetter": "Fai del tuo meglio nella prossima stagione"
+      }
+    }
+  },
+  "arena": {
+    "body": "Metti alla prova le tue conoscenze con questi eventi a tempo limitato e ottieni ricompense!",
+    "info": "In modalità Arena, gioca eventi a tempo e metti alla prova le tue abilità! Rispondi a quante più domande possibili senza commettere errori. Un errore e sei fuori!",
+    "activeEvents": "eventi attivi",
+    "upcomingEvents": "eventi imminenti",
+    "yourRank": "la tua classifica",
+    "startsIn": "inizia tra",
+    "claim": "riscatta ricompense",
+    "viewRewards": "vedi ricompense",
+    "leaderboard": "classifica",
+    "retry": "prova ancora una volta",
+    "eventEndsIn": "l'evento termina tra",
+    "eventEndsRewards": "L'evento è ancora in corso! Torna più tardi per riscattare le tue ricompense.",
+    "showPosition": "mostra la mia posizione",
+    "eventEnded": "evento concluso",
+    "noPlayers": "Sii il primo a sfidare l'arena e reclama il tuo trono",
+    "game": {
+      "youFailed": "game over",
+      "tryAgain": "Riprova la prossima volta",
+      "finalRank": "Classifica finale",
+      "correctAnswers": "Risposte corrette",
+      "bestScore": "Punteggio migliore",
+      "top3": "Top 3",
+      "keepPlaying": "Vuoi continuare a giocare?",
+      "keepPlayingBody": "Non è troppo tardi! Puoi ancora avere un'altra possibilità e rimanere in partita.",
+      "keepPlayingNotEnough": "Non hai abbastanza gemme"
+    },
+    "welcomePage": {
+      "title": "L'Arena è ora aperta",
+      "cta": "Inizia a giocare",
+      "cards": {
+        "1": {
+          "title": "Entra nell'arena",
+          "body": "Competi in sfide tematiche giornaliere contro tutti i giocatori. Ogni giorno porta nuovi temi per mettere alla prova le tue conoscenze!"
+        },
+        "2": {
+          "title": "Rimani in gioco",
+          "body": "Rispondi a quante più domande possibili senza errori. Una risposta sbagliata e sei fuori—quindi pensa attentamente!"
+        },
+        "3": {
+          "title": "Ottieni una seconda possibilità",
+          "body": "Puoi usare le Gemme per resuscitare e continuare a giocare, o riprovare per un punteggio migliore e scalare la classifica!"
+        }
+      }
+    },
+    "themeUpsell": {
+      "title": "ti piace questo tema?",
+      "subtext": "Prendilo ora e dimostra che sei un esperto!",
+      "questionsTitle": "Metti alla prova le tue conoscenze con domande come",
+      "cta": "prendilo ora!",
+      "buttonText": "ottieni {} domande esclusive e dimostra le tue abilità!"
+    }
+  },
+  "profile": {
+    "currentSeason": "stagione attuale",
+    "powerUps": {
+      "title": "i tuoi potenziamenti",
+      "info": "Quando sei in difficoltà, supera i tuoi avversari con i potenziamenti! Puoi ottenerli come ricompense o trovarli nel Negozio."
+    },
+    "badges": {
+      "title": "distintivi",
+      "info": "Visualizza i distintivi dei temi che hai sbloccato e mostra il tuo preferito sul tuo profilo!",
+      "setFavourite": "imposta il tuo distintivo preferito",
+      "sheetBody": "Seleziona un distintivo per impostarlo come preferito"
+    },
+    "stats": {
+      "title": "statistiche witz",
+      "info": "Controlla le tue statistiche di sempre! Quanto sei stato bravo?",
+      "matches": "partite",
+      "victories": "vittorie",
+      "correctAnswers": "risposte corrette",
+      "wrongAnswers": "risposte sbagliate",
+      "favMacro": "categoria preferita",
+      "vsMode": "modalità vs",
+      "arenaMode": "modalità arena",
+      "participations": "partecipazioni",
+      "longestStreak": "serie più lunga"
+    },
+    "avatarSheet": {
+      "title": "avatar",
+      "body": "imposta il tuo avatar del profilo"
+    },
+    "nameSheet": {
+      "title": "Nome Giocatore",
+      "body": "Il tuo nome giocatore sarà visibile a tutti i giocatori. Scegli un nome non offensivo per nessun giocatore."
+    },
+    "settingsSheet": {
+      "title": "impostazioni",
+      "signin": "Fai il backup del tuo account",
+      "signinBody": "Accedi per proteggere il tuo account e salvare tutti i tuoi progressi!",
+      "backgroundMusic": "musica di sottofondo",
+      "soundEffects": "effetti sonori",
+      "language": "lingua",
+      "languageSheetBody": "Seleziona la lingua dell'app",
+      "notifications": "notifiche",
+      "enableNotifications": "abilita notifiche",
+      "notificationTopics": {
+        "game": "avvisi di gioco",
+        "shop": "promozioni del negozio",
+        "arena": "eventi arena",
+        "leagues": "eventi lega",
+        "rewards": "ricompense",
+        "friends": "amici"
+      },
+      "friends": "amici",
+      "eula": "eula",
+      "privacyPolicy": "informativa sulla privacy",
+      "termsAndConditions": "termini e condizioni"
+    }
+  },
+  "friends": {
+    "title": "amici",
+    "requests": "richieste",
+    "requestsNumber": "Richieste: {}/{}",
+    "friendsNumber": "Amici: {}/{}",
+    "noFriends": "Sembri piuttosto solo qui...",
+    "noRequests": "Non hai richieste",
+    "inviteFriends": "invita nuovi amici",
+    "addFriends": "aggiungi amici",
+    "profile": {
+      "add": "aggiungi",
+      "removeDialogBody": "Vuoi rimuovere questo giocatore dalla tua lista amici?"
+    }
+  },
+  "missions": {
+    "title": "missioni",
+    "weeklyChallenge": {
+      "title": "Missioni settimanali",
+      "info": "Completa le missioni giornaliere per riempire la barra della sfida settimanale—sblocca ricompense più grandi in base a quante missioni completi in una settimana.",
+      "body": "Completa le missioni giornaliere e sblocca le ricompense!"
+    },
+    "dailyMissions": "missioni giornaliere",
+    "claimAll": "riscatta tutto",
+    "types": {
+      "CORRECT_ANSWER": "dai risposte corrette",
+      "LOBBY_FRIENDS": "crea lobby con 5 persone",
+      "PLAY_GAMES": "gioca partite",
+      "PLAY_GAMES_FRIENDS": "gioca partite",
+      "TOP_3": "finisci tra i primi 3"
+    }
+  },
+  "tutorial": {
+    "startMatch": "inizia una partita",
+    "startInfo": "In WITZ affronterai altri giocatori in una partita trivia con 5 round. Iniziamo una partita e vediamo come funziona!",
+    "game": {
+      "roundSpotlightInfo": "Ogni partita ha un tema! La domanda di ogni round sarà basata su una categoria relativa a questo tema.",
+      "dialogPowers": {
+        "title": "Aumenta il tuo punteggio!",
+        "body1": "Hai bisogno di un vantaggio per superare i tuoi avversari? Usa i Potenziamenti!",
+        "body2": "Ognuno offre un vantaggio unico per aiutarti a ottenere grandi punteggi e rimanere in cima.",
+        "cta": "proviamo"
+      },
+      "rocketSpotlightInfo": "Usa Punti X2 per raddoppiare il punteggio del round. Aumenta sia le risposte corrette che quelle errate, quindi usalo saggiamente!",
+      "eraserSpotlightInfo": "Usa 50/50 per eliminare due opzioni errate. È ottimo per restringere le scelte difficili!",
+      "peekSpotlightInfo": "Usa Sbircia Avversari per vedere cosa stanno rispondendo gli altri in tempo reale. È perfetto per ottenere un vantaggio!",
+      "shieldSpotlightInfo": "Usa Scudo Errore per evitare che la tua risposta conti come errata. Una grande rete di sicurezza!",
+      "questions": {
+        "1": {
+          "category": "Pacchetto iniziale Witz",
+          "theme": "musica",
+          "question": "Quale artista detiene il record per la canzone più ascoltata su Spotify?",
+          "answers": {
+            "1": "Ed Sheeran",
+            "2": "Drake",
+            "3": "Taylor Swift",
+            "4": "The Weeknd"
+          },
+          "correctAnswer": "@:tutorial.game.questions.1.answers.4",
+          "suggestedAnswer": "@:tutorial.game.questions.1.answers.4"
+        },
+        "2": {
+          "category": "Pacchetto iniziale Witz",
+          "theme": "serie TV",
+          "question": "In quale serie TV appare il personaggio Walter White?",
+          "answers": {
+            "1": "Breaking Bad",
+            "2": "Sons of Anarchy",
+            "3": "Il giorno dello sciacallo",
+            "4": "Ozark"
+          },
+          "correctAnswer": "@:tutorial.game.questions.2.answers.1",
+          "suggestedAnswer": "@:tutorial.game.questions.2.answers.1"
+        },
+        "3": {
+          "category": "Pacchetto iniziale Witz",
+          "theme": "biologia",
+          "question": "Di cosa consiste principalmente la dieta di un panda?",
+          "answers": {
+            "1": "Pesce",
+            "2": "Bambù",
+            "3": "Frutta",
+            "4": "Insetti"
+          },
+          "correctAnswer": "@:tutorial.game.questions.3.answers.2",
+          "suggestedAnswer": "@:tutorial.game.questions.3.answers.2"
+        },
+        "4": {
+          "category": "Pacchetto iniziale Witz",
+          "theme": "culture del mondo",
+          "question": "Qual è la lingua più parlata al mondo?",
+          "answers": {
+            "1": "Inglese",
+            "2": "Spagnolo",
+            "3": "Hindi",
+            "4": "Cinese mandarino"
+          },
+          "correctAnswer": "@:tutorial.game.questions.4.answers.4",
+          "suggestedAnswer": "@:tutorial.game.questions.4.answers.4"
+        },
+        "5": {
+          "category": "Pacchetto iniziale Witz",
+          "theme": "astronomia",
+          "question": "Quale pianeta del nostro sistema solare ha più lune?",
+          "answers": {
+            "1": "Saturno",
+            "2": "Marte",
+            "3": "Urano",
+            "4": "Giove"
+          },
+          "correctAnswer": "@:tutorial.game.questions.5.answers.4",
+          "suggestedAnswer": "@:tutorial.game.questions.5.answers.1"
+        }
+      }
+    },
+    "dialogEndGame": {
+      "title": "Ben fatto!",
+      "body1": "Ecco come funziona una partita. Ora è il momento di mettere alla prova le tue abilità contro i tuoi avversari.",
+      "body2": "Scala la classifica della tua lega e rivendica la vittoria!",
+      "cta": "Iniziamo"
+    },
+    "dialogAuthentication": {
+      "title": "Salva i tuoi progressi!",
+      "body": "Crea il tuo profilo per tenere al sicuro i tuoi progressi! Se continui come ospite, tutti i tuoi dati potrebbero andare persi se disinstalli l'app o esci.",
+      "cta": "più tardi"
+    },
+    "themeNavSpotlightInfo": "Vuoi espandere la tua esperienza trivia? Inizia accedendo alla sezione Temi per trovare nuovi temi!",
+    "themeSpotlightInfo": "Ecco il Pacchetto Iniziale WITZ! Selezionalo per visualizzare i suoi dettagli e le categorie.",
+    "buyThemeSpotlightInfo": "Inizia il tuo viaggio con il Pacchetto Iniziale WITZ! Sbloccalo gratuitamente e inizia a giocare!",
+    "starterPack": "Pacchetto iniziale Witz",
+    "starterPackInfo": "Questo è il pacchetto iniziale. È un ottimo modo per iniziare!",
+    "dialogEndTutorial": {
+      "title": "Sei pronto a giocare!",
+      "body1": "È ora di tuffarsi nel gioco, sfidare gli avversari e scalare la classifica.",
+      "body2": "Buona fortuna e buon divertimento!",
+      "cta": "Inizia a giocare!"
+    }
+  },
+  "editUser": {
+    "username": {
+      "title": "Scegli il tuo nome giocatore",
+      "body": "Il tuo nome giocatore sarà visibile a tutti i giocatori. Scegli un nome non offensivo per nessun giocatore.",
+      "placeholder": "inserisci nome",
+      "invalidWarning": "Questo nome va contro le nostre politiche della community. Cambialo con un altro nome giocatore."
+    },
+    "avatar": {
+      "title": "Scegli il tuo avatar",
+      "invalidWarning": "L'immagine che hai caricato è stata ritenuta offensiva secondo le nostre linee guida."
+    },
+    "topics": {
+      "title": "Quali sono i tuoi argomenti preferiti?",
+      "body": "Scegli i tuoi argomenti preferiti per avere un'esperienza di gioco personalizzata."
+    }
+  },
+  "referral": {
+    "title": "programma invita-un-amico",
+    "body": "Invita amici che non sono ancora nel gioco, falli giocare una partita e guadagna ricompense!",
+    "cta": "invita amici",
+    "mission": {
+      "one": "invita 1 amico",
+      "other": "invita {} amici"
+    }
+  },
+  "consumables": {
+    "gem": {
+      "name": {
+        "one": "gemma",
+        "other": "gemme"
+      },
+      "amount": {
+        "one": "1 gemma",
+        "other": "{amount} gemme"
+      },
+      "info": "Usa le Gemme per ottenere oggetti speciali e potenziamenti!",
+      "purchase_pack": "acquista il pacchetto da {} gemme!"
+    },
+    "heart": {
+      "name": {
+        "one": "cuore",
+        "other": "cuori"
+      },
+      "amount": {
+        "one": "1 cuore",
+        "other": "{amount} cuori"
+      },
+      "info": "Hai bisogno di Cuori per giocare le partite; non rimanere senza!"
+    }
+  },
+  "powers": {
+    "rocket": {
+      "name": "punti doppi",
+      "amount": {
+        "one": "{amount} punti doppi",
+        "other": "{amount} punti doppi"
+      },
+      "info": "Per un round, raddoppia i tuoi punti del round! Ma attenzione! Funziona sia positivamente che negativamente.",
+      "active": "@:powers.rocket.name attivo",
+      "activeDesc": "Il tuo punteggio raddoppia"
+    },
+    "bomb": {
+      "name": "50/50",
+      "amount": {
+        "one": "1 50/50",
+        "other": "{amount} 50/50"
+      },
+      "info": "Per un round, cancella immediatamente due risposte sbagliate.",
+      "active": "@:powers.bomb.name attivo",
+      "activeDesc": "Cancella due risposte sbagliate"
+    },
+    "peek": {
+      "name": "sbircia avversari",
+      "amount": {
+        "one": "{amount} sbircia avversari",
+        "other": "{amount} sbircia avversari"
+      },
+      "info": "Per un round, dai un'occhiata a cosa stanno rispondendo i tuoi avversari.",
+      "active": "@:powers.peek.name attivo",
+      "activeDesc": "Vedi cosa rispondono i tuoi avversari"
+    },
+    "shield": {
+      "name": "scudo errore",
+      "amount": {
+        "one": "{amount} scudo errore",
+        "other": "{amount} scudo errore"
+      },
+      "info": "Per un round, una risposta sbagliata non conta come errore.",
+      "active": "@:powers.shield.name attivo",
+      "activeDesc": "Non puoi perdere punti"
+    }
+  },
+  "news": {
+    "tag": {
+      "update": "aggiornamento",
+      "event": "evento",
+      "new": "nuovo",
+      "offer": "offerta"
+    }
+  },
+  "link_messages": {
+    "referral": "{} vuole invitarti a giocare a WITZ! Unisciti alla community.✨",
+    "code": "Unisciti alla partita!"
+  },
+  "dynamic": {}
 }

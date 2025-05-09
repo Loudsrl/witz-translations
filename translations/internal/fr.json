@@ -1352,7 +1352,7 @@
     },
     "witzMasterySheet": {
       "body": "Débloquez {} thèmes de cette catégorie pour obtenir une récompense spéciale",
-      "cta1": "tout débloquer",
+      "cta1": "débloquez tous les thèmes de cette catégorie",
       "cta2": "offre"
     }
   },
@@ -1803,6 +1803,5 @@
   "link_messages": {
     "referral": "{} veut vous inviter à jouer à WITZ ! Rejoignez la communauté.✨",
     "code": "Rejoignez le match !"
-  },
-  "dynamic": {}
+  }
 }

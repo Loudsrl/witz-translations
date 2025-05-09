@@ -1352,7 +1352,7 @@
     },
     "witzMasterySheet": {
       "body": "Schalte {} Themen dieser Kategorie frei, um eine besondere Belohnung zu erhalten",
-      "cta1": "alle freischalten",
+      "cta1": "alle Themen in dieser Kategorie freischalten",
       "cta2": "Angebot"
     }
   },
@@ -1803,6 +1803,5 @@
   "link_messages": {
     "referral": "{} möchte dich einladen, WITZ zu spielen! Werde Teil der Community.✨",
     "code": "Tritt dem Match bei!"
-  },
-  "dynamic": {}
+  }
 }

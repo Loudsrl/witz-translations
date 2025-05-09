@@ -1352,7 +1352,7 @@
     },
     "witzMasterySheet": {
       "body": "Unlock {} themes of this category to get a special reward",
-      "cta1": "unlock all",
+      "cta1": "unlock all themes in this category",
       "cta2": "offer"
     }
   },
@@ -1803,6 +1803,5 @@
   "link_messages": {
     "referral": "{} wants to invite you to play WITZ! Join the community.✨",
     "code": "Join the match!"
-  },
-  "dynamic": {}
+  }
 }

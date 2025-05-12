@@ -1354,6 +1354,15 @@
       "body": "Unlock {} themes of this category to get a special reward",
       "cta1": "unlock all themes in this category",
       "cta2": "offer"
+    },
+    "themeDetail": {
+      "tryQuestions": "Try some questions of this theme!",
+      "tryQuestionsCta": "Let's start",
+      "descripiton": "Get it now and show that you're an expert!",
+      "uniqueQuestions": "unique questions",
+      "exclusiveBadges": "Exclusive badges",
+      "playerCount": "{}+ players",
+      "playerCountDescription": "unlocked this theme"
     }
   },
   "topics": {

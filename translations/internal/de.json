@@ -1354,6 +1354,15 @@
       "body": "Schalte {} Themen dieser Kategorie frei, um eine besondere Belohnung zu erhalten",
       "cta1": "alle Themen in dieser Kategorie freischalten",
       "cta2": "Angebot"
+    },
+    "themeDetail": {
+      "tryQuestions": "Probiere einige Fragen zu diesem Thema!",
+      "tryQuestionsCta": "Los geht's",
+      "descripiton": "Hol es dir jetzt und zeige, dass du ein Experte bist!",
+      "uniqueQuestions": "einzigartige Fragen",
+      "exclusiveBadges": "Exklusive Abzeichen",
+      "playerCount": "{}+ Spieler",
+      "playerCountDescription": "haben dieses Thema freigeschaltet"
     }
   },
   "topics": {

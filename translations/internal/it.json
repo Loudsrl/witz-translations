@@ -1354,6 +1354,15 @@
       "body": "Sblocca {} temi di questa categoria per ottenere una ricompensa speciale",
       "cta1": "sblocca tutti i temi in questa categoria",
       "cta2": "offerta"
+    },
+    "themeDetail": {
+      "tryQuestions": "Prova alcune domande di questo tema!",
+      "tryQuestionsCta": "Iniziamo",
+      "descripiton": "Ottienilo ora e dimostra che sei un esperto!",
+      "uniqueQuestions": "domande uniche",
+      "exclusiveBadges": "Distintivi esclusivi",
+      "playerCount": "{}+ giocatori",
+      "playerCountDescription": "hanno sbloccato questo tema"
     }
   },
   "topics": {

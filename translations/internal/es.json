@@ -1354,6 +1354,15 @@
       "body": "Desbloquea {} temas de esta categoría para obtener una recompensa especial",
       "cta1": "desbloquea todos los temas en esta categoría",
       "cta2": "oferta"
+    },
+    "themeDetail": {
+      "tryQuestions": "¡Prueba algunas preguntas de este tema!",
+      "tryQuestionsCta": "Empecemos",
+      "descripiton": "¡Consíguelo ahora y demuestra que eres un experto!",
+      "uniqueQuestions": "preguntas exclusivas",
+      "exclusiveBadges": "Insignias exclusivas",
+      "playerCount": "{}+ jugadores",
+      "playerCountDescription": "han desbloqueado este tema"
     }
   },
   "topics": {

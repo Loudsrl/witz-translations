@@ -1,921 +1,921 @@
 {
-  "general": {
-    "continue": "weiter",
-    "or": "oder",
-    "and": "und",
-    "skip": "überspringen",
-    "pts": "Pkte",
-    "play": "spielen",
-    "playAgain": "nochmal spielen",
-    "themes": "Themen",
-    "shop": "Shop",
-    "league": "Liga",
-    "arena": "Arena",
-    "unlock": "freischalten",
-    "unlocked": "freigeschaltet",
-    "unlockedNumber": "{}/{} freigeschaltet",
-    "tapToContinue": "tippen zum Fortfahren",
-    "getMore": "mehr holen",
-    "playing": "spielt",
-    "invite": "einladen",
-    "invited": "eingeladen",
-    "share": "teilen",
-    "categories": "Kategorien",
-    "masteryLevel": "Meisterschaftsstufe",
-    "discount": "{}% Rabatt",
-    "rewards": "Belohnungen",
-    "viewAll": "alle ansehen",
-    "showMore": "mehr anzeigen",
-    "showLess": "weniger anzeigen",
-    "lv": "L.",
-    "level": "Level",
-    "xp": "XP",
-    "ok": "ok",
-    "save": "speichern",
-    "online": "online",
-    "lastLogin": "letzter Login",
-    "accept": "akzeptieren",
-    "reject": "ablehnen",
-    "friends": "Freunde",
-    "cancel": "abbrechen",
-    "remove": "entfernen",
-    "news": "Neuigkeiten",
-    "inbox": "Posteingang",
-    "claim": "abholen",
-    "next": "weiter",
-    "add": "hinzufügen",
-    "of": "von",
-    "you": "du",
-    "separator": ",",
-    "stepNumber": "Schritt {}",
-    "place": "Platz",
-    "expiresIn": "läuft ab in",
-    "start": "starten",
-    "free": "kostenlos",
-    "watch": "ansehen",
-    "confirm": "bestätigen",
-    "select": "auswählen",
-    "selected": "ausgewählt",
-    "purchaseCta": "freischalten",
-    "completed": "abgeschlossen!",
-    "joinUs": "mach mit",
-    "everyoneElse": "alle anderen eingestuft",
-    "placeNumber": {
-      "one": "{} Platz",
-      "other": "{} Plätze"
-    },
-    "timeAgo": {
-      "minutes": {
-        "one": "vor 1 Minute",
-        "other": "vor {} Minuten"
-      },
-      "hour": {
-        "one": "vor 1 Stunde",
-        "other": "vor {} Stunden"
-      },
-      "days": {
-        "one": "vor 1 Tag",
-        "other": "vor {} Tagen"
-      },
-      "weeks": {
-        "one": "vor 1 Woche",
-        "other": "vor {} Wochen"
-      },
-      "months": {
-        "one": "vor 1 Monat",
-        "other": "vor {} Monaten"
-      },
-      "years": {
-        "one": "vor 1 Jahr",
-        "other": "vor {} Jahren"
-      }
-    },
-    "time": {
-      "sec": "Sek",
-      "min": "Min",
-      "hour": "Std",
-      "day": "T"
-    },
-    "ordinals": {
-      "st": {
-        "male": ".",
-        "female": "."
-      },
-      "nd": {
-        "male": ".",
-        "female": "."
-      },
-      "rd": {
-        "male": ".",
-        "female": "."
-      },
-      "th": {
-        "male": ".",
-        "female": "."
-      }
-    },
-    "masteryLevels": {
-      "level_unlocked": "neues Level freigeschaltet!",
-      "beginner": "Anfänger",
-      "apprentice_1": "Lehrling 1",
-      "apprentice_2": "Lehrling 2",
-      "apprentice_3": "Lehrling 3",
-      "advanced_1": "Fortgeschrittener 1",
-      "advanced_2": "Fortgeschrittener 2",
-      "advanced_3": "Fortgeschrittener 3",
-      "expert_1": "Experte 1",
-      "expert_2": "Experte 2",
-      "expert_3": "Experte 3",
-      "master": "Meister"
-    }
-  },
-  "error": {
-    "general": {
-      "title": "Etwas ist schiefgelaufen...",
-      "description": "Quizfrage: Was ist unerwartet, etwas nervig und wird gerade behoben? Dieser Fehler! Bin gleich zurück..."
-    }
-  },
-  "splash": "Allgemeinwissens-\nquiz",
-  "auth": {
-    "signInWith": "Anmelden mit {}",
-    "signOut": "abmelden",
-    "deleteAccount": "Konto löschen",
-    "login": {
-      "startTitle": "Zum ersten Mal bei WITZ?",
-      "startButton": "loslegen",
-      "logTitle": "Hast du bereits ein Konto?",
-      "logButton": "anmelden"
-    },
-    "bottomSheet": {
-      "title": "Wähle deine bevorzugte Anmeldemethode",
-      "disclaimer": "Durch die Registrierung bei WITZ stimmst du unseren"
-    },
-    "addAccount": {
-      "title": "Speichere deinen Fortschritt",
-      "description": "Erstelle dein Profil, um deinen Fortschritt sicher zu speichern! Wenn du als Gast fortfährst, können alle deine Daten verloren gehen, wenn du die App deinstallierst oder dich abmeldest.",
-      "later": "später"
-    },
-    "signOutModal": {
-      "title": "Vom Konto abmelden?",
-      "message": "Dein Fortschritt und deine Käufe werden gespeichert und können durch erneutes Anmelden abgerufen werden.",
-      "messageGuest": "@:auth.deleteModal.message",
-      "confirm": "@:auth.signOut"
-    },
-    "deleteModal": {
-      "title": "Konto löschen?",
-      "message": "Du verlierst dauerhaft deinen gesamten Fortschritt und deine Käufe.",
-      "confirm": "@:auth.deleteAccount"
-    },
-    "errors": {
-      "account_exists_with_different_credential": {
-        "title": "Kontokonflikt erkannt",
-        "message": "Ein Konto mit dieser E-Mail existiert bereits unter einer anderen Anmeldemethode. Bitte melde dich mit deinem bestehenden Konto an und verknüpfe dann deine Anmeldedaten.",
-        "action": "ok"
-      },
-      "invalid_credential": {
-        "title": "Ungültige oder abgelaufene Anmeldedaten",
-        "message": "Die angegebenen Anmeldedaten sind ungültig oder abgelaufen. Bitte versuche es erneut.",
-        "action": "erneut versuchen"
-      },
-      "provider_already_linked": {
-        "title": "Du bist bereits verbunden",
-        "message": "Dein Konto ist bereits mit dieser Anmeldemethode verknüpft. Bitte versuche es später erneut.",
-        "action": "ok"
-      },
-      "credential_already_in_use": {
-        "title": "Dieses Konto wird bereits verwendet",
-        "message": "Du hast bereits ein Konto mit dieser E-Mail erstellt. Bitte melde dich ab und melde dich mit der gewünschten Methode an, um dieses Konto zu verwenden.",
-        "action": "ok"
-      },
-      "email_already_in_use": {
-        "title": "Diese E-Mail ist bereits vergeben",
-        "message": "Diese E-Mail ist bereits mit einem bestehenden Konto verknüpft. Bitte melde dich mit einer deiner verknüpften Methoden an.",
-        "action": "ok"
-      }
-    }
-  },
-  "home": {
-    "leagueInfo": "Dies sind deine Liga-Leistungen! Verdiene Delta-Punkte basierend auf deinen Antworten im VS-Modus und steige in der Rangliste auf, um in die nächste Liga aufzusteigen!",
-    "tgInfo": "Antworte im VS-Modus richtig, um im Trainingsgelände voranzukommen! Erreiche das Ende des Pfades und schalte deine erste Liga frei!",
-    "dailyLoginDialog": {
-      "title": "Tägliches Geschenk",
-      "body": "Komm morgen wieder für die nächste Belohnung!",
-      "dayNumber": {
-        "one": "Tag 1",
-        "other": "Tag {}"
-      },
-      "cta": "abholen"
-    },
-    "cards": {
-      "account": {
-        "title": "sichere dein Konto",
-        "body": "Melde dich an, um dein Konto zu schützen und all deine Fortschritte zu speichern!"
-      },
-      "friends": {
-        "title": "Lade deine Freunde ein und erhalte Belohnungen!"
-      }
-    }
-  },
-  "socketErrors": {
-    "snackbar": "Instabile Verbindung. Erneut versuchen"
-  },
-  "game": {
-    "vsWorld": "VS Welt",
-    "vsFriends": "VS Freunde",
-    "vsMode": "VS-Modus",
-    "friends": "Freunde",
-    "world": "Welt",
-    "inventoryTitle": "deine Power-Ups",
-    "themeSelectionTitle": "welches Thema möchtest du spielen?",
-    "vsWorldInfo": "Tritt gegen zufällige Gegner aus der ganzen Welt in einer Reihe von Fragen an. Wer am Ende des Matches die höchste Punktzahl hat, gewinnt!",
-    "vsFriendsInfo": "Tritt gegen deine Freunde in einem privaten Match an. Wer am Ende des Matches die höchste Punktzahl hat, gewinnt!",
-    "selectedThemeInfo": "tippe auf die Karte und wähle ein Thema",
-    "roundAmount": "{} Runden",
-    "gameTypePage": {
-      "title": "Wie möchtest du starten?",
-      "createMatchBtn": {
-        "title": "Match erstellen",
-        "body": "Erstelle eine private Lobby und lade deine Freunde ein"
-      },
-      "joinMatchBtn": {
-        "title": "Match beitreten",
-        "body": "Gib einen Spielcode ein, um einem bestehenden Match beizutreten"
-      }
-    },
-    "roundAmountPage": {
-      "title": "Rundenanzahl auswählen",
-      "body": "Wie viele Runden möchtest du spielen?"
-    },
-    "codePage": {
-      "title": "Match-Code eingeben",
-      "body": "frage den Host nach dem 5-stelligen Code, um dem Match beizutreten"
-    },
-    "lobbyPage": {
-      "searching": "suche nach Spielern...",
-      "playerCount": "{} Spieler",
-      "matchStartsIn": "Match beginnt in",
-      "inviteFriends": "Freunde einladen",
-      "waitingRoom": "Warteraum",
-      "start": "Match starten"
-    },
-    "inviteSheet": {
-      "title": "Freunde einladen",
-      "cta": "Einladung senden ({}/{})"
-    },
-    "matchLanguageSheet": {
-      "title": "Match-Sprache",
-      "body": "du kannst die Sprache dieses Matches ändern",
-      "cta": "bestätigen"
-    },
-    "powerupSheet": {
-      "title": "booste dein Spiel",
-      "body": "bereite dich mit Power-Ups auf den Kampf vor",
-      "cta": "zum Shop gehen"
-    },
-    "roundNumberPage": {
-      "round": "Runde",
-      "last": "letzte",
-      "difficulty": "Schwierigkeit"
-    },
-    "resultsPage": {
-      "results": "Ergebnisse",
-      "youRanked": "du bist auf Platz",
-      "winnerReward": "Siegerbelohnung:"
-    },
-    "performance": {
-      "tokens": "Liga-Token",
-      "tokensTooltip": "Du kannst Liga-Token basierend auf deiner Leistung während des Matches verdienen. Je mehr Token du erhältst, desto höher steigst du in deiner Liga auf. Ziele nach oben!",
-      "answers": "deine Antworten",
-      "answersTooltip": "Je mehr richtige Antworten du gibst, desto mehr Token erhältst du! Jede richtige Antwort gibt dir {} Liga-Token.",
-      "multiplier": "Multiplikator",
-      "rankMultiplier": "Rang-Multiplikator",
-      "rankMultiplierTootip": "Der Rang-Multiplikator erhöht deine Liga-Token entsprechend der Anzahl der Spieler, die du in der Endrangliste des Matches überholt hast.",
-      "skip": "tippen zum Überspringen"
-    },
-    "playerIsland": {
-      "pos": "Pos.",
-      "score": "deine Punktzahl",
-      "tags": {
-        "fastest_answer": "am schnellsten!",
-        "streak": "{} in Folge!"
-      },
-      "shop": "Shop",
-      "buyPower": "tippen zum Shoppen"
-    },
-    "rejoinGame": {
-      "title": "Erneut mit deinem Match verbinden?",
-      "message": "Du wurdest von einem laufenden Match getrennt. Möchtest du dich erneut verbinden und weiterspielen oder das Match verlassen und deinen gesamten Fortschritt verlieren?",
-      "reconnect": "erneut verbinden",
-      "leave": "Match verlassen",
-      "waitRejoin": "bitte warten, während wir das Match laden"
-    },
-    "playAgain": {
-      "askToPlay": "Bereit für ein weiteres Match?",
-      "waiting": "Warte darauf, dass der Host entscheidet, ob ein neues Match gestartet oder das Spiel beendet wird...",
-      "gameAvailable": "Neues Spiel erstellt",
-      "leagueProgress": "Liga-Fortschritt",
-      "leagueProgressDialog": {
-        "upToPromotion": {
-          "title": "Du bist in die Aufstiegszone aufgestiegen!",
-          "description": "Mach weiter so, um dir deinen Platz in der nächsten Liga zu sichern!"
-        },
-        "upToNeutral": {
-          "title": "Du bist in die sichere Zone aufgestiegen!",
-          "description": "Du bist raus aus der Gefahrenzone. Jetzt strebe nach Höherem!"
-        },
-        "downToNeutral": {
-          "title": "Du bist in die sichere Zone gefallen!",
-          "description": "Mach weiter so, um dir deinen Platz in der nächsten Liga zu sichern!"
-        },
-        "downToDemotion": {
-          "title": "Du bist in die Abstiegszone gefallen!",
-          "description": "Mach weiter so, um dir deinen Platz in der nächsten Liga zu sichern!"
-        }
-      }
-    },
-    "leaveGame": {
-      "title": "Match verlassen",
-      "description": "Möchtest du das Match verlassen? Dein gesamter Fortschritt geht verloren.",
-      "confirm": "Verlassen",
-      "cancel": "@:general.cancel"
-    },
-    "hostLeft": {
-      "title": "Host hat das Match verlassen",
-      "description": "Der Host hat das Match verlassen. Die Lobby wird geschlossen und alle Spieler werden getrennt.",
-      "confirm": "ok"
-    }
-  },
-  "paywall": {
-    "bundle": {
-      "badge": "Superangebot",
-      "title": "Werde ein Witzard",
-      "body": "Nutze dieses Angebot und werde einer der Witz-Meister! Entdecke den Zauberer in dir!",
-      "cta": "jetzt kaufen"
-    },
-    "powers": {
-      "badge": "begrenztes Angebot",
-      "title": "Fülle deine Power-Ups auf",
-      "body": "Nutze dieses Angebot, rüste dich mit Power-Ups aus und gewinne all deine Herausforderungen!",
-      "cta": "jetzt kaufen"
-    },
-    "themes": {
-      "badge": "einzigartiges Angebot",
-      "title": "3x1 Angebot",
-      "body": "Stürme den Shop, um deine Lieblingsthemen zu ergattern und deine Freunde herauszufordern!",
-      "cta": "jetzt kaufen"
-    },
-    "starter_bundle": {
-      "title": "Neuer Spieler-Paket"
-    },
-    "removeAds": {
-      "badge": "@:shop.offers.remove_ads_1m.badge",
-      "title": "Spiele ohne Ablenkungen",
-      "description": "Genervt von Unterbrechungen? Schalte 30 Tage ununterbrochenen Quiz-Spaß frei! Keine lästigen Werbeanzeigen mehr – nur reines, nahtloses Gameplay.",
-      "card": {
-        "title": "@:shop.offers.remove_ads_1m.title",
-        "description": "@:shop.offers.remove_ads_1m.notes"
-      },
-      "buy": "jetzt freischalten"
-    }
-  },
-  "shop": {
-    "offers": {
-      "title": "Angebote",
-      "2x1_themes": {
-        "title": "2-zu-1 Themenangebot"
-      },
-      "remove_ads_1m": {
-        "badge": "null Werbung",
-        "title": "Alle Werbeanzeigen entfernen",
-        "short_desc": "keine Werbung mehr für 30 Tage",
-        "description": "Entferne Werbeanzeigen am Ende des Matches für 30 Tage. @:shop.offers.remove_ads_1m.notes",
-        "notes": "HINWEIS: Gilt nicht für Werbeanzeigen mit Belohnungen."
-      },
-      "purchase_bundle_confirm": {
-        "title": "Inhalt des Angebots",
-        "description": "Mit diesem Paket erhältst du:"
-      }
-    },
-    "missingGems": {
-      "title": "Hol dir die fehlenden Juwelen",
-      "body": "um diesen Kauf abzuschließen, benötigst du"
-    },
-    "themes": {
-      "title": "Themen",
-      "info": "Personalisiere dein Spiel mit deinen Lieblingsthemen!",
-      "featured": "hervorgehoben",
-      "viewAll": "alle Themen ansehen",
-      "moreSoon": "bald mehr Themen verfügbar!",
-      "allUnlocked": "Du hast alle Themen für diese Kategorie freigeschaltet",
-      "newUnlocked": "Neues Thema freigeschaltet!"
-    },
-    "gems": {
-      "title": "Juwelen",
-      "info": "Verwende Juwelen, um spezielle Gegenstände und Upgrades zu erhalten!"
-    },
-    "hearts": {
-      "title": "Herzen",
-      "info": "Du benötigst Herzen, um Matches zu spielen; geh nicht leer aus!"
-    },
-    "power_ups": {
-      "bag": "in deiner Tasche",
-      "title": "Power-Ups",
-      "info": "Aktiviere Boosts, um schwierige Runden zu gewinnen!"
-    }
-  },
-  "themes": {
-    "themeNumber": {
-      "one": "1 Thema",
-      "other": "{} Themen"
-    },
-    "themeNumberOutOf": "{}/{} Themen",
-    "theme": {
-      "info": "Teste dein Wissen mit neuen Fragen!"
-    },
-    "newTheme": "neues Thema",
-    "witzMastery": "Witz-Meisterschaft",
-    "witzMasteryInfo": "Schalte Themen in dieser Kategorie frei, um deine WITZ-Meisterschaft zu erhöhen. Fülle die Leiste, um einen Sonderpreis zu erhalten!",
-    "themeDetailBody": "Teste dich zum Thema {} mit Fragen wie",
-    "themeDetailBundle": "hol dir dieses Paket!",
-    "themeMasterySheet": {
-      "topBarLocked": "dieses Thema freischalten",
-      "body": {
-        "default": "um das nächste Level freizuschalten",
-        "locked": "Hol dir das Thema, um diese Mission freizuschalten",
-        "master": "Glückwunsch"
-      },
-      "congratsButtonText": "Du hast die letzte Meisterschaftsstufe freigeschaltet",
-      "missionSubtext": "Schließe diese Mission ab, um die nächste Meisterschaftsstufe freizuschalten",
-      "missionInfo": "Schließe diese Mission ab, um die nächste Meisterschaftsstufe dieses Themas freizuschalten!",
-      "cta": "jetzt spielen",
-      "mission": {
-        "one": "Gib 1 richtige Antwort zu diesem Thema",
-        "other": "Gib {} richtige Antworten zu diesem Thema"
-      },
-      "congratulations": "Glückwunsch!!",
-      "congratulationsBody": "Du hast die letzte Meisterschaftsstufe freigeschaltet!"
-    },
-    "witzMasterySheet": {
-      "body": "Schalte {} Themen dieser Kategorie frei, um eine besondere Belohnung zu erhalten",
-      "cta1": "alle Themen in dieser Kategorie freischalten",
-      "cta2": "Angebot"
-    },
-    "themeDetail": {
-      "tryQuestions": "Probiere einige Fragen zu diesem Thema!",
-      "tryQuestionsCta": "Los geht's",
-      "descripiton": "Hol es dir jetzt und zeige, dass du ein Experte bist!",
-      "uniqueQuestions": "einzigartige Fragen",
-      "exclusiveBadges": "Exklusive Abzeichen",
-      "playerCount": "{}+ Spieler",
-      "playerCountDescription": "haben dieses Thema freigeschaltet"
-    }
-  },
-  "topics": {
-    "all_themes": "Alle Themen",
-    "cinema": "Kino",
-    "tv_series": "Fernsehserien",
-    "video_games": "Videospiele",
-    "sport": "Sport",
-    "food": "Essen",
-    "music": "Musik",
-    "back_to_school": "Zurück zur Schule",
-    "history": "Geschichte",
-    "science": "Wissenschaft",
-    "geography": "Geografie"
-  },
-  "league": {
-    "promotionTo": "Aufstieg nach",
-    "demotionTo": "Abstieg nach",
-    "seasonEndsIn": "Saison endet in",
-    "info": "Das ist deine aktuelle Liga. Beende die Saison unter den Top 10, um aufzusteigen! Die letzten 5 steigen in die vorherige Liga ab.",
-    "places": "{} Plätze",
-    "leagueDescription": {
-      "trainingGround": "Gib richtige Antworten in @:game.vsWorld oder @:game.vsFriends, um die Leiter zu erklimmen und deine erste Liga zu erreichen!",
-      "currentLeague": "Das ist deine Liga! Es ist Zeit, ein Match zu spielen, um in der Rangliste aufzusteigen und bis zum Ende der Saison die nächste Liga zu erreichen",
-      "prevLeague": "Erinnerst du dich, als du in dieser Liga warst? Fühlt sich an wie gestern... Spiele weiter und pass auf Abstiege auf, sonst könntest du bald wieder hier sein!",
-      "nextLeague": "Erklimme die Rangliste, um diese Liga zu erreichen! Nur die Top-Spieler der Saison steigen auf, also gib dein Bestes!",
-      "goToLeague": "Zu den Ligen gehen!"
-    },
-    "ctas": {
-      "first": "bleib an der Spitze",
-      "promotion": "erreiche die Spitze",
-      "default": "steige in der Rangliste auf",
-      "demotion": "komm wieder hoch"
-    },
-    "welcomePage": {
-      "title": "Du hast es in die Ligen geschafft",
-      "cta": "beginne mit dem Ranking",
-      "cards": {
-        "1": {
-          "title": "Steige in den Rängen auf",
-          "body": "Tritt in einer Ranglisten-Liga an und verdiene während der Saison Delta-Punkte. Deine Position in der Rangliste bestimmt dein Schicksal!"
-        },
-        "2": {
-          "title": "Verdiene Delta-Punkte",
-          "body": "Delta-Punkte bestimmen deine Liga-Platzierung! Deine Punktzahl basiert auf der Differenz zwischen richtigen und falschen Antworten – also zählt jedes Match!"
-        },
-        "3": {
-          "title": "Saisonfortschritt",
-          "body": "Jede Saison ist zeitlich begrenzt! Am Ende steigen die besten 10% der Spieler auf, die schlechtesten 10% steigen ab und der Rest bleibt in seiner Liga."
-        },
-        "4": {
-          "title": "Erhalte Belohnungen",
-          "body": "Höhere Ränge bedeuten bessere Belohnungen! Steige weiter auf, um die Spitze zu erreichen und größere Preise in den besten Ligen freizuschalten."
-        }
-      }
-    },
-    "tg": {
-      "title": "Trainingsgelände",
-      "info": "Gib richtige Antworten im VS-Modus, um die Leiter zu erklimmen und deine erste Liga zu erreichen!",
-      "welcomePage": {
-        "title": "Willkommen im Trainingsgelände",
-        "cta": "Los geht's",
-        "cards": {
-          "1": {
-            "title": "Beweise deine Fähigkeiten",
-            "body": "Bevor du den Ranglisten-Ligen beitrittst, schließe das Trainingsgelände ab. Komme auf dem Pfad voran, indem du deine Fähigkeiten beweist!"
-          },
-          "2": {
-            "title": "Fortschritt durch Spielen",
-            "body": "Antworte richtig in den Modi „VS Welt“ und „VS Freunde“, um voranzukommen. Jede richtige Antwort bringt dich deiner ersten Liga näher."
-          },
-          "3": {
-            "title": "Schalte Belohnungen frei",
-            "body": "Unterwegs verdienst du besondere Belohnungen, während du Fortschritte machst. Erreiche das Ende des Pfades, um deine erste Ranglisten-Liga zu betreten und noch bessere Belohnungen zu erhalten!"
-          }
-        },
-        "startZone": {
-          "title": "Startzone",
-          "body": "Gib richtige Antworten, um die Leiter zu erklimmen und deine erste Liga zu erreichen"
-        }
-      }
-    },
-    "results": {
-      "promoted": "Großartig! Du steigst nach {} auf",
-      "stayed": "Schön! Du bleibst in {}",
-      "claim": "@:general.claim & @:general.continue",
-      "demoted": {
-        "message": "Verdammt! Du bist nicht mehr in {}...",
-        "protection": {
-          "activate": "aktiviere den",
-          "title": "Liga-Schutz",
-          "description": "Bleibe eine weitere Saison in dieser Liga",
-          "buy": "aktivieren für",
-          "deny": "nein, danke"
-        },
-        "beBetter": "Gib in der nächsten Saison dein Bestes"
-      }
-    }
-  },
-  "arena": {
-    "body": "Teste dein Wissen mit diesen zeitlich begrenzten Events und erhalte Belohnungen!",
-    "info": "Im Arena-Modus spielst du zeitlich begrenzte Events und testest deine Fähigkeiten! Beantworte so viele Fragen wie möglich, ohne einen Fehler zu machen. Ein Fehler und du bist raus!",
-    "activeEvents": "aktive Events",
-    "upcomingEvents": "kommende Events",
-    "yourRank": "dein Rang",
-    "startsIn": "startet in",
-    "claim": "Belohnungen abholen",
-    "viewRewards": "Belohnungen ansehen",
-    "leaderboard": "Rangliste",
-    "retry": "nochmal versuchen",
-    "eventEndsIn": "Event endet in",
-    "eventEndsRewards": "Das Event läuft noch! Komm später zurück, um deine Belohnungen abzuholen.",
-    "showPosition": "meine Position anzeigen",
-    "eventEnded": "Event beendet",
-    "noPlayers": "Sei der Erste, der die Arena herausfordert und beanspruche deinen Thron",
-    "game": {
-      "youFailed": "Game Over",
-      "tryAgain": "Versuch es nächstes Mal wieder",
-      "finalRank": "Endgültiger Rang",
-      "correctAnswers": "Richtige Antworten",
-      "bestScore": "Beste Punktzahl",
-      "top3": "Top 3",
-      "keepPlaying": "Möchtest du weiterspielen?",
-      "keepPlayingBody": "Es ist noch nicht zu spät! Du kannst noch eine Chance bekommen und im Match bleiben.",
-      "keepPlayingNotEnough": "Du hast nicht genug Juwelen"
-    },
-    "welcomePage": {
-      "title": "Die Arena ist jetzt geöffnet",
-      "cta": "Beginne zu spielen",
-      "cards": {
-        "1": {
-          "title": "Betritt die Arena",
-          "body": "Tritt in täglichen thematischen Herausforderungen gegen alle Spieler an. Jeder Tag bringt neue Themen, um dein Wissen zu testen!"
-        },
-        "2": {
-          "title": "Bleib im Spiel",
-          "body": "Beantworte so viele Fragen wie möglich ohne Fehler. Eine falsche Antwort und du bist raus – also überlege gut!"
-        },
-        "3": {
-          "title": "Erhalte eine zweite Chance",
-          "body": "Du kannst Juwelen verwenden, um wiederbelebt zu werden und weiterzuspielen, oder es erneut versuchen, um eine bessere Punktzahl zu erzielen und die Rangliste zu erklimmen!"
-        }
-      }
-    },
-    "themeUpsell": {
-      "title": "gefällt dir dieses Thema?",
-      "subtext": "Hol es dir jetzt und zeige, dass du ein Experte bist!",
-      "questionsTitle": "Teste dein Wissen mit Fragen wie",
-      "cta": "hol es dir jetzt!",
-      "buttonText": "hol dir {} exklusive Fragen und beweise deine Fähigkeiten!"
-    }
-  },
-  "profile": {
-    "currentSeason": "aktuelle Saison",
-    "powerUps": {
-      "title": "deine Power-Ups",
-      "info": "Wenn du in Schwierigkeiten bist, überwinde deine Gegner mit Power-Ups! Du kannst sie als Belohnungen erhalten oder im Shop finden."
-    },
-    "badges": {
-      "title": "Abzeichen",
-      "info": "Sieh dir die Abzeichen der Themen an, die du freigeschaltet hast, und zeige dein Lieblingsabzeichen in deinem Profil!",
-      "setFavourite": "lege dein Lieblingsabzeichen fest",
-      "sheetBody": "Wähle ein Abzeichen aus, um es als dein Lieblingsabzeichen festzulegen"
-    },
-    "stats": {
-      "title": "Witz-Statistiken",
-      "info": "Überprüfe deine Gesamtstatistiken! Wie gut warst du?",
-      "matches": "Matches",
-      "victories": "Siege",
-      "correctAnswers": "richtige Antworten",
-      "wrongAnswers": "falsche Antworten",
-      "favMacro": "Lieblingskategorie",
-      "vsMode": "VS-Modus",
-      "arenaMode": "Arena-Modus",
-      "participations": "Teilnahmen",
-      "longestStreak": "längste Serie"
-    },
-    "avatarSheet": {
-      "title": "Avatar",
-      "body": "lege deinen Profil-Avatar fest"
-    },
-    "nameSheet": {
-      "title": "Spielername",
-      "body": "Dein Spielername ist für alle Spieler sichtbar. Bitte wähle einen Namen, der keinen Spieler beleidigt."
-    },
-    "settingsSheet": {
-      "title": "Einstellungen",
-      "signin": "Sichere dein Konto",
-      "signinBody": "Melde dich an, um dein Konto zu schützen und all deine Fortschritte zu speichern!",
-      "backgroundMusic": "Hintergrundmusik",
-      "soundEffects": "Soundeffekte",
-      "language": "Sprache",
-      "languageSheetBody": "Wähle die Sprache der App",
-      "notifications": "Benachrichtigungen",
-      "enableNotifications": "Benachrichtigungen aktivieren",
-      "notificationTopics": {
-        "game": "Spielhinweise",
-        "shop": "Shop-Aktionen",
-        "arena": "Arena-Events",
-        "leagues": "Liga-Events",
-        "rewards": "Belohnungen",
-        "friends": "Freunde"
-      },
-      "friends": "Freunde",
-      "eula": "EULA",
-      "privacyPolicy": "Datenschutzrichtlinie",
-      "termsAndConditions": "Allgemeine Geschäftsbedingungen"
-    }
-  },
-  "friends": {
-    "title": "Freunde",
-    "requests": "Anfragen",
-    "requestsNumber": "Anfragen: {}/{}",
-    "friendsNumber": "Freunde: {}/{}",
-    "noFriends": "Du siehst hier ziemlich einsam aus...",
-    "noRequests": "Du hast keine Anfragen",
-    "inviteFriends": "neue Freunde einladen",
-    "addFriends": "Freunde hinzufügen",
-    "profile": {
-      "add": "hinzufügen",
-      "removeDialogBody": "Möchtest du diesen Spieler aus deiner Freundesliste entfernen?"
-    }
-  },
-  "missions": {
-    "title": "Missionen",
-    "weeklyChallenge": {
-      "title": "Wöchentliche Missionen",
-      "info": "Schließe tägliche Missionen ab, um die Leiste der wöchentlichen Herausforderung zu füllen – schalte größere Belohnungen frei, basierend darauf, wie viele Missionen du in einer Woche abschließt.",
-      "body": "Schließe tägliche Missionen ab und schalte die Belohnungen frei!"
-    },
-    "dailyMissions": "tägliche Missionen",
-    "claimAll": "alle abholen",
-    "types": {
-      "CORRECT_ANSWER": "gib richtige Antworten",
-      "LOBBY_FRIENDS": "erstelle Lobby mit 5 Personen",
-      "PLAY_GAMES": "spiele Matches",
-      "PLAY_GAMES_FRIENDS": "spiele Matches",
-      "TOP_3": "lande in den Top 3"
-    }
-  },
-  "tutorial": {
-    "startMatch": "starte ein Match",
-    "startInfo": "In WITZ trittst du gegen andere Spieler in einem Quiz-Match mit 5 Runden an. Lass uns ein Match starten und sehen, wie es funktioniert!",
-    "game": {
-      "roundSpotlightInfo": "Jedes Match hat ein Thema! Die Frage jeder Runde basiert auf einer Kategorie, die mit diesem Thema zusammenhängt.",
-      "dialogPowers": {
-        "title": "Erhöhe deine Punktzahl!",
-        "body1": "Brauchst du einen Vorteil, um deine Gegner zu überlisten? Verwende Power-Ups!",
-        "body2": "Jedes bietet einen einzigartigen Vorteil, um dir zu helfen, hohe Punktzahlen zu erzielen und an der Spitze zu bleiben.",
-        "cta": "lass es uns versuchen"
-      },
-      "rocketSpotlightInfo": "Verwende Punkte X2, um deine Rundenpunktzahl zu verdoppeln. Es wirkt sich sowohl auf richtige als auch auf falsche Antworten aus, also setze es klug ein!",
-      "eraserSpotlightInfo": "Verwende 50/50, um zwei falsche Optionen zu eliminieren. Es ist großartig, um schwierige Entscheidungen einzugrenzen!",
-      "peekSpotlightInfo": "Verwende Gegner spähen, um in Echtzeit zu sehen, was andere antworten. Es ist perfekt, um einen Vorteil zu erlangen!",
-      "shieldSpotlightInfo": "Verwende Fehlerschutz, um zu verhindern, dass deine Antwort als falsch zählt. Ein tolles Sicherheitsnetz!",
-      "questions": {
-        "1": {
-          "category": "Witz Starterpaket",
-          "theme": "Musik",
-          "question": "Welcher Künstler hält den Rekord für den meistgestreamten Song auf Spotify?",
-          "answers": {
-            "1": "Ed Sheeran",
-            "2": "Drake",
-            "3": "Taylor Swift",
-            "4": "The Weeknd"
-          },
-          "correctAnswer": "@:tutorial.game.questions.1.answers.4",
-          "suggestedAnswer": "@:tutorial.game.questions.1.answers.4"
-        },
-        "2": {
-          "category": "Witz Starterpaket",
-          "theme": "TV-Serien",
-          "question": "In welcher TV-Serie kommt die Figur Walter White vor?",
-          "answers": {
-            "1": "Breaking Bad",
-            "2": "Sons of Anarchy",
-            "3": "Der Schakal",
-            "4": "Ozark"
-          },
-          "correctAnswer": "@:tutorial.game.questions.2.answers.1",
-          "suggestedAnswer": "@:tutorial.game.questions.2.answers.1"
-        },
-        "3": {
-          "category": "Witz Starterpaket",
-          "theme": "Biologie",
-          "question": "Woraus besteht hauptsächlich die Ernährung eines Pandas?",
-          "answers": {
-            "1": "Fisch",
-            "2": "Bambus",
-            "3": "Früchte",
-            "4": "Insekten"
-          },
-          "correctAnswer": "@:tutorial.game.questions.3.answers.2",
-          "suggestedAnswer": "@:tutorial.game.questions.3.answers.2"
-        },
-        "4": {
-          "category": "Witz Starterpaket",
-          "theme": "Weltkulturen",
-          "question": "Was ist die meistgesprochene Sprache der Welt?",
-          "answers": {
-            "1": "Englisch",
-            "2": "Spanisch",
-            "3": "Hindi",
-            "4": "Mandarin-Chinesisch"
-          },
-          "correctAnswer": "@:tutorial.game.questions.4.answers.4",
-          "suggestedAnswer": "@:tutorial.game.questions.4.answers.4"
-        },
-        "5": {
-          "category": "Witz Starterpaket",
-          "theme": "Astronomie",
-          "question": "Welcher Planet in unserem Sonnensystem hat die meisten Monde?",
-          "answers": {
-            "1": "Saturn",
-            "2": "Mars",
-            "3": "Uranus",
-            "4": "Jupiter"
-          },
-          "correctAnswer": "@:tutorial.game.questions.5.answers.4",
-          "suggestedAnswer": "@:tutorial.game.questions.5.answers.1"
-        }
-      }
-    },
-    "dialogEndGame": {
-      "title": "Gut gemacht!",
-      "body1": "So funktioniert ein Match. Jetzt ist es an der Zeit, deine Fähigkeiten gegen deine Gegner zu testen.",
-      "body2": "Erklimme die Rangliste deiner Liga und hole dir den Sieg!",
-      "cta": "Los geht's"
-    },
-    "dialogAuthentication": {
-      "title": "Speichere deinen Fortschritt!",
-      "body": "Erstelle dein Profil, um deinen Fortschritt sicher zu speichern! Wenn du als Gast fortfährst, können alle deine Daten verloren gehen, wenn du die App deinstallierst oder dich abmeldest.",
-      "cta": "später"
-    },
-    "themeNavSpotlightInfo": "Möchtest du dein Quiz-Erlebnis erweitern? Beginne damit, auf den Themenbereich zuzugreifen, um neue Themen zu finden!",
-    "themeSpotlightInfo": "Hier ist das WITZ Starterpaket! Wähle es aus, um Details und Kategorien anzuzeigen.",
-    "buyThemeSpotlightInfo": "Starte deine Reise mit dem WITZ Starterpaket! Schalte es kostenlos frei und beginne zu spielen!",
-    "starterPack": "Witz Starterpaket",
-    "starterPackInfo": "Dies ist das Starterpaket. Es ist ein großartiger Start!",
-    "dialogEndTutorial": {
-      "title": "Du bist bereit zu spielen!",
-      "body1": "Es ist Zeit, ins Spiel einzutauchen, Gegner herauszufordern und die Rangliste zu erklimmen.",
-      "body2": "Viel Glück und viel Spaß!",
-      "cta": "Beginne zu spielen!"
-    }
-  },
-  "editUser": {
-    "username": {
-      "title": "Wähle deinen Spielernamen",
-      "body": "Dein Spielername ist für alle Spieler sichtbar. Bitte wähle einen Namen, der keinen Spieler beleidigt.",
-      "placeholder": "Namen eingeben",
-      "invalidWarning": "Dieser Name verstößt gegen unsere Community-Richtlinien. Bitte ändere ihn zu einem anderen Spielernamen."
-    },
-    "avatar": {
-      "title": "Wähle deinen Avatar",
-      "invalidWarning": "Das von dir hochgeladene Bild wurde gemäß unseren Richtlinien als anstößig eingestuft."
-    },
-    "topics": {
-      "title": "Was sind deine Lieblingsthemen?",
-      "body": "Wähle deine Lieblingsthemen für ein personalisiertes Spielerlebnis."
-    }
-  },
-  "referral": {
-    "title": "Freunde-werben-Programm",
-    "body": "Lade Freunde ein, die noch nicht im Spiel sind, lass sie ein Match spielen und verdiene Belohnungen!",
-    "cta": "Freunde einladen",
-    "mission": {
-      "one": "lade 1 Freund ein",
-      "other": "lade {} Freunde ein"
-    }
-  },
-  "consumables": {
-    "gem": {
-      "name": {
-        "one": "Juwel",
-        "other": "Juwelen"
-      },
-      "amount": {
-        "one": "1 Juwel",
-        "other": "{amount} Juwelen"
-      },
-      "info": "Verwende Juwelen, um spezielle Gegenstände und Upgrades zu erhalten!",
-      "purchase_pack": "kaufe das Paket mit {} Juwelen!"
-    },
-    "heart": {
-      "name": {
-        "one": "Herz",
-        "other": "Herzen"
-      },
-      "amount": {
-        "one": "1 Herz",
-        "other": "{amount} Herzen"
-      },
-      "info": "Du benötigst Herzen, um Matches zu spielen; geh nicht leer aus!"
-    }
-  },
-  "powers": {
-    "rocket": {
-      "name": "doppelte Punkte",
-      "amount": {
-        "one": "{amount} doppelte Punkte",
-        "other": "{amount} doppelte Punkte"
-      },
-      "info": "Verdoppelt für eine Runde deine Rundenpunkte! Aber Vorsicht! Es wirkt sich sowohl positiv als auch negativ aus.",
-      "active": "@:powers.rocket.name aktiv",
-      "activeDesc": "Deine Punktzahl verdoppelt sich"
-    },
-    "bomb": {
-      "name": "50/50",
-      "amount": {
-        "one": "1 50/50",
-        "other": "{amount} 50/50"
-      },
-      "info": "Löscht für eine Runde sofort zwei falsche Antworten.",
-      "active": "@:powers.bomb.name aktiv",
-      "activeDesc": "Löscht zwei falsche Antworten"
-    },
-    "peek": {
-      "name": "Gegner spähen",
-      "amount": {
-        "one": "{amount} Gegner spähen",
-        "other": "{amount} Gegner spähen"
-      },
-      "info": "Wirf für eine Runde einen Blick darauf, was deine Gegner antworten.",
-      "active": "@:powers.peek.name aktiv",
-      "activeDesc": "Sieh, was deine Gegner antworten"
-    },
-    "shield": {
-      "name": "Fehlerschutz",
-      "amount": {
-        "one": "{amount} Fehlerschutz",
-        "other": "{amount} Fehlerschutz"
-      },
-      "info": "Für eine Runde zählt eine falsche Antwort nicht als Fehler.",
-      "active": "@:powers.shield.name aktiv",
-      "activeDesc": "Du kannst keine Punkte verlieren"
-    }
-  },
-  "news": {
-    "tag": {
-      "update": "Update",
-      "event": "Event",
-      "new": "neu",
-      "offer": "Angebot"
-    }
-  },
-  "link_messages": {
-    "referral": "{} möchte dich einladen, WITZ zu spielen! Werde Teil der Community.✨",
-    "code": "Tritt dem Match bei!"
-  }
+	"general": {
+		"continue": "weiter",
+		"or": "oder",
+		"and": "und",
+		"skip": "überspringen",
+		"pts": "Pkte",
+		"play": "spielen",
+		"playAgain": "nochmal spielen",
+		"themes": "Themen",
+		"shop": "Shop",
+		"league": "Liga",
+		"arena": "Arena",
+		"unlock": "freischalten",
+		"unlocked": "freigeschaltet",
+		"unlockedNumber": "{}/{} freigeschaltet",
+		"tapToContinue": "tippen zum Fortfahren",
+		"getMore": "mehr holen",
+		"playing": "spielt",
+		"invite": "einladen",
+		"invited": "eingeladen",
+		"share": "teilen",
+		"categories": "Kategorien",
+		"masteryLevel": "Meisterschaftsstufe",
+		"discount": "{}% Rabatt",
+		"rewards": "Belohnungen",
+		"viewAll": "alle ansehen",
+		"showMore": "mehr anzeigen",
+		"showLess": "weniger anzeigen",
+		"lv": "L.",
+		"level": "Level",
+		"xp": "XP",
+		"ok": "ok",
+		"save": "speichern",
+		"online": "online",
+		"lastLogin": "letzter Login",
+		"accept": "akzeptieren",
+		"reject": "ablehnen",
+		"friends": "Freunde",
+		"cancel": "abbrechen",
+		"remove": "entfernen",
+		"news": "Neuigkeiten",
+		"inbox": "Posteingang",
+		"claim": "abholen",
+		"next": "weiter",
+		"add": "hinzufügen",
+		"of": "von",
+		"you": "du",
+		"separator": ",",
+		"stepNumber": "Schritt {}",
+		"place": "Platz",
+		"expiresIn": "läuft ab in",
+		"start": "starten",
+		"free": "kostenlos",
+		"watch": "ansehen",
+		"confirm": "bestätigen",
+		"select": "auswählen",
+		"selected": "ausgewählt",
+		"purchaseCta": "freischalten",
+		"completed": "abgeschlossen!",
+		"joinUs": "mach mit",
+		"everyoneElse": "alle anderen eingestuft",
+		"placeNumber": {
+			"one": "{} Platz",
+			"other": "{} Plätze"
+		},
+		"timeAgo": {
+			"minutes": {
+				"one": "vor 1 Minute",
+				"other": "vor {} Minuten"
+			},
+			"hour": {
+				"one": "vor 1 Stunde",
+				"other": "vor {} Stunden"
+			},
+			"days": {
+				"one": "vor 1 Tag",
+				"other": "vor {} Tagen"
+			},
+			"weeks": {
+				"one": "vor 1 Woche",
+				"other": "vor {} Wochen"
+			},
+			"months": {
+				"one": "vor 1 Monat",
+				"other": "vor {} Monaten"
+			},
+			"years": {
+				"one": "vor 1 Jahr",
+				"other": "vor {} Jahren"
+			}
+		},
+		"time": {
+			"sec": "Sek",
+			"min": "Min",
+			"hour": "Std",
+			"day": "T"
+		},
+		"ordinals": {
+			"st": {
+				"male": ".",
+				"female": "."
+			},
+			"nd": {
+				"male": ".",
+				"female": "."
+			},
+			"rd": {
+				"male": ".",
+				"female": "."
+			},
+			"th": {
+				"male": ".",
+				"female": "."
+			}
+		},
+		"masteryLevels": {
+			"level_unlocked": "neues Level freigeschaltet!",
+			"beginner": "Anfänger",
+			"apprentice_1": "Lehrling 1",
+			"apprentice_2": "Lehrling 2",
+			"apprentice_3": "Lehrling 3",
+			"advanced_1": "Fortgeschrittener 1",
+			"advanced_2": "Fortgeschrittener 2",
+			"advanced_3": "Fortgeschrittener 3",
+			"expert_1": "Experte 1",
+			"expert_2": "Experte 2",
+			"expert_3": "Experte 3",
+			"master": "Meister"
+		}
+	},
+	"error": {
+		"general": {
+			"title": "Etwas ist schiefgelaufen...",
+			"description": "Quizfrage: Was ist unerwartet, etwas nervig und wird gerade behoben? Dieser Fehler! Bin gleich zurück..."
+		}
+	},
+	"splash": "Allgemeinwissens-\nquiz",
+	"auth": {
+		"signInWith": "Anmelden mit {}",
+		"signOut": "abmelden",
+		"deleteAccount": "Konto löschen",
+		"login": {
+			"startTitle": "Zum ersten Mal bei WITZ?",
+			"startButton": "loslegen",
+			"logTitle": "Hast du bereits ein Konto?",
+			"logButton": "anmelden"
+		},
+		"bottomSheet": {
+			"title": "Wähle deine bevorzugte Anmeldemethode",
+			"disclaimer": "Durch die Registrierung bei WITZ stimmst du unseren"
+		},
+		"addAccount": {
+			"title": "Speichere deinen Fortschritt",
+			"description": "Erstelle dein Profil, um deinen Fortschritt sicher zu speichern! Wenn du als Gast fortfährst, können alle deine Daten verloren gehen, wenn du die App deinstallierst oder dich abmeldest.",
+			"later": "später"
+		},
+		"signOutModal": {
+			"title": "Vom Konto abmelden?",
+			"message": "Dein Fortschritt und deine Käufe werden gespeichert und können durch erneutes Anmelden abgerufen werden.",
+			"messageGuest": "@:auth.deleteModal.message",
+			"confirm": "@:auth.signOut"
+		},
+		"deleteModal": {
+			"title": "Konto löschen?",
+			"message": "Du verlierst dauerhaft deinen gesamten Fortschritt und deine Käufe.",
+			"confirm": "@:auth.deleteAccount"
+		},
+		"errors": {
+			"account_exists_with_different_credential": {
+				"title": "Kontokonflikt erkannt",
+				"message": "Ein Konto mit dieser E-Mail existiert bereits unter einer anderen Anmeldemethode. Bitte melde dich mit deinem bestehenden Konto an und verknüpfe dann deine Anmeldedaten.",
+				"action": "ok"
+			},
+			"invalid_credential": {
+				"title": "Ungültige oder abgelaufene Anmeldedaten",
+				"message": "Die angegebenen Anmeldedaten sind ungültig oder abgelaufen. Bitte versuche es erneut.",
+				"action": "erneut versuchen"
+			},
+			"provider_already_linked": {
+				"title": "Du bist bereits verbunden",
+				"message": "Dein Konto ist bereits mit dieser Anmeldemethode verknüpft. Bitte versuche es später erneut.",
+				"action": "ok"
+			},
+			"credential_already_in_use": {
+				"title": "Dieses Konto wird bereits verwendet",
+				"message": "Du hast bereits ein Konto mit dieser E-Mail erstellt. Bitte melde dich ab und melde dich mit der gewünschten Methode an, um dieses Konto zu verwenden.",
+				"action": "ok"
+			},
+			"email_already_in_use": {
+				"title": "Diese E-Mail ist bereits vergeben",
+				"message": "Diese E-Mail ist bereits mit einem bestehenden Konto verknüpft. Bitte melde dich mit einer deiner verknüpften Methoden an.",
+				"action": "ok"
+			}
+		}
+	},
+	"home": {
+		"leagueInfo": "Dies sind deine Liga-Leistungen! Verdiene Delta-Punkte basierend auf deinen Antworten im VS-Modus und steige in der Rangliste auf, um in die nächste Liga aufzusteigen!",
+		"tgInfo": "Antworte im VS-Modus richtig, um im Trainingsgelände voranzukommen! Erreiche das Ende des Pfades und schalte deine erste Liga frei!",
+		"dailyLoginDialog": {
+			"title": "Tägliches Geschenk",
+			"body": "Komm morgen wieder für die nächste Belohnung!",
+			"dayNumber": {
+				"one": "Tag 1",
+				"other": "Tag {}"
+			},
+			"cta": "abholen"
+		},
+		"cards": {
+			"account": {
+				"title": "sichere dein Konto",
+				"body": "Melde dich an, um dein Konto zu schützen und all deine Fortschritte zu speichern!"
+			},
+			"friends": {
+				"title": "Lade deine Freunde ein und erhalte Belohnungen!"
+			}
+		}
+	},
+	"socketErrors": {
+		"snackbar": "Instabile Verbindung. Erneut versuchen"
+	},
+	"game": {
+		"vsWorld": "VS Welt",
+		"vsFriends": "VS Freunde",
+		"vsMode": "VS-Modus",
+		"friends": "Freunde",
+		"world": "Welt",
+		"inventoryTitle": "deine Power-Ups",
+		"themeSelectionTitle": "welches Thema möchtest du spielen?",
+		"vsWorldInfo": "Tritt gegen zufällige Gegner aus der ganzen Welt in einer Reihe von Fragen an. Wer am Ende des Matches die höchste Punktzahl hat, gewinnt!",
+		"vsFriendsInfo": "Tritt gegen deine Freunde in einem privaten Match an. Wer am Ende des Matches die höchste Punktzahl hat, gewinnt!",
+		"selectedThemeInfo": "tippe auf die Karte und wähle ein Thema",
+		"roundAmount": "{} Runden",
+		"gameTypePage": {
+			"title": "Wie möchtest du starten?",
+			"createMatchBtn": {
+				"title": "Match erstellen",
+				"body": "Erstelle eine private Lobby und lade deine Freunde ein"
+			},
+			"joinMatchBtn": {
+				"title": "Match beitreten",
+				"body": "Gib einen Spielcode ein, um einem bestehenden Match beizutreten"
+			}
+		},
+		"roundAmountPage": {
+			"title": "Rundenanzahl auswählen",
+			"body": "Wie viele Runden möchtest du spielen?"
+		},
+		"codePage": {
+			"title": "Match-Code eingeben",
+			"body": "frage den Host nach dem 5-stelligen Code, um dem Match beizutreten"
+		},
+		"lobbyPage": {
+			"searching": "suche nach Spielern...",
+			"playerCount": "{} Spieler",
+			"matchStartsIn": "Match beginnt in",
+			"inviteFriends": "Freunde einladen",
+			"waitingRoom": "Warteraum",
+			"start": "Match starten"
+		},
+		"inviteSheet": {
+			"title": "Freunde einladen",
+			"cta": "Einladung senden ({}/{})"
+		},
+		"matchLanguageSheet": {
+			"title": "Match-Sprache",
+			"body": "du kannst die Sprache dieses Matches ändern",
+			"cta": "bestätigen"
+		},
+		"powerupSheet": {
+			"title": "booste dein Spiel",
+			"body": "bereite dich mit Power-Ups auf den Kampf vor",
+			"cta": "zum Shop gehen"
+		},
+		"roundNumberPage": {
+			"round": "Runde",
+			"last": "letzte",
+			"difficulty": "Schwierigkeit"
+		},
+		"resultsPage": {
+			"results": "Ergebnisse",
+			"youRanked": "du bist auf Platz",
+			"winnerReward": "Siegerbelohnung:"
+		},
+		"performance": {
+			"tokens": "Liga-Token",
+			"tokensTooltip": "Du kannst Liga-Token basierend auf deiner Leistung während des Matches verdienen. Je mehr Token du erhältst, desto höher steigst du in deiner Liga auf. Ziele nach oben!",
+			"answers": "deine Antworten",
+			"answersTooltip": "Je mehr richtige Antworten du gibst, desto mehr Token erhältst du! Jede richtige Antwort gibt dir {} Liga-Token.",
+			"multiplier": "Multiplikator",
+			"rankMultiplier": "Rang-Multiplikator",
+			"rankMultiplierTootip": "Der Rang-Multiplikator erhöht deine Liga-Token entsprechend der Anzahl der Spieler, die du in der Endrangliste des Matches überholt hast.",
+			"skip": "tippen zum Überspringen"
+		},
+		"playerIsland": {
+			"pos": "Pos.",
+			"score": "deine Punktzahl",
+			"tags": {
+				"fastest_answer": "am schnellsten!",
+				"streak": "{} in Folge!"
+			},
+			"shop": "Shop",
+			"buyPower": "tippen zum Shoppen"
+		},
+		"rejoinGame": {
+			"title": "Erneut mit deinem Match verbinden?",
+			"message": "Du wurdest von einem laufenden Match getrennt. Möchtest du dich erneut verbinden und weiterspielen oder das Match verlassen und deinen gesamten Fortschritt verlieren?",
+			"reconnect": "erneut verbinden",
+			"leave": "Match verlassen",
+			"waitRejoin": "bitte warten, während wir das Match laden"
+		},
+		"playAgain": {
+			"askToPlay": "Bereit für ein weiteres Match?",
+			"waiting": "Warte darauf, dass der Host entscheidet, ob ein neues Match gestartet oder das Spiel beendet wird...",
+			"gameAvailable": "Neues Spiel erstellt",
+			"leagueProgress": "Liga-Fortschritt",
+			"leagueProgressDialog": {
+				"upToPromotion": {
+					"title": "Du bist in die Aufstiegszone aufgestiegen!",
+					"description": "Mach weiter so, um dir deinen Platz in der nächsten Liga zu sichern!"
+				},
+				"upToNeutral": {
+					"title": "Du bist in die sichere Zone aufgestiegen!",
+					"description": "Du bist raus aus der Gefahrenzone. Jetzt strebe nach Höherem!"
+				},
+				"downToNeutral": {
+					"title": "Du bist in die sichere Zone gefallen!",
+					"description": "Mach weiter so, um dir deinen Platz in der nächsten Liga zu sichern!"
+				},
+				"downToDemotion": {
+					"title": "Du bist in die Abstiegszone gefallen!",
+					"description": "Mach weiter so, um dir deinen Platz in der nächsten Liga zu sichern!"
+				}
+			}
+		},
+		"leaveGame": {
+			"title": "Match verlassen",
+			"description": "Möchtest du das Match verlassen? Dein gesamter Fortschritt geht verloren.",
+			"confirm": "Verlassen",
+			"cancel": "@:general.cancel"
+		},
+		"hostLeft": {
+			"title": "Host hat das Match verlassen",
+			"description": "Der Host hat das Match verlassen. Die Lobby wird geschlossen und alle Spieler werden getrennt.",
+			"confirm": "ok"
+		}
+	},
+	"paywall": {
+		"bundle": {
+			"badge": "Superangebot",
+			"title": "Werde ein Witzard",
+			"body": "Nutze dieses Angebot und werde einer der Witz-Meister! Entdecke den Zauberer in dir!",
+			"cta": "jetzt kaufen"
+		},
+		"powers": {
+			"badge": "begrenztes Angebot",
+			"title": "Fülle deine Power-Ups auf",
+			"body": "Nutze dieses Angebot, rüste dich mit Power-Ups aus und gewinne all deine Herausforderungen!",
+			"cta": "jetzt kaufen"
+		},
+		"themes": {
+			"badge": "einzigartiges Angebot",
+			"title": "3x1 Angebot",
+			"body": "Stürme den Shop, um deine Lieblingsthemen zu ergattern und deine Freunde herauszufordern!",
+			"cta": "jetzt kaufen"
+		},
+		"starter_bundle": {
+			"title": "Neuer Spieler-Paket"
+		},
+		"removeAds": {
+			"badge": "@:shop.offers.remove_ads_1m.badge",
+			"title": "Spiele ohne Ablenkungen",
+			"description": "Genervt von Unterbrechungen? Schalte 30 Tage ununterbrochenen Quiz-Spaß frei! Keine lästigen Werbeanzeigen mehr – nur reines, nahtloses Gameplay.",
+			"card": {
+				"title": "@:shop.offers.remove_ads_1m.title",
+				"description": "@:shop.offers.remove_ads_1m.notes"
+			},
+			"buy": "jetzt freischalten"
+		}
+	},
+	"shop": {
+		"offers": {
+			"title": "Angebote",
+			"2x1_themes": {
+				"title": "2-zu-1 Themenangebot"
+			},
+			"remove_ads_1m": {
+				"badge": "null Werbung",
+				"title": "Alle Werbeanzeigen entfernen",
+				"short_desc": "keine Werbung mehr für 30 Tage",
+				"description": "Entferne Werbeanzeigen am Ende des Matches für 30 Tage. @:shop.offers.remove_ads_1m.notes",
+				"notes": "HINWEIS: Gilt nicht für Werbeanzeigen mit Belohnungen."
+			},
+			"purchase_bundle_confirm": {
+				"title": "Inhalt des Angebots",
+				"description": "Mit diesem Paket erhältst du:"
+			}
+		},
+		"missingGems": {
+			"title": "Hol dir die fehlenden Juwelen",
+			"body": "um diesen Kauf abzuschließen, benötigst du"
+		},
+		"themes": {
+			"title": "Themen",
+			"info": "Personalisiere dein Spiel mit deinen Lieblingsthemen!",
+			"featured": "hervorgehoben",
+			"viewAll": "alle Themen ansehen",
+			"moreSoon": "bald mehr Themen verfügbar!",
+			"allUnlocked": "Du hast alle Themen für diese Kategorie freigeschaltet",
+			"newUnlocked": "Neues Thema freigeschaltet!"
+		},
+		"gems": {
+			"title": "Juwelen",
+			"info": "Verwende Juwelen, um spezielle Gegenstände und Upgrades zu erhalten!"
+		},
+		"hearts": {
+			"title": "Herzen",
+			"info": "Du benötigst Herzen, um Matches zu spielen; geh nicht leer aus!"
+		},
+		"power_ups": {
+			"bag": "in deiner Tasche",
+			"title": "Power-Ups",
+			"info": "Aktiviere Boosts, um schwierige Runden zu gewinnen!"
+		}
+	},
+	"themes": {
+		"themeNumber": {
+			"one": "1 Thema",
+			"other": "{} Themen"
+		},
+		"themeNumberOutOf": "{}/{} Themen",
+		"theme": {
+			"info": "Teste dein Wissen mit neuen Fragen!"
+		},
+		"newTheme": "neues Thema",
+		"witzMastery": "Witz-Meisterschaft",
+		"witzMasteryInfo": "Schalte Themen in dieser Kategorie frei, um deine WITZ-Meisterschaft zu erhöhen. Fülle die Leiste, um einen Sonderpreis zu erhalten!",
+		"themeDetailBody": "Teste dich zum Thema {} mit Fragen wie",
+		"themeDetailBundle": "hol dir dieses Paket!",
+		"themeMasterySheet": {
+			"topBarLocked": "dieses Thema freischalten",
+			"body": {
+				"default": "um das nächste Level freizuschalten",
+				"locked": "Hol dir das Thema, um diese Mission freizuschalten",
+				"master": "Glückwunsch"
+			},
+			"congratsButtonText": "Du hast die letzte Meisterschaftsstufe freigeschaltet",
+			"missionSubtext": "Schließe diese Mission ab, um die nächste Meisterschaftsstufe freizuschalten",
+			"missionInfo": "Schließe diese Mission ab, um die nächste Meisterschaftsstufe dieses Themas freizuschalten!",
+			"cta": "jetzt spielen",
+			"mission": {
+				"one": "Gib 1 richtige Antwort zu diesem Thema",
+				"other": "Gib {} richtige Antworten zu diesem Thema"
+			},
+			"congratulations": "Glückwunsch!!",
+			"congratulationsBody": "Du hast die letzte Meisterschaftsstufe freigeschaltet!"
+		},
+		"witzMasterySheet": {
+			"body": "Schalte {} Themen dieser Kategorie frei, um eine besondere Belohnung zu erhalten",
+			"cta1": "alle Themen in dieser Kategorie freischalten",
+			"cta2": "Angebot"
+		},
+		"themeDetail": {
+			"tryQuestions": "Probiere einige Fragen zu diesem Thema!",
+			"tryQuestionsCta": "Los geht's",
+			"descripiton": "Hol es dir jetzt und zeige, dass du ein Experte bist!",
+			"uniqueQuestions": "einzigartige Fragen",
+			"exclusiveBadges": "Exklusive Abzeichen",
+			"playerCount": "{}+ Spieler",
+			"playerCountDescription": "haben dieses Thema freigeschaltet"
+		}
+	},
+	"topics": {
+		"all_themes": "Alle Themen",
+		"cinema": "Kino",
+		"tv_series": "Fernsehserien",
+		"video_games": "Videospiele",
+		"sport": "Sport",
+		"food": "Essen",
+		"music": "Musik",
+		"back_to_school": "Zurück zur Schule",
+		"history": "Geschichte",
+		"science": "Wissenschaft",
+		"geography": "Geografie"
+	},
+	"league": {
+		"promotionTo": "Aufstieg nach",
+		"demotionTo": "Abstieg nach",
+		"seasonEndsIn": "Saison endet in",
+		"info": "Das ist deine aktuelle Liga. Beende die Saison unter den Top 10, um aufzusteigen! Die letzten 5 steigen in die vorherige Liga ab.",
+		"places": "{} Plätze",
+		"leagueDescription": {
+			"trainingGround": "Gib richtige Antworten in @:game.vsWorld oder @:game.vsFriends, um die Leiter zu erklimmen und deine erste Liga zu erreichen!",
+			"currentLeague": "Das ist deine Liga! Es ist Zeit, ein Match zu spielen, um in der Rangliste aufzusteigen und bis zum Ende der Saison die nächste Liga zu erreichen",
+			"prevLeague": "Erinnerst du dich, als du in dieser Liga warst? Fühlt sich an wie gestern... Spiele weiter und pass auf Abstiege auf, sonst könntest du bald wieder hier sein!",
+			"nextLeague": "Erklimme die Rangliste, um diese Liga zu erreichen! Nur die Top-Spieler der Saison steigen auf, also gib dein Bestes!",
+			"goToLeague": "Zu den Ligen gehen!"
+		},
+		"ctas": {
+			"first": "bleib an der Spitze",
+			"promotion": "erreiche die Spitze",
+			"default": "steige in der Rangliste auf",
+			"demotion": "komm wieder hoch"
+		},
+		"welcomePage": {
+			"title": "Du hast es in die Ligen geschafft",
+			"cta": "beginne mit dem Ranking",
+			"cards": {
+				"1": {
+					"title": "Steige in den Rängen auf",
+					"body": "Tritt in einer Ranglisten-Liga an und verdiene während der Saison Delta-Punkte. Deine Position in der Rangliste bestimmt dein Schicksal!"
+				},
+				"2": {
+					"title": "Verdiene Delta-Punkte",
+					"body": "Delta-Punkte bestimmen deine Liga-Platzierung! Deine Punktzahl basiert auf der Differenz zwischen richtigen und falschen Antworten – also zählt jedes Match!"
+				},
+				"3": {
+					"title": "Saisonfortschritt",
+					"body": "Jede Saison ist zeitlich begrenzt! Am Ende steigen die besten 10% der Spieler auf, die schlechtesten 10% steigen ab und der Rest bleibt in seiner Liga."
+				},
+				"4": {
+					"title": "Erhalte Belohnungen",
+					"body": "Höhere Ränge bedeuten bessere Belohnungen! Steige weiter auf, um die Spitze zu erreichen und größere Preise in den besten Ligen freizuschalten."
+				}
+			}
+		},
+		"tg": {
+			"title": "Trainingsgelände",
+			"info": "Gib richtige Antworten im VS-Modus, um die Leiter zu erklimmen und deine erste Liga zu erreichen!",
+			"welcomePage": {
+				"title": "Willkommen im Trainingsgelände",
+				"cta": "Los geht's",
+				"cards": {
+					"1": {
+						"title": "Beweise deine Fähigkeiten",
+						"body": "Bevor du den Ranglisten-Ligen beitrittst, schließe das Trainingsgelände ab. Komme auf dem Pfad voran, indem du deine Fähigkeiten beweist!"
+					},
+					"2": {
+						"title": "Fortschritt durch Spielen",
+						"body": "Antworte richtig in den Modi „VS Welt“ und „VS Freunde“, um voranzukommen. Jede richtige Antwort bringt dich deiner ersten Liga näher."
+					},
+					"3": {
+						"title": "Schalte Belohnungen frei",
+						"body": "Unterwegs verdienst du besondere Belohnungen, während du Fortschritte machst. Erreiche das Ende des Pfades, um deine erste Ranglisten-Liga zu betreten und noch bessere Belohnungen zu erhalten!"
+					}
+				},
+				"startZone": {
+					"title": "Startzone",
+					"body": "Gib richtige Antworten, um die Leiter zu erklimmen und deine erste Liga zu erreichen"
+				}
+			}
+		},
+		"results": {
+			"promoted": "Großartig! Du steigst nach {} auf",
+			"stayed": "Schön! Du bleibst in {}",
+			"claim": "@:general.claim & @:general.continue",
+			"demoted": {
+				"message": "Verdammt! Du bist nicht mehr in {}...",
+				"protection": {
+					"activate": "aktiviere den",
+					"title": "Liga-Schutz",
+					"description": "Bleibe eine weitere Saison in dieser Liga",
+					"buy": "aktivieren für",
+					"deny": "nein, danke"
+				},
+				"beBetter": "Gib in der nächsten Saison dein Bestes"
+			}
+		}
+	},
+	"arena": {
+		"body": "Teste dein Wissen mit diesen zeitlich begrenzten Events und erhalte Belohnungen!",
+		"info": "Im Arena-Modus spielst du zeitlich begrenzte Events und testest deine Fähigkeiten! Beantworte so viele Fragen wie möglich, ohne einen Fehler zu machen. Ein Fehler und du bist raus!",
+		"activeEvents": "aktive Events",
+		"upcomingEvents": "kommende Events",
+		"yourRank": "dein Rang",
+		"startsIn": "startet in",
+		"claim": "Belohnungen abholen",
+		"viewRewards": "Belohnungen ansehen",
+		"leaderboard": "Rangliste",
+		"retry": "nochmal versuchen",
+		"eventEndsIn": "Event endet in",
+		"eventEndsRewards": "Das Event läuft noch! Komm später zurück, um deine Belohnungen abzuholen.",
+		"showPosition": "meine Position anzeigen",
+		"eventEnded": "Event beendet",
+		"noPlayers": "Sei der Erste, der die Arena herausfordert und beanspruche deinen Thron",
+		"game": {
+			"youFailed": "Game Over",
+			"tryAgain": "Versuch es nächstes Mal wieder",
+			"finalRank": "dein Endrang",
+			"correctAnswers": "Richtige Antworten",
+			"bestScore": "Beste Punktzahl",
+			"top3": "Top 3",
+			"keepPlaying": "Möchtest du weiterspielen?",
+			"keepPlayingBody": "Es ist noch nicht zu spät! Du kannst noch eine Chance bekommen und im Match bleiben.",
+			"keepPlayingNotEnough": "Du hast nicht genug Juwelen"
+		},
+		"welcomePage": {
+			"title": "Die Arena ist jetzt geöffnet",
+			"cta": "Beginne zu spielen",
+			"cards": {
+				"1": {
+					"title": "Betritt die Arena",
+					"body": "Tritt in täglichen thematischen Herausforderungen gegen alle Spieler an. Jeder Tag bringt neue Themen, um dein Wissen zu testen!"
+				},
+				"2": {
+					"title": "Bleib im Spiel",
+					"body": "Beantworte so viele Fragen wie möglich ohne Fehler. Eine falsche Antwort und du bist raus – also überlege gut!"
+				},
+				"3": {
+					"title": "Erhalte eine zweite Chance",
+					"body": "Du kannst Juwelen verwenden, um wiederbelebt zu werden und weiterzuspielen, oder es erneut versuchen, um eine bessere Punktzahl zu erzielen und die Rangliste zu erklimmen!"
+				}
+			}
+		},
+		"themeUpsell": {
+			"title": "gefällt dir dieses Thema?",
+			"subtext": "Hol es dir jetzt und zeige, dass du ein Experte bist!",
+			"questionsTitle": "Teste dein Wissen mit Fragen wie",
+			"cta": "hol es dir jetzt!",
+			"buttonText": "hol dir {} exklusive Fragen und beweise deine Fähigkeiten!"
+		}
+	},
+	"profile": {
+		"currentSeason": "aktuelle Saison",
+		"powerUps": {
+			"title": "deine Power-Ups",
+			"info": "Wenn du in Schwierigkeiten bist, überwinde deine Gegner mit Power-Ups! Du kannst sie als Belohnungen erhalten oder im Shop finden."
+		},
+		"badges": {
+			"title": "Abzeichen",
+			"info": "Sieh dir die Abzeichen der Themen an, die du freigeschaltet hast, und zeige dein Lieblingsabzeichen in deinem Profil!",
+			"setFavourite": "lege dein Lieblingsabzeichen fest",
+			"sheetBody": "Wähle ein Abzeichen aus, um es als dein Lieblingsabzeichen festzulegen"
+		},
+		"stats": {
+			"title": "Witz-Statistiken",
+			"info": "Überprüfe deine Gesamtstatistiken! Wie gut warst du?",
+			"matches": "Matches",
+			"victories": "Siege",
+			"correctAnswers": "richtige Antworten",
+			"wrongAnswers": "falsche Antworten",
+			"favMacro": "Lieblingskategorie",
+			"vsMode": "VS-Modus",
+			"arenaMode": "Arena-Modus",
+			"participations": "Teilnahmen",
+			"longestStreak": "längste Serie"
+		},
+		"avatarSheet": {
+			"title": "Avatar",
+			"body": "lege deinen Profil-Avatar fest"
+		},
+		"nameSheet": {
+			"title": "Spielername",
+			"body": "Dein Spielername ist für alle Spieler sichtbar. Bitte wähle einen Namen, der keinen Spieler beleidigt."
+		},
+		"settingsSheet": {
+			"title": "Einstellungen",
+			"signin": "Sichere dein Konto",
+			"signinBody": "Melde dich an, um dein Konto zu schützen und all deine Fortschritte zu speichern!",
+			"backgroundMusic": "Hintergrundmusik",
+			"soundEffects": "Soundeffekte",
+			"language": "Sprache",
+			"languageSheetBody": "Wähle die Sprache der App",
+			"notifications": "Benachrichtigungen",
+			"enableNotifications": "Benachrichtigungen aktivieren",
+			"notificationTopics": {
+				"game": "Spielhinweise",
+				"shop": "Shop-Aktionen",
+				"arena": "Arena-Events",
+				"leagues": "Liga-Events",
+				"rewards": "Belohnungen",
+				"friends": "Freunde"
+			},
+			"friends": "Freunde",
+			"eula": "EULA",
+			"privacyPolicy": "Datenschutzrichtlinie",
+			"termsAndConditions": "Allgemeine Geschäftsbedingungen"
+		}
+	},
+	"friends": {
+		"title": "Freunde",
+		"requests": "Anfragen",
+		"requestsNumber": "Anfragen: {}/{}",
+		"friendsNumber": "Freunde: {}/{}",
+		"noFriends": "Du siehst hier ziemlich einsam aus...",
+		"noRequests": "Du hast keine Anfragen",
+		"inviteFriends": "neue Freunde einladen",
+		"addFriends": "Freunde hinzufügen",
+		"profile": {
+			"add": "hinzufügen",
+			"removeDialogBody": "Möchtest du diesen Spieler aus deiner Freundesliste entfernen?"
+		}
+	},
+	"missions": {
+		"title": "Missionen",
+		"weeklyChallenge": {
+			"title": "Wöchentliche Missionen",
+			"info": "Schließe tägliche Missionen ab, um die Leiste der wöchentlichen Herausforderung zu füllen – schalte größere Belohnungen frei, basierend darauf, wie viele Missionen du in einer Woche abschließt.",
+			"body": "Schließe tägliche Missionen ab und schalte die Belohnungen frei!"
+		},
+		"dailyMissions": "tägliche Missionen",
+		"claimAll": "alle abholen",
+		"types": {
+			"CORRECT_ANSWER": "gib richtige Antworten",
+			"LOBBY_FRIENDS": "erstelle Lobby mit 5 Personen",
+			"PLAY_GAMES": "spiele Matches",
+			"PLAY_GAMES_FRIENDS": "spiele Matches",
+			"TOP_3": "lande in den Top 3"
+		}
+	},
+	"tutorial": {
+		"startMatch": "starte ein Match",
+		"startInfo": "In WITZ trittst du gegen andere Spieler in einem Quiz-Match mit 5 Runden an. Lass uns ein Match starten und sehen, wie es funktioniert!",
+		"game": {
+			"roundSpotlightInfo": "Jedes Match hat ein Thema! Die Frage jeder Runde basiert auf einer Kategorie, die mit diesem Thema zusammenhängt.",
+			"dialogPowers": {
+				"title": "Erhöhe deine Punktzahl!",
+				"body1": "Brauchst du einen Vorteil, um deine Gegner zu überlisten? Verwende Power-Ups!",
+				"body2": "Jedes bietet einen einzigartigen Vorteil, um dir zu helfen, hohe Punktzahlen zu erzielen und an der Spitze zu bleiben.",
+				"cta": "lass es uns versuchen"
+			},
+			"rocketSpotlightInfo": "Verwende Punkte X2, um deine Rundenpunktzahl zu verdoppeln. Es wirkt sich sowohl auf richtige als auch auf falsche Antworten aus, also setze es klug ein!",
+			"eraserSpotlightInfo": "Verwende 50/50, um zwei falsche Optionen zu eliminieren. Es ist großartig, um schwierige Entscheidungen einzugrenzen!",
+			"peekSpotlightInfo": "Verwende Gegner spähen, um in Echtzeit zu sehen, was andere antworten. Es ist perfekt, um einen Vorteil zu erlangen!",
+			"shieldSpotlightInfo": "Verwende Fehlerschutz, um zu verhindern, dass deine Antwort als falsch zählt. Ein tolles Sicherheitsnetz!",
+			"questions": {
+				"1": {
+					"category": "Witz Starterpaket",
+					"theme": "Musik",
+					"question": "Welcher Künstler hält den Rekord für den meistgestreamten Song auf Spotify?",
+					"answers": {
+						"1": "Ed Sheeran",
+						"2": "Drake",
+						"3": "Taylor Swift",
+						"4": "The Weeknd"
+					},
+					"correctAnswer": "@:tutorial.game.questions.1.answers.4",
+					"suggestedAnswer": "@:tutorial.game.questions.1.answers.4"
+				},
+				"2": {
+					"category": "Witz Starterpaket",
+					"theme": "TV-Serien",
+					"question": "In welcher TV-Serie kommt die Figur Walter White vor?",
+					"answers": {
+						"1": "Breaking Bad",
+						"2": "Sons of Anarchy",
+						"3": "Der Schakal",
+						"4": "Ozark"
+					},
+					"correctAnswer": "@:tutorial.game.questions.2.answers.1",
+					"suggestedAnswer": "@:tutorial.game.questions.2.answers.1"
+				},
+				"3": {
+					"category": "Witz Starterpaket",
+					"theme": "Biologie",
+					"question": "Woraus besteht hauptsächlich die Ernährung eines Pandas?",
+					"answers": {
+						"1": "Fisch",
+						"2": "Bambus",
+						"3": "Früchte",
+						"4": "Insekten"
+					},
+					"correctAnswer": "@:tutorial.game.questions.3.answers.2",
+					"suggestedAnswer": "@:tutorial.game.questions.3.answers.2"
+				},
+				"4": {
+					"category": "Witz Starterpaket",
+					"theme": "Weltkulturen",
+					"question": "Was ist die meistgesprochene Sprache der Welt?",
+					"answers": {
+						"1": "Englisch",
+						"2": "Spanisch",
+						"3": "Hindi",
+						"4": "Mandarin-Chinesisch"
+					},
+					"correctAnswer": "@:tutorial.game.questions.4.answers.4",
+					"suggestedAnswer": "@:tutorial.game.questions.4.answers.4"
+				},
+				"5": {
+					"category": "Witz Starterpaket",
+					"theme": "Astronomie",
+					"question": "Welcher Planet in unserem Sonnensystem hat die meisten Monde?",
+					"answers": {
+						"1": "Saturn",
+						"2": "Mars",
+						"3": "Uranus",
+						"4": "Jupiter"
+					},
+					"correctAnswer": "@:tutorial.game.questions.5.answers.4",
+					"suggestedAnswer": "@:tutorial.game.questions.5.answers.1"
+				}
+			}
+		},
+		"dialogEndGame": {
+			"title": "Gut gemacht!",
+			"body1": "So funktioniert ein Match. Jetzt ist es an der Zeit, deine Fähigkeiten gegen deine Gegner zu testen.",
+			"body2": "Erklimme die Rangliste deiner Liga und hole dir den Sieg!",
+			"cta": "Los geht's"
+		},
+		"dialogAuthentication": {
+			"title": "Speichere deinen Fortschritt!",
+			"body": "Erstelle dein Profil, um deinen Fortschritt sicher zu speichern! Wenn du als Gast fortfährst, können alle deine Daten verloren gehen, wenn du die App deinstallierst oder dich abmeldest.",
+			"cta": "später"
+		},
+		"themeNavSpotlightInfo": "Möchtest du dein Quiz-Erlebnis erweitern? Beginne damit, auf den Themenbereich zuzugreifen, um neue Themen zu finden!",
+		"themeSpotlightInfo": "Hier ist das WITZ Starterpaket! Wähle es aus, um Details und Kategorien anzuzeigen.",
+		"buyThemeSpotlightInfo": "Starte deine Reise mit dem WITZ Starterpaket! Schalte es kostenlos frei und beginne zu spielen!",
+		"starterPack": "Witz Starterpaket",
+		"starterPackInfo": "Dies ist das Starterpaket. Es ist ein großartiger Start!",
+		"dialogEndTutorial": {
+			"title": "Du bist bereit zu spielen!",
+			"body1": "Es ist Zeit, ins Spiel einzutauchen, Gegner herauszufordern und die Rangliste zu erklimmen.",
+			"body2": "Viel Glück und viel Spaß!",
+			"cta": "Beginne zu spielen!"
+		}
+	},
+	"editUser": {
+		"username": {
+			"title": "Wähle deinen Spielernamen",
+			"body": "Dein Spielername ist für alle Spieler sichtbar. Bitte wähle einen Namen, der keinen Spieler beleidigt.",
+			"placeholder": "Namen eingeben",
+			"invalidWarning": "Dieser Name verstößt gegen unsere Community-Richtlinien. Bitte ändere ihn zu einem anderen Spielernamen."
+		},
+		"avatar": {
+			"title": "Wähle deinen Avatar",
+			"invalidWarning": "Das von dir hochgeladene Bild wurde gemäß unseren Richtlinien als anstößig eingestuft."
+		},
+		"topics": {
+			"title": "Was sind deine Lieblingsthemen?",
+			"body": "Wähle deine Lieblingsthemen für ein personalisiertes Spielerlebnis."
+		}
+	},
+	"referral": {
+		"title": "Freunde-werben-Programm",
+		"body": "Lade Freunde ein, die noch nicht im Spiel sind, lass sie ein Match spielen und verdiene Belohnungen!",
+		"cta": "Freunde einladen",
+		"mission": {
+			"one": "lade 1 Freund ein",
+			"other": "lade {} Freunde ein"
+		}
+	},
+	"consumables": {
+		"gem": {
+			"name": {
+				"one": "Juwel",
+				"other": "Juwelen"
+			},
+			"amount": {
+				"one": "1 Juwel",
+				"other": "{amount} Juwelen"
+			},
+			"info": "Verwende Juwelen, um spezielle Gegenstände und Upgrades zu erhalten!",
+			"purchase_pack": "kaufe das Paket mit {} Juwelen!"
+		},
+		"heart": {
+			"name": {
+				"one": "Herz",
+				"other": "Herzen"
+			},
+			"amount": {
+				"one": "1 Herz",
+				"other": "{amount} Herzen"
+			},
+			"info": "Du benötigst Herzen, um Matches zu spielen; geh nicht leer aus!"
+		}
+	},
+	"powers": {
+		"rocket": {
+			"name": "doppelte Punkte",
+			"amount": {
+				"one": "{amount} doppelte Punkte",
+				"other": "{amount} doppelte Punkte"
+			},
+			"info": "Verdoppelt für eine Runde deine Rundenpunkte! Aber Vorsicht! Es wirkt sich sowohl positiv als auch negativ aus.",
+			"active": "@:powers.rocket.name aktiv",
+			"activeDesc": "Deine Punktzahl verdoppelt sich"
+		},
+		"bomb": {
+			"name": "50/50",
+			"amount": {
+				"one": "1 50/50",
+				"other": "{amount} 50/50"
+			},
+			"info": "Löscht für eine Runde sofort zwei falsche Antworten.",
+			"active": "@:powers.bomb.name aktiv",
+			"activeDesc": "Löscht zwei falsche Antworten"
+		},
+		"peek": {
+			"name": "Gegner spähen",
+			"amount": {
+				"one": "{amount} Gegner spähen",
+				"other": "{amount} Gegner spähen"
+			},
+			"info": "Wirf für eine Runde einen Blick darauf, was deine Gegner antworten.",
+			"active": "@:powers.peek.name aktiv",
+			"activeDesc": "Sieh, was deine Gegner antworten"
+		},
+		"shield": {
+			"name": "Fehlerschutz",
+			"amount": {
+				"one": "{amount} Fehlerschutz",
+				"other": "{amount} Fehlerschutz"
+			},
+			"info": "Für eine Runde zählt eine falsche Antwort nicht als Fehler.",
+			"active": "@:powers.shield.name aktiv",
+			"activeDesc": "Du kannst keine Punkte verlieren"
+		}
+	},
+	"news": {
+		"tag": {
+			"update": "Update",
+			"event": "Event",
+			"new": "neu",
+			"offer": "Angebot"
+		}
+	},
+	"link_messages": {
+		"referral": "{} möchte dich einladen, WITZ zu spielen! Werde Teil der Community.✨",
+		"code": "Tritt dem Match bei!"
+	}
 }

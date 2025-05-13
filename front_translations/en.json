@@ -586,7 +586,7 @@
 		"game": {
 			"youFailed": "game over",
 			"tryAgain": "Try again next time",
-			"finalRank": "Final rank",
+			"finalRank": "your final rank",
 			"correctAnswers": "Correct answers",
 			"bestScore": "Best score",
 			"top3": "Top 3",

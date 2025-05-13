@@ -313,7 +313,25 @@
       "askToPlay": "Bereit für ein weiteres Match?",
       "waiting": "Warte darauf, dass der Host entscheidet, ob ein neues Match gestartet oder das Spiel beendet wird...",
       "gameAvailable": "Neues Spiel erstellt",
-      "leagueProgress": "Liga-Fortschritt"
+      "leagueProgress": "Liga-Fortschritt",
+      "leagueProgressDialog": {
+        "upToPromotion": {
+          "title": "Du bist in die Aufstiegszone aufgestiegen!",
+          "description": "Mach weiter so, um dir deinen Platz in der nächsten Liga zu sichern!"
+        },
+        "upToNeutral": {
+          "title": "Du bist in die sichere Zone aufgestiegen!",
+          "description": "Du bist raus aus der Gefahrenzone. Jetzt strebe nach Höherem!"
+        },
+        "downToNeutral": {
+          "title": "Du bist in die sichere Zone gefallen!",
+          "description": "Mach weiter so, um dir deinen Platz in der nächsten Liga zu sichern!"
+        },
+        "downToDemotion": {
+          "title": "Du bist in die Abstiegszone gefallen!",
+          "description": "Mach weiter so, um dir deinen Platz in der nächsten Liga zu sichern!"
+        }
+      }
     },
     "leaveGame": {
       "title": "Match verlassen",
@@ -439,18 +457,18 @@
     },
     "witzMasterySheet": {
       "body": "Schalte {} Themen dieser Kategorie frei, um eine besondere Belohnung zu erhalten",
-			"cta1": "alle Themen in dieser Kategorie freischalten",
+      "cta1": "alle Themen in dieser Kategorie freischalten",
       "cta2": "Angebot"
     },
-		"themeDetail": {
-			"tryQuestions": "Probiere einige Fragen zu diesem Thema!",
-			"tryQuestionsCta": "Los geht's",
-			"descripiton": "Hol es dir jetzt und zeige, dass du ein Experte bist!",
-			"uniqueQuestions": "einzigartige Fragen",
-			"exclusiveBadges": "Exklusive Abzeichen",
-			"playerCount": "{}+ Spieler",
-			"playerCountDescription": "haben dieses Thema freigeschaltet"
-		}
+    "themeDetail": {
+      "tryQuestions": "Probiere einige Fragen zu diesem Thema!",
+      "tryQuestionsCta": "Los geht's",
+      "descripiton": "Hol es dir jetzt und zeige, dass du ein Experte bist!",
+      "uniqueQuestions": "einzigartige Fragen",
+      "exclusiveBadges": "Exklusive Abzeichen",
+      "playerCount": "{}+ Spieler",
+      "playerCountDescription": "haben dieses Thema freigeschaltet"
+    }
   },
   "topics": {
     "all_themes": "Alle Themen",

@@ -313,7 +313,25 @@
       "askToPlay": "Prêt pour un autre match ?",
       "waiting": "En attente que l'hôte décide de commencer un nouveau match ou de terminer la partie...",
       "gameAvailable": "Nouveau jeu créé",
-      "leagueProgress": "Progression de la ligue"
+      "leagueProgress": "Progression de la ligue",
+      "leagueProgressDialog": {
+        "upToPromotion": {
+          "title": "Vous êtes passé en zone de promotion !",
+          "description": "Continuez à progresser pour gagner votre place dans la prochaine ligue !"
+        },
+        "upToNeutral": {
+          "title": "Vous êtes passé en zone de sécurité !",
+          "description": "Vous êtes sorti de la zone de danger. Maintenant, visez plus haut !"
+        },
+        "downToNeutral": {
+          "title": "Vous êtes descendu en zone de sécurité !",
+          "description": "Continuez à progresser pour gagner votre place dans la prochaine ligue !"
+        },
+        "downToDemotion": {
+          "title": "Vous êtes descendu en zone de relégation !",
+          "description": "Continuez à progresser pour gagner votre place dans la prochaine ligue !"
+        }
+      }
     },
     "leaveGame": {
       "title": "Quitter le match",
@@ -439,18 +457,18 @@
     },
     "witzMasterySheet": {
       "body": "Débloquez {} thèmes de cette catégorie pour obtenir une récompense spéciale",
-			"cta1": "débloquez tous les thèmes de cette catégorie",
+      "cta1": "débloquez tous les thèmes de cette catégorie",
       "cta2": "offre"
     },
-		"themeDetail": {
-			"tryQuestions": "Essayez quelques questions sur ce thème !",
-			"tryQuestionsCta": "C'est parti",
-			"descripiton": "Obtenez-le maintenant et montrez que vous êtes un expert !",
-			"uniqueQuestions": "questions uniques",
-			"exclusiveBadges": "Badges exclusifs",
-			"playerCount": "{}+ joueurs",
-			"playerCountDescription": "ont débloqué ce thème"
-		}
+    "themeDetail": {
+      "tryQuestions": "Essayez quelques questions sur ce thème !",
+      "tryQuestionsCta": "C'est parti",
+      "descripiton": "Obtenez-le maintenant et montrez que vous êtes un expert !",
+      "uniqueQuestions": "questions uniques",
+      "exclusiveBadges": "Badges exclusifs",
+      "playerCount": "{}+ joueurs",
+      "playerCountDescription": "ont débloqué ce thème"
+    }
   },
   "topics": {
     "all_themes": "Tous les thèmes",

@@ -313,7 +313,25 @@
 			"askToPlay": "Pronto per un'altra partita?",
 			"waiting": "In attesa che l'host decida se iniziare una nuova partita o terminare il gioco...",
 			"gameAvailable": "Nuova partita creata",
-			"leagueProgress": "Progresso lega"
+			"leagueProgress": "Progresso lega",
+			"leagueProgressDialog": {
+				"upToPromotion": {
+					"title": "Sei salito nella zona promozione!",
+					"description": "Continua a lottare per conquistare il tuo posto nella prossima lega!"
+				},
+				"upToNeutral": {
+					"title": "Sei salito nella zona sicura!",
+					"description": "Sei uscito dalla zona pericolosa. Ora punta più in alto!"
+				},
+				"downToNeutral": {
+					"title": "Sei sceso nella zona sicura!",
+					"description": "Continua a lottare per conquistare il tuo posto nella prossima lega!"
+				},
+				"downToDemotion": {
+					"title": "Sei sceso nella zona retrocessione!",
+					"description": "Continua a lottare per conquistare il tuo posto nella prossima lega!"
+				}
+			}
 		},
 		"leaveGame": {
 			"title": "Abbandona partita",

@@ -313,7 +313,25 @@
       "askToPlay": "¿Listo para otra partida?",
       "waiting": "Esperando a que el anfitrión decida si empezar una nueva partida o terminar el juego...",
       "gameAvailable": "Nueva partida creada",
-      "leagueProgress": "Progreso de la liga"
+      "leagueProgress": "Progreso de la liga",
+      "leagueProgressDialog": {
+        "upToPromotion": {
+          "title": "¡Has subido a la zona de ascenso!",
+          "description": "¡Sigue esforzándote para ganar tu lugar en la próxima liga!"
+        },
+        "upToNeutral": {
+          "title": "¡Has subido a la zona segura!",
+          "description": "Has salido de la zona de peligro. ¡Ahora apunta más alto!"
+        },
+        "downToNeutral": {
+          "title": "¡Has caído a la zona segura!",
+          "description": "¡Sigue esforzándote para ganar tu lugar en la próxima liga!"
+        },
+        "downToDemotion": {
+          "title": "¡Has caído a la zona de descenso!",
+          "description": "¡Sigue esforzándote para ganar tu lugar en la próxima liga!"
+        }
+      }
     },
     "leaveGame": {
       "title": "Salir de la partida",
@@ -439,18 +457,18 @@
     },
     "witzMasterySheet": {
       "body": "Desbloquea {} temas de esta categoría para obtener una recompensa especial",
-			"cta1": "desbloquea todos los temas en esta categoría",
+      "cta1": "desbloquea todos los temas en esta categoría",
       "cta2": "oferta"
     },
-		"themeDetail": {
-			"tryQuestions": "¡Prueba algunas preguntas de este tema!",
-			"tryQuestionsCta": "Empecemos",
-			"descripiton": "¡Consíguelo ahora y demuestra que eres un experto!",
-			"uniqueQuestions": "preguntas exclusivas",
-			"exclusiveBadges": "Insignias exclusivas",
-			"playerCount": "{}+ jugadores",
-			"playerCountDescription": "han desbloqueado este tema"
-		}
+    "themeDetail": {
+      "tryQuestions": "¡Prueba algunas preguntas de este tema!",
+      "tryQuestionsCta": "Empecemos",
+      "descripiton": "¡Consíguelo ahora y demuestra que eres un experto!",
+      "uniqueQuestions": "preguntas exclusivas",
+      "exclusiveBadges": "Insignias exclusivas",
+      "playerCount": "{}+ jugadores",
+      "playerCountDescription": "han desbloqueado este tema"
+    }
   },
   "topics": {
     "all_themes": "Todos los temas",

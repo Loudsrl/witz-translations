@@ -1226,7 +1226,25 @@
       "askToPlay": "Ready for another match?",
       "waiting": "Waiting for host to decide whether to start a new match or end the game...",
       "gameAvailable": "New game created",
-      "leagueProgress": "League progress"
+      "leagueProgress": "League progress",
+      "leagueProgressDialog": {
+        "upToPromotion": {
+          "title": "You advanced to the Promotion zone!",
+          "description": "Keep pushing to earn your spot in the next League!"
+        },
+        "upToNeutral": {
+          "title": "You advanced to the safe zone!",
+          "description": "You’re out of the danger zone. Now aim higher!"
+        },
+        "downToNeutral": {
+          "title": "You’ve dropped into the safe zone!",
+          "description": "Keep pushing to earn your spot in the next League!"
+        },
+        "downToDemotion": {
+          "title": "You’ve dropped into the demotion zone!",
+          "description": "Keep pushing to earn your spot in the next League!"
+        }
+      }
     },
     "leaveGame": {
       "title": "Leave match",

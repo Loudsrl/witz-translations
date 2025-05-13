@@ -1226,7 +1226,25 @@
       "askToPlay": "Prêt pour un autre match ?",
       "waiting": "En attente que l'hôte décide de commencer un nouveau match ou de terminer la partie...",
       "gameAvailable": "Nouveau jeu créé",
-      "leagueProgress": "Progression de la ligue"
+      "leagueProgress": "Progression de la ligue",
+      "leagueProgressDialog": {
+        "upToPromotion": {
+          "title": "Vous êtes passé en zone de promotion !",
+          "description": "Continuez à progresser pour gagner votre place dans la prochaine ligue !"
+        },
+        "upToNeutral": {
+          "title": "Vous êtes passé en zone de sécurité !",
+          "description": "Vous êtes sorti de la zone de danger. Maintenant, visez plus haut !"
+        },
+        "downToNeutral": {
+          "title": "Vous êtes descendu en zone de sécurité !",
+          "description": "Continuez à progresser pour gagner votre place dans la prochaine ligue !"
+        },
+        "downToDemotion": {
+          "title": "Vous êtes descendu en zone de relégation !",
+          "description": "Continuez à progresser pour gagner votre place dans la prochaine ligue !"
+        }
+      }
     },
     "leaveGame": {
       "title": "Quitter le match",

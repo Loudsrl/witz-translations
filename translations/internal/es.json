@@ -1226,7 +1226,25 @@
       "askToPlay": "¿Listo para otra partida?",
       "waiting": "Esperando a que el anfitrión decida si empezar una nueva partida o terminar el juego...",
       "gameAvailable": "Nueva partida creada",
-      "leagueProgress": "Progreso de la liga"
+      "leagueProgress": "Progreso de la liga",
+      "leagueProgressDialog": {
+        "upToPromotion": {
+          "title": "¡Has subido a la zona de ascenso!",
+          "description": "¡Sigue esforzándote para ganar tu lugar en la próxima liga!"
+        },
+        "upToNeutral": {
+          "title": "¡Has subido a la zona segura!",
+          "description": "Has salido de la zona de peligro. ¡Ahora apunta más alto!"
+        },
+        "downToNeutral": {
+          "title": "¡Has caído a la zona segura!",
+          "description": "¡Sigue esforzándote para ganar tu lugar en la próxima liga!"
+        },
+        "downToDemotion": {
+          "title": "¡Has caído a la zona de descenso!",
+          "description": "¡Sigue esforzándote para ganar tu lugar en la próxima liga!"
+        }
+      }
     },
     "leaveGame": {
       "title": "Salir de la partida",

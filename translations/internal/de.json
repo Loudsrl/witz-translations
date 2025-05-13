@@ -1226,7 +1226,25 @@
       "askToPlay": "Bereit für ein weiteres Match?",
       "waiting": "Warte darauf, dass der Host entscheidet, ob ein neues Match gestartet oder das Spiel beendet wird...",
       "gameAvailable": "Neues Spiel erstellt",
-      "leagueProgress": "Liga-Fortschritt"
+      "leagueProgress": "Liga-Fortschritt",
+      "leagueProgressDialog": {
+        "upToPromotion": {
+          "title": "Du bist in die Aufstiegszone aufgestiegen!",
+          "description": "Mach weiter so, um dir deinen Platz in der nächsten Liga zu sichern!"
+        },
+        "upToNeutral": {
+          "title": "Du bist in die sichere Zone aufgestiegen!",
+          "description": "Du bist raus aus der Gefahrenzone. Jetzt strebe nach Höherem!"
+        },
+        "downToNeutral": {
+          "title": "Du bist in die sichere Zone gefallen!",
+          "description": "Mach weiter so, um dir deinen Platz in der nächsten Liga zu sichern!"
+        },
+        "downToDemotion": {
+          "title": "Du bist in die Abstiegszone gefallen!",
+          "description": "Mach weiter so, um dir deinen Platz in der nächsten Liga zu sichern!"
+        }
+      }
     },
     "leaveGame": {
       "title": "Match verlassen",

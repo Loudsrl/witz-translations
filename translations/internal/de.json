@@ -1441,7 +1441,7 @@
     "game": {
       "youFailed": "Game Over",
       "tryAgain": "Versuch es nächstes Mal wieder",
-      "finalRank": "Endgültiger Rang",
+      "finalRank": "dein Endrang",
       "correctAnswers": "Richtige Antworten",
       "bestScore": "Beste Punktzahl",
       "top3": "Top 3",

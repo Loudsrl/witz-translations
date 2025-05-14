@@ -467,7 +467,9 @@
 			"uniqueQuestions": "einzigartige Fragen",
 			"exclusiveBadges": "Exklusive Abzeichen",
 			"playerCount": "{}+ Spieler",
-			"playerCountDescription": "haben dieses Thema freigeschaltet"
+			"playerCountDescription": "haben dieses Thema freigeschaltet",
+			"bonusGift": "Bonusgeschenk",
+			"bonusGiftDescription": "Schalte dieses Thema frei und erhalte einen exklusiven Avatar!"
 		}
 	},
 	"league": {

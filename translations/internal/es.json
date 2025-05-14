@@ -1140,6 +1140,7 @@
     "performance": {
       "tokens": "fichas de liga",
       "tokensTooltip": "Puedes ganar Fichas de Liga según tu rendimiento durante la partida. Cuantas más Fichas obtengas, más alto subirás en tu Liga. ¡Apunta a la cima!",
+      "earnedTokens": "¡Has ganado nuevos tokens!",
       "answers": "tus respuestas",
       "answersTooltip": "¡Cuantas más respuestas correctas des, más Fichas obtendrás! Cada respuesta correcta te da {} Fichas de Liga.",
       "multiplier": "multiplicador",
@@ -1236,9 +1237,8 @@
   "shop": {
     "offers": {
       "title": "ofertas",
-      "2x1_themes": {
-        "title": "Oferta 2x1 en temas"
-      },
+      "2x1_themes": "Temas 2x1",
+      "starter_bundle": "Paquete inicial",
       "remove_ads_1m": {
         "badge": "cero anuncios",
         "title": "Eliminar todos los anuncios",

@@ -1140,6 +1140,7 @@
     "performance": {
       "tokens": "league tokens",
       "tokensTooltip": "You can earn League Tokens based on your performance during the match. The more Tokens you get, the higher you climb in your League. Aim for the top!",
+      "earnedTokens": "You’ve earned new tokens!",
       "answers": "your answers",
       "answersTooltip": "The more correct answers you give, the more Tokens you get! Each correct answer gives you {} League Tokens.",
       "multiplier": "multiplier",
@@ -1236,9 +1237,8 @@
   "shop": {
     "offers": {
       "title": "offers",
-      "2x1_themes": {
-        "title": "2-for-1 theme offer"
-      },
+      "2x1_themes": "2x1 themes",
+      "starter_bundle": "starter bundle",
       "remove_ads_1m": {
         "badge": "zero ads",
         "title": "Remove all ads",

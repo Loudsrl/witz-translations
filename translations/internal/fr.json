@@ -1140,6 +1140,7 @@
     "performance": {
       "tokens": "jetons de ligue",
       "tokensTooltip": "Vous pouvez gagner des Jetons de Ligue en fonction de votre performance pendant le match. Plus vous obtenez de Jetons, plus vous montez dans votre Ligue. Visez le sommet !",
+      "earnedTokens": "Vous avez gagné de nouveaux jetons !",
       "answers": "vos réponses",
       "answersTooltip": "Plus vous donnez de bonnes réponses, plus vous obtenez de Jetons ! Chaque bonne réponse vous donne {} Jetons de Ligue.",
       "multiplier": "multiplicateur",
@@ -1236,9 +1237,8 @@
   "shop": {
     "offers": {
       "title": "offres",
-      "2x1_themes": {
-        "title": "Offre 2 pour 1 sur les thèmes"
-      },
+      "2x1_themes": "Thèmes 2 pour 1",
+      "starter_bundle": "Pack de démarrage",
       "remove_ads_1m": {
         "badge": "zéro pub",
         "title": "Supprimer toutes les pubs",

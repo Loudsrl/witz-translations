@@ -1322,7 +1322,9 @@
       "uniqueQuestions": "questions uniques",
       "exclusiveBadges": "Badges exclusifs",
       "playerCount": "{}+ joueurs",
-      "playerCountDescription": "ont débloqué ce thème"
+      "playerCountDescription": "ont débloqué ce thème",
+      "bonusGift": "cadeau bonus",
+      "bonusGiftDescription": "Débloquez ce thème et obtenez un avatar exclusif !"
     }
   },
   "league": {

@@ -842,16 +842,16 @@
       "coaches_and_strategies": "Trainer und Strategien"
     },
     "topics": {
-      "all_themes": "all_themes placeholder",
-      "tv_series": "tv_series placeholder",
-      "back_to_school": "back_to_school placeholder",
-      "video_games": "video_games placeholder",
-      "sport": "sport placeholder",
-      "cinema": "cinema placeholder",
-      "music": "music placeholder",
-      "history": "history placeholder",
-      "science": "science placeholder",
-      "geography": "geography placeholder"
+      "all_themes": "Alle Themen",
+      "tv_series": "Fernsehserien",
+      "back_to_school": "Zurück zur Schule",
+      "video_games": "Videospiele",
+      "sport": "Sport",
+      "cinema": "Kino",
+      "music": "Musik",
+      "history": "Geschichte",
+      "science": "Wissenschaft",
+      "geography": "Geografie"
     }
   },
   "general": {
@@ -1324,19 +1324,6 @@
       "playerCount": "{}+ Spieler",
       "playerCountDescription": "haben dieses Thema freigeschaltet"
     }
-  },
-  "topics": {
-    "all_themes": "Alle Themen",
-    "cinema": "Kino",
-    "tv_series": "Fernsehserien",
-    "video_games": "Videospiele",
-    "sport": "Sport",
-    "food": "Essen",
-    "music": "Musik",
-    "back_to_school": "Zurück zur Schule",
-    "history": "Geschichte",
-    "science": "Wissenschaft",
-    "geography": "Geografie"
   },
   "league": {
     "promotionTo": "Aufstieg nach",

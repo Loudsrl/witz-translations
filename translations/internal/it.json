@@ -842,16 +842,16 @@
       "coaches_and_strategies": "Allenatori e Strategie"
     },
     "topics": {
-      "all_themes": "all_themes placeholder",
-      "tv_series": "tv_series placeholder",
-      "back_to_school": "back_to_school placeholder",
-      "video_games": "video_games placeholder",
-      "sport": "sport placeholder",
-      "cinema": "cinema placeholder",
-      "music": "music placeholder",
-      "history": "history placeholder",
-      "science": "science placeholder",
-      "geography": "geography placeholder"
+      "all_themes": "Tutti i temi",
+      "tv_series": "Serie TV",
+      "back_to_school": "Ritorno a scuola",
+      "video_games": "Videogiochi",
+      "sport": "Sport",
+      "cinema": "Cinema",
+      "music": "Musica",
+      "history": "Storia",
+      "science": "Scienza",
+      "geography": "Geografia"
     }
   },
   "general": {
@@ -1324,19 +1324,6 @@
       "playerCount": "{}+ giocatori",
       "playerCountDescription": "hanno sbloccato questo tema"
     }
-  },
-  "topics": {
-    "all_themes": "Tutti i temi",
-    "cinema": "cinema",
-    "tv_series": "serie tv",
-    "video_games": "videogiochi",
-    "sport": "sport",
-    "food": "cibo",
-    "music": "musica",
-    "back_to_school": "ritorno a scuola",
-    "history": "storia",
-    "science": "scienza",
-    "geography": "geografia"
   },
   "league": {
     "promotionTo": "promozione a",

@@ -285,6 +285,7 @@
 		"performance": {
 			"tokens": "tokens de liga",
 			"tokensTooltip": "Pode ganhar Tokens de Liga com base no seu desempenho durante a partida. Quanto mais Tokens obtiver, mais alto sobe na sua Liga. Aponte para o topo!",
+			"earnedTokens": "Você ganhou novos tokens!",
 			"answers": "as suas respostas",
 			"answersTooltip": "Quanto mais respostas corretas der, mais Tokens obtém! Cada resposta correta dá-lhe {} Tokens de Liga.",
 			"multiplier": "multiplicador",
@@ -381,9 +382,8 @@
 	"shop": {
 		"offers": {
 			"title": "ofertas",
-			"2x1_themes": {
-				"title": "Oferta 2 por 1 em temas"
-			},
+			"2x1_themes": "Temas 2 por 1",
+			"starter_bundle": "Pacote inicial",
 			"remove_ads_1m": {
 				"badge": "zero anúncios",
 				"title": "Remover todos os anúncios",

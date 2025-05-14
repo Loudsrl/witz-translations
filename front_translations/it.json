@@ -285,6 +285,7 @@
 		"performance": {
 			"tokens": "gettoni lega",
 			"tokensTooltip": "Puoi guadagnare Gettoni Lega in base alla tua performance durante la partita. Più Gettoni ottieni, più in alto sali nella tua Lega. Punta alla vetta!",
+			"earnedTokens": "Hai guadagnato nuovi token!",
 			"answers": "le tue risposte",
 			"answersTooltip": "Più risposte corrette dai, più Gettoni ottieni! Ogni risposta corretta ti dà {} Gettoni Lega.",
 			"multiplier": "moltiplicatore",
@@ -381,9 +382,8 @@
 	"shop": {
 		"offers": {
 			"title": "offerte",
-			"2x1_themes": {
-				"title": "Offerta temi 2x1"
-			},
+			"2x1_themes": "Temi 2x1",
+			"starter_bundle": "Pacchetto iniziale",
 			"remove_ads_1m": {
 				"badge": "zero pubblicità",
 				"title": "Rimuovi tutte le pubblicità",

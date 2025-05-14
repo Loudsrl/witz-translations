@@ -470,19 +470,6 @@
 			"playerCountDescription": "desbloquearam este tema"
 		}
 	},
-	"topics": {
-		"all_themes": "Todos os temas",
-		"cinema": "cinema",
-		"tv_series": "séries de TV",
-		"video_games": "videojogos",
-		"sport": "esporte",
-		"food": "comida",
-		"music": "música",
-		"back_to_school": "volta às aulas",
-		"history": "história",
-		"science": "ciência",
-		"geography": "geografia"
-	},
 	"league": {
 		"promotionTo": "promoção para",
 		"demotionTo": "despromoção para",

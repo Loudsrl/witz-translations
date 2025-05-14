@@ -470,19 +470,6 @@
 			"playerCountDescription": "haben dieses Thema freigeschaltet"
 		}
 	},
-	"topics": {
-		"all_themes": "Alle Themen",
-		"cinema": "Kino",
-		"tv_series": "Fernsehserien",
-		"video_games": "Videospiele",
-		"sport": "Sport",
-		"food": "Essen",
-		"music": "Musik",
-		"back_to_school": "Zurück zur Schule",
-		"history": "Geschichte",
-		"science": "Wissenschaft",
-		"geography": "Geografie"
-	},
 	"league": {
 		"promotionTo": "Aufstieg nach",
 		"demotionTo": "Abstieg nach",

@@ -841,15 +841,15 @@
     "coaches_and_strategies": "Técnicas e Estratégias dos Treinadores"
   },
   "topics": {
-    "all_themes": "all_themes placeholder",
-    "tv_series": "tv_series placeholder",
-    "back_to_school": "back_to_school placeholder",
-    "video_games": "video_games placeholder",
-    "sport": "sport placeholder",
-    "cinema": "cinema placeholder",
-    "music": "music placeholder",
-    "history": "history placeholder",
-    "science": "science placeholder",
-    "geography": "geography placeholder"
+    "all_themes": "Todos os temas",
+    "tv_series": "Séries de TV",
+    "back_to_school": "Volta às aulas",
+    "video_games": "Videogames",
+    "sport": "Esporte",
+    "cinema": "Cinema",
+    "music": "Música",
+    "history": "História",
+    "science": "Ciência",
+    "geography": "Geografia"
   }
 }

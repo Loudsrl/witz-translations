@@ -467,7 +467,9 @@
 			"uniqueQuestions": "perguntas exclusivas",
 			"exclusiveBadges": "Emblemas exclusivos",
 			"playerCount": "{}+ jogadores",
-			"playerCountDescription": "desbloquearam este tema"
+			"playerCountDescription": "desbloquearam este tema",
+			"bonusGift": "presente bónus",
+			"bonusGiftDescription": "Desbloqueie este tema e obtenha um avatar exclusivo!"
 		}
 	},
 	"league": {
@@ -904,6 +906,5 @@
 	"link_messages": {
 		"referral": "{} quer convidá-lo para jogar WITZ! Junte-se à comunidade.✨",
 		"code": "Junte-se à partida!"
-	},
-	"dynamic": {}
+	}
 }

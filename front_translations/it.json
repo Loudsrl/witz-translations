@@ -467,7 +467,9 @@
 			"uniqueQuestions": "domande uniche",
 			"exclusiveBadges": "Distintivi esclusivi",
 			"playerCount": "{}+ giocatori",
-			"playerCountDescription": "hanno sbloccato questo tema"
+			"playerCountDescription": "hanno sbloccato questo tema",
+			"bonusGift": "regalo bonus",
+			"bonusGiftDescription": "Sblocca questo tema e ottieni un avatar esclusivo!"
 		}
 	},
 	"league": {

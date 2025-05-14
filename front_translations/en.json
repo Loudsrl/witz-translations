@@ -467,7 +467,9 @@
 			"uniqueQuestions": "unique questions",
 			"exclusiveBadges": "Exclusive badges",
 			"playerCount": "{}+ players",
-			"playerCountDescription": "unlocked this theme"
+			"playerCountDescription": "unlocked this theme",
+			"bonusGift": "bonus gift",
+			"bonusGiftDescription": "Unlock this theme and get an exclusive avatar!"
 		}
 	},
 	"league": {

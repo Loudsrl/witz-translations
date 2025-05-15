@@ -1287,6 +1287,10 @@
     "theme": {
       "info": "Teste dein Wissen mit neuen Fragen!"
     },
+    "avatar": {
+      "name": "Neuer Avatar",
+      "info": "Passe dein Aussehen in deinem Profil an und zeige deinen Stil!"
+    },
     "newTheme": "neues Thema",
     "witzMastery": "Witz-Meisterschaft",
     "witzMasteryInfo": "Schalte Themen in dieser Kategorie frei, um deine WITZ-Meisterschaft zu erhöhen. Fülle die Leiste, um einen Sonderpreis zu erhalten!",

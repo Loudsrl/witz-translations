@@ -1287,6 +1287,10 @@
     "theme": {
       "info": "Testez vos connaissances avec de nouvelles questions !"
     },
+    "avatar": {
+      "name": "Nouvel avatar",
+      "info": "Personnalisez votre apparence dans votre profil et montrez votre style !"
+    },
     "newTheme": "nouveau thème",
     "witzMastery": "maîtrise witz",
     "witzMasteryInfo": "Débloquez des thèmes dans cette catégorie pour augmenter votre Maîtrise WITZ. Complétez la barre pour gagner un prix spécial !",

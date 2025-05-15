@@ -1330,6 +1330,8 @@
   "league": {
     "promotionTo": "promozione a",
     "demotionTo": "retrocessione a",
+    "promotionZone": "zona di promozione",
+    "safeZone": "zona sicura",
     "seasonEndsIn": "la stagione termina tra",
     "info": "Questa è la tua Lega attuale. Termina la stagione tra i primi 10 per essere promosso! Gli ultimi 5 retrocederanno alla Lega precedente.",
     "places": "{} posizioni",

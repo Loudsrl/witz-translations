@@ -475,6 +475,8 @@
 	"league": {
 		"promotionTo": "promotion to",
 		"demotionTo": "demotion to",
+		"promotionZone": "promotion zone",
+		"safeZone": "safe zone",
 		"seasonEndsIn": "season ends in",
 		"info": "This is your current League. Finish the season in the top 10 to get promoted! The last 5 will relegate to the previous League.",
 		"places": "{} places",

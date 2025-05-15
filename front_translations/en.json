@@ -432,6 +432,10 @@
 		"theme": {
 			"info": "Test your knowledge with new questions!"
 		},
+		"avatar": {
+			"name": "New avatar",
+			"info": " ustomise your look in your Profile and show off your style!"
+		},
 		"newTheme": "new theme",
 		"witzMastery": "witz mastery",
 		"witzMasteryInfo": "Unlock themes in this category to increase your WITZ Mastery. Complete the bar to earn a special prize!",

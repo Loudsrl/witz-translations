@@ -35,9 +35,14 @@ jobs:
             merged_file="translations/$BRANCH_NAME/$lang"
 
             if [ -f "$front_file" ]; then
-              jq -n '{ back: input, front: input }' "$lang_file" "$front_file" > "$merged_file"
+              # Merge back file inside a 'back' key, and add front translations at root level
+              jq -n \
+                --argjson back "$(cat "$lang_file")" \
+                --argjson front "$(cat "$front_file")" \
+                '{ back: $back } + $front' > "$merged_file"
             else
-              jq '{ back: . }' "$lang_file" > "$merged_file"
+              # If front file is missing, just wrap back translations inside 'back' key
+              jq -n --argjson back "$(cat "$lang_file")" '{ back: $back }' > "$merged_file"
             fi
           done
 

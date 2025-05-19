@@ -1359,17 +1359,13 @@
       "cards": {
         "1": {
           "title": "Climb the ranks",
-          "body": "Compete in a ranked League and earn Delta Points throughout the Season. Your position on the leaderboard determines your fate!"
+          "body": "Compete in a ranked League and earn League Tokens throughout the Season. Your position on the leaderboard determines your fate!"
         },
         "2": {
-          "title": "Earn Delta Points",
-          "body": "Delta Points determine your League ranking! Your score is based on the difference between correct and wrong answers—so every match counts!"
-        },
-        "3": {
           "title": "Season progression",
           "body": "Each Season is timed! At the end, the top 10% of players move up, the bottom 10% move down, and the rest stay in their League."
         },
-        "4": {
+        "3": {
           "title": "Get rewards",
           "body": "Higher ranks mean better rewards! Keep climbing to reach the top and unlock bigger prizes in the best Leagues."
         }
@@ -1387,10 +1383,14 @@
             "body": "Before joining the ranked Leagues, complete the Training Ground. Advance through the path by proving your skills!"
           },
           "2": {
+            "title": "League Tokens",
+            "body": "Earn League Tokens by answering questions correctly! At the end of the match, your total tokens are multiplied based on how many competitors you outscore on the leaderboard."
+          },
+          "3": {
             "title": "Progress by playing",
             "body": "Answer correctly in “VS World” and “VS Friends” modes to move forward. Each correct answer brings you closer to your first League."
           },
-          "3": {
+          "4": {
             "title": "Unlock rewards",
             "body": "Along the way, earn special rewards as you progress. Reach the end of the path to enter your first ranked League and get even better rewards!"
           }

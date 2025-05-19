@@ -1359,17 +1359,13 @@
       "cards": {
         "1": {
           "title": "Suba nos rankings",
-          "body": "Compita numa Liga classificada e ganhe Pontos Delta ao longo da Temporada. A sua posição na classificação determina o seu destino!"
+          "body": "Compita numa Liga classificada e ganhe Tokens de Liga ao longo da Temporada. A sua posição na classificação determina o seu destino!"
         },
         "2": {
-          "title": "Ganhe Pontos Delta",
-          "body": "Os Pontos Delta determinam a sua classificação na Liga! A sua pontuação baseia-se na diferença entre respostas corretas e erradas—por isso, cada partida conta!"
-        },
-        "3": {
           "title": "Progressão da temporada",
           "body": "Cada Temporada é cronometrada! No final, os 10% melhores jogadores sobem, os 10% piores descem e o resto permanece na sua Liga."
         },
-        "4": {
+        "3": {
           "title": "Receba recompensas",
           "body": "Rankings mais altos significam recompensas melhores! Continue a subir para alcançar o topo e desbloquear prémios maiores nas melhores Ligas."
         }
@@ -1387,10 +1383,14 @@
             "body": "Antes de se juntar às Ligas classificadas, complete o Campo de Treino. Avance pelo caminho provando as suas habilidades!"
           },
           "2": {
+            "title": "Tokens de Liga",
+            "body": "Ganhe Tokens de Liga respondendo corretamente às perguntas! No final da partida, o seu total de tokens é multiplicado com base em quantos concorrentes você ultrapassar na classificação."
+          },
+          "3": {
             "title": "Progrida jogando",
             "body": "Responda corretamente nos modos “VS Mundo” e “VS Amigos” para avançar. Cada resposta correta aproxima-o da sua primeira Liga."
           },
-          "3": {
+          "4": {
             "title": "Desbloqueie recompensas",
             "body": "Ao longo do caminho, ganhe recompensas especiais à medida que progride. Chegue ao fim do caminho para entrar na sua primeira Liga classificada e obter recompensas ainda melhores!"
           }

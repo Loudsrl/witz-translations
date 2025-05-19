@@ -851,7 +851,8 @@
       "music": "Music",
       "history": "History",
       "science": "Science",
-      "geography": "Geography"
+      "geography": "Geography",
+      "special": "Special Themes"
     }
   },
   "general": {

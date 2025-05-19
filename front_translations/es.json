@@ -502,18 +502,14 @@
 			"cta": "empieza a clasificar",
 			"cards": {
 				"1": {
-					"title": "Sube de rango",
-					"body": "Compite en una Liga clasificatoria y gana Puntos Delta durante la Temporada. ¡Tu posición en la clasificación determina tu destino!"
+					"title": "Sube en los rangos",
+					"body": "Compite en una Liga clasificatoria y gana Fichas de Liga durante la Temporada. ¡Tu posición en la clasificación determina tu destino!"
 				},
 				"2": {
-					"title": "Gana Puntos Delta",
-					"body": "¡Los Puntos Delta determinan tu clasificación en la Liga! Tu puntuación se basa en la diferencia entre respuestas correctas e incorrectas, ¡así que cada partida cuenta!"
-				},
-				"3": {
 					"title": "Progresión de la temporada",
 					"body": "¡Cada Temporada tiene un tiempo limitado! Al final, el 10% superior de los jugadores asciende, el 10% inferior desciende y el resto permanece en su Liga."
 				},
-				"4": {
+				"3": {
 					"title": "Consigue recompensas",
 					"body": "¡Rangos más altos significan mejores recompensas! Sigue subiendo para alcanzar la cima y desbloquear premios mayores en las mejores Ligas."
 				}
@@ -531,10 +527,14 @@
 						"body": "Antes de unirte a las Ligas clasificatorias, completa el Campo de Entrenamiento. ¡Avanza por el camino demostrando tus habilidades!"
 					},
 					"2": {
+						"title": "Fichas de Liga",
+						"body": "¡Gana Fichas de Liga respondiendo preguntas correctamente! Al final de la partida, tu total de fichas se multiplica según a cuántos competidores superes en la clasificación."
+					},
+					"3": {
 						"title": "Progresa jugando",
 						"body": "Responde correctamente en los modos “VS Mundo” y “VS Amigos” para avanzar. Cada respuesta correcta te acerca a tu primera Liga."
 					},
-					"3": {
+					"4": {
 						"title": "Desbloquea recompensas",
 						"body": "En el camino, gana recompensas especiales a medida que progresas. ¡Llega al final del camino para entrar en tu primera Liga clasificatoria y obtener recompensas aún mejores!"
 					}

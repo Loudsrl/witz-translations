@@ -503,17 +503,13 @@
 			"cards": {
 				"1": {
 					"title": "Steige in den Rängen auf",
-					"body": "Tritt in einer Ranglisten-Liga an und verdiene während der Saison Delta-Punkte. Deine Position in der Rangliste bestimmt dein Schicksal!"
+					"body": "Tritt in einer Ranglisten-Liga an und verdiene während der Saison Liga-Token. Deine Position auf der Rangliste bestimmt dein Schicksal!"
 				},
 				"2": {
-					"title": "Verdiene Delta-Punkte",
-					"body": "Delta-Punkte bestimmen deine Liga-Platzierung! Deine Punktzahl basiert auf der Differenz zwischen richtigen und falschen Antworten – also zählt jedes Match!"
+					"title": "Saison-Fortschritt",
+					"body": "Jede Saison ist zeitlich begrenzt! Am Ende steigen die besten 10 % der Spieler auf, die letzten 10 % steigen ab und der Rest bleibt in seiner Liga."
 				},
 				"3": {
-					"title": "Saisonfortschritt",
-					"body": "Jede Saison ist zeitlich begrenzt! Am Ende steigen die besten 10% der Spieler auf, die schlechtesten 10% steigen ab und der Rest bleibt in seiner Liga."
-				},
-				"4": {
 					"title": "Erhalte Belohnungen",
 					"body": "Höhere Ränge bedeuten bessere Belohnungen! Steige weiter auf, um die Spitze zu erreichen und größere Preise in den besten Ligen freizuschalten."
 				}
@@ -531,10 +527,14 @@
 						"body": "Bevor du den Ranglisten-Ligen beitrittst, schließe das Trainingsgelände ab. Komme auf dem Pfad voran, indem du deine Fähigkeiten beweist!"
 					},
 					"2": {
+						"title": "Liga-Token",
+						"body": "Verdiene Liga-Token, indem du Fragen richtig beantwortest! Am Ende des Matches wird deine Gesamtzahl an Token multipliziert, je nachdem, wie viele Mitspieler du in der Rangliste übertriffst."
+					},
+					"3": {
 						"title": "Fortschritt durch Spielen",
 						"body": "Antworte richtig in den Modi „VS Welt“ und „VS Freunde“, um voranzukommen. Jede richtige Antwort bringt dich deiner ersten Liga näher."
 					},
-					"3": {
+					"4": {
 						"title": "Schalte Belohnungen frei",
 						"body": "Unterwegs verdienst du besondere Belohnungen, während du Fortschritte machst. Erreiche das Ende des Pfades, um deine erste Ranglisten-Liga zu betreten und noch bessere Belohnungen zu erhalten!"
 					}

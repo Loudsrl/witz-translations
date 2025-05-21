@@ -24,6 +24,7 @@
 		"masteryLevel": "niveau de maîtrise",
 		"discount": "{}% de réduction",
 		"rewards": "récompenses",
+		"reward": "récompense",
 		"viewAll": "tout voir",
 		"showMore": "afficher plus",
 		"showLess": "afficher moins",
@@ -42,6 +43,7 @@
 		"news": "actualités",
 		"inbox": "boîte de réception",
 		"claim": "récupérer",
+		"claimed": "réclamé",
 		"next": "suivant",
 		"add": "ajouter",
 		"of": "de",
@@ -502,18 +504,14 @@
 			"cta": "commencer le classement",
 			"cards": {
 				"1": {
-					"title": "Grimpez les échelons",
-					"body": "Participez à une Ligue classée et gagnez des Points Delta tout au long de la Saison. Votre position dans le classement détermine votre destin !"
+					"title": "Grimpez dans les rangs",
+					"body": "Participez à une Ligue classée et gagnez des Jetons de Ligue tout au long de la Saison. Votre position dans le classement détermine votre destin !"
 				},
 				"2": {
-					"title": "Gagnez des Points Delta",
-					"body": "Les Points Delta déterminent votre classement en Ligue ! Votre score est basé sur la différence entre les réponses correctes et incorrectes – donc chaque match compte !"
-				},
-				"3": {
 					"title": "Progression de la saison",
 					"body": "Chaque Saison est chronométrée ! À la fin, les 10% meilleurs joueurs montent, les 10% derniers descendent, et les autres restent dans leur Ligue."
 				},
-				"4": {
+				"3": {
 					"title": "Obtenez des récompenses",
 					"body": "Des rangs plus élevés signifient de meilleures récompenses ! Continuez à grimper pour atteindre le sommet et débloquer de plus gros prix dans les meilleures Ligues."
 				}
@@ -531,10 +529,14 @@
 						"body": "Avant de rejoindre les Ligues classées, terminez le Terrain d'Entraînement. Progressez sur le chemin en prouvant vos compétences !"
 					},
 					"2": {
+						"title": "Jetons de Ligue",
+						"body": "Gagnez des Jetons de Ligue en répondant correctement aux questions ! À la fin du match, votre total de jetons est multiplié en fonction du nombre de concurrents que vous dépassez dans le classement."
+					},
+					"3": {
 						"title": "Progressez en jouant",
 						"body": "Répondez correctement dans les modes “VS Monde” et “VS Amis” pour avancer. Chaque bonne réponse vous rapproche de votre première Ligue."
 					},
-					"3": {
+					"4": {
 						"title": "Débloquez des récompenses",
 						"body": "En chemin, gagnez des récompenses spéciales au fur et à mesure de votre progression. Atteignez la fin du chemin pour entrer dans votre première Ligue classée et obtenir des récompenses encore meilleures !"
 					}

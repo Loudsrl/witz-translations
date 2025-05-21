@@ -880,6 +880,7 @@
     "masteryLevel": "livello di maestria",
     "discount": "{}% di sconto",
     "rewards": "ricompense",
+    "reward": "ricompensa",
     "viewAll": "vedi tutto",
     "showMore": "mostra di più",
     "showLess": "mostra meno",
@@ -898,6 +899,7 @@
     "news": "notizie",
     "inbox": "posta in arrivo",
     "claim": "riscatta",
+    "claimed": "riscattato",
     "next": "prossimo",
     "add": "aggiungi",
     "of": "di",
@@ -1359,17 +1361,13 @@
       "cards": {
         "1": {
           "title": "Scala le classifiche",
-          "body": "Competi in una Lega classificata e guadagna Punti Delta durante la Stagione. La tua posizione in classifica determina il tuo destino!"
+          "body": "Competi in una Lega classificata e guadagna Gettoni Lega per tutta la Stagione. La tua posizione in classifica determina il tuo destino!"
         },
         "2": {
-          "title": "Guadagna Punti Delta",
-          "body": "I Punti Delta determinano la tua classifica nella Lega! Il tuo punteggio si basa sulla differenza tra risposte corrette e sbagliate—quindi ogni partita conta!"
-        },
-        "3": {
           "title": "Progressione della stagione",
           "body": "Ogni Stagione è a tempo! Alla fine, il 10% migliore dei giocatori sale, il 10% peggiore scende e il resto rimane nella propria Lega."
         },
-        "4": {
+        "3": {
           "title": "Ottieni ricompense",
           "body": "Classifiche più alte significano ricompense migliori! Continua a salire per raggiungere la vetta e sbloccare premi più grandi nelle Leghe migliori."
         }
@@ -1387,10 +1385,14 @@
             "body": "Prima di unirti alle Leghe classificate, completa il Campo di Allenamento. Avanza nel percorso dimostrando le tue abilità!"
           },
           "2": {
+            "title": "Gettoni Lega",
+            "body": "Guadagna Gettoni Lega rispondendo correttamente alle domande! Alla fine della partita, il tuo totale di gettoni viene moltiplicato in base a quanti concorrenti hai superato in classifica."
+          },
+          "3": {
             "title": "Progredisci giocando",
             "body": "Rispondi correttamente nelle modalità “VS Mondo” e “VS Amici” per andare avanti. Ogni risposta corretta ti avvicina alla tua prima Lega."
           },
-          "3": {
+          "4": {
             "title": "Sblocca ricompense",
             "body": "Lungo il percorso, guadagna ricompense speciali man mano che progredisci. Raggiungi la fine del percorso per entrare nella tua prima Lega classificata e ottenere ricompense ancora migliori!"
           }

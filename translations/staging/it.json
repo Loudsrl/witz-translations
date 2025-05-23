@@ -993,6 +993,18 @@
       "description": "Momento quiz: Cosa è inaspettato, un po' fastidioso e in fase di risoluzione? Questo errore! Torniamo subito..."
     }
   },
+  "dialogs": {
+    "noInternet": {
+      "title": "Nessuna connessione a Internet",
+      "description": "Senza internet, niente divertimento. Rimettiamoci online per far continuare la festa del quiz!",
+      "button": "riprova"
+    },
+    "updatedApp": {
+      "title": "È ora di un aggiornamento!",
+      "description": "Sembra che WITZ abbia bisogno di una piccola messa a punto per continuare con il divertimento. Promettiamo che ne vale la pena!",
+      "button": "Aggiorna ora"
+    }
+  },
   "splash": "Quiz di cultura\ngenerale",
   "auth": {
     "signInWith": "Accedi con {}",

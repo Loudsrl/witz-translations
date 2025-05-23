@@ -993,6 +993,18 @@
       "description": "Momento trivia: O que é inesperado, um pouco irritante e está a ser corrigido neste momento? Este erro! Voltamos já..."
     }
   },
+  "dialogs": {
+    "noInternet": {
+      "title": "Sem conexão com a internet",
+      "description": "Sem internet, sem diversão. Vamos te reconectar para que a festa do quiz continue!",
+      "button": "tentar novamente"
+    },
+    "updatedApp": {
+      "title": "Hora de uma atualização!",
+      "description": "Parece que o WITZ precisa de um ajuste para manter a diversão. Prometemos que vale a pena!",
+      "button": "Atualizar agora"
+    }
+  },
   "splash": "Quiz de cultura\ngeral",
   "auth": {
     "signInWith": "Iniciar sessão com {}",

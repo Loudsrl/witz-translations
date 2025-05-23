@@ -845,7 +845,7 @@
       "all_themes": "All Themes",
       "tv_series": "TV Series",
       "back_to_school": "Back to School",
-      "games": "Video Games",
+      "games": "Games",
       "sport": "Sport",
       "cinema": "Cinema",
       "music": "Music",
@@ -991,6 +991,18 @@
     "general": {
       "title": "Something went wrong...",
       "description": "Trivia time: What’s unexpected, a bit annoying, and being fixed right now? This error! Be right back..."
+    }
+  },
+  "dialogs": {
+    "noInternet": {
+      "title": "No internet connection",
+      "description": "No internet, no fun. Let's get you back online so the quiz party can continue!",
+      "button": "try again"
+    },
+    "updatedApp": {
+      "title": "Time for an Upgrade!",
+      "description": "Looks like WITZ needs a little tune-up to keep the fun rolling. We promise it’s worth it!",
+      "button": "Update Now"
     }
   },
   "splash": "General\nknowledge quiz",

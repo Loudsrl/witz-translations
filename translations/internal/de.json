@@ -845,7 +845,7 @@
       "all_themes": "Alle Themen",
       "tv_series": "Fernsehserien",
       "back_to_school": "Zurück zur Schule",
-      "games": "Videospiele",
+      "games": "Spiele",
       "sport": "Sport",
       "cinema": "Kino",
       "music": "Musik",
@@ -991,6 +991,18 @@
     "general": {
       "title": "Etwas ist schiefgelaufen...",
       "description": "Quizfrage: Was ist unerwartet, etwas nervig und wird gerade behoben? Dieser Fehler! Bin gleich zurück..."
+    }
+  },
+  "dialogs": {
+    "noInternet": {
+      "title": "Keine Internetverbindung",
+      "description": "Kein Internet, kein Spaß. Lass uns dich wieder online bringen, damit die Quiz-Party weitergehen kann!",
+      "button": "Erneut versuchen"
+    },
+    "updatedApp": {
+      "title": "Zeit für ein Upgrade!",
+      "description": "Sieht so aus, als bräuchte WITZ ein kleines Update, damit der Spaß weitergehen kann. Versprochen, es lohnt sich!",
+      "button": "Jetzt aktualisieren"
     }
   },
   "splash": "Allgemeinwissens-\nquiz",

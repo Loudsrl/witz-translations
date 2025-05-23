@@ -137,6 +137,18 @@
 			"description": "Pregunta de trivia: ¿Qué es inesperado, un poco molesto y se está arreglando ahora mismo? ¡Este error! Volvemos enseguida..."
 		}
 	},
+	"dialogs": {
+		"noInternet": {
+			"title": "Sin conexión a internet",
+			"description": "Sin internet, sin diversión. ¡Volvamos a conectarte para que la fiesta del quiz continúe!",
+			"button": "intentar de nuevo"
+		},
+		"updatedApp": {
+			"title": "¡Hora de una actualización!",
+			"description": "Parece que WITZ necesita una pequeña puesta a punto para seguir divirtiéndonos. ¡Prometemos que vale la pena!",
+			"button": "Actualizar ahora"
+		}
+	},
 	"splash": "Quiz de cultura\ngeneral",
 	"auth": {
 		"signInWith": "Iniciar sesión con {}",

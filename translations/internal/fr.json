@@ -845,7 +845,7 @@
       "all_themes": "Tous les thèmes",
       "tv_series": "Séries TV",
       "back_to_school": "Rentrée scolaire",
-      "games": "Jeux vidéo",
+      "games": "Jeux",
       "sport": "Sport",
       "cinema": "Cinéma",
       "music": "Musique",
@@ -991,6 +991,18 @@
     "general": {
       "title": "Quelque chose s'est mal passé...",
       "description": "Question quiz : Qu'est-ce qui est inattendu, un peu ennuyeux et en cours de réparation ? Cette erreur ! On revient tout de suite..."
+    }
+  },
+  "dialogs": {
+    "noInternet": {
+      "title": "Pas de connexion Internet",
+      "description": "Pas d’internet, pas de fun. Remettons-vous en ligne pour que la fête du quiz continue !",
+      "button": "réessayer"
+    },
+    "updatedApp": {
+      "title": "Il est temps de mettre à jour !",
+      "description": "On dirait que WITZ a besoin d’un petit ajustement pour que le fun continue. Promis, ça vaut le coup !",
+      "button": "Mettre à jour"
     }
   },
   "splash": "Quiz de culture\ngénérale",

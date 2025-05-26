@@ -1003,6 +1003,10 @@
       "title": "Il est temps de mettre à jour !",
       "description": "On dirait que WITZ a besoin d’un petit ajustement pour que le fun continue. Promis, ça vaut le coup !",
       "button": "Mettre à jour"
+    },
+    "maintenance": {
+      "title": "Nous revenons tout de suite...",
+      "description": "Nos serveurs sont en maintenance programmée."
     }
   },
   "splash": "Quiz de culture\ngénérale",

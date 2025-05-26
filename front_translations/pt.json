@@ -147,6 +147,10 @@
 			"title": "Hora de uma atualização!",
 			"description": "Parece que o WITZ precisa de um ajuste para manter a diversão. Prometemos que vale a pena!",
 			"button": "Atualizar agora"
+		},
+		"maintenance": {
+			"title": "Voltamos já...",
+			"description": "Nossos servidores estão passando por manutenção programada."
 		}
 	},
 	"splash": "Quiz de cultura\ngeral",

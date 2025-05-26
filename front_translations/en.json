@@ -147,6 +147,10 @@
 			"title": "Time for an Upgrade!",
 			"description": "Looks like WITZ needs a little tune-up to keep the fun rolling. We promise it’s worth it!",
 			"button": "Update Now"
+		},
+		"maintenance": {
+			"title": "We’ll be right back...",
+			"description": "Our servers are undergoing scheduled maintenance."
 		}
 	},
 	"splash": "General\nknowledge quiz",

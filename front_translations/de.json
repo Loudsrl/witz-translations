@@ -147,6 +147,10 @@
 			"title": "Zeit für ein Upgrade!",
 			"description": "Sieht so aus, als bräuchte WITZ ein kleines Update, damit der Spaß weitergehen kann. Versprochen, es lohnt sich!",
 			"button": "Jetzt aktualisieren"
+		},
+		"maintenance": {
+			"title": "Wir sind gleich zurück...",
+			"description": "Unsere Server werden planmäßig gewartet."
 		}
 	},
 	"splash": "Allgemeinwissens-\nquiz",

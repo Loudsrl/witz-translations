@@ -1247,6 +1247,10 @@
         "description": "@:shop.offers.remove_ads_1m.notes"
       },
       "buy": "sblocca ora"
+    },
+    "hearts": {
+      "title": "cuori esauriti?",
+      "description": "Non lasciare che il divertimento finisca qui! Prendi uno dei pacchetti Cuori e torna subito in partita!"
     }
   },
   "shop": {

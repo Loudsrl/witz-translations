@@ -1247,6 +1247,10 @@
         "description": "@:shop.offers.remove_ads_1m.notes"
       },
       "buy": "jetzt freischalten"
+    },
+    "hearts": {
+      "title": "keine Herzen mehr?",
+      "description": "Lass den Spaß hier nicht enden! Schnapp dir eines der Herz-Pakete und spring zurück ins Spiel!"
     }
   },
   "shop": {

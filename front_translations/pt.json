@@ -391,6 +391,10 @@
 				"description": "@:shop.offers.remove_ads_1m.notes"
 			},
 			"buy": "desbloquear agora"
+		},
+		"hearts": {
+			"title": "ficou sem corações?",
+			"description": "Não deixe a diversão acabar aqui! Pegue um dos pacotes de Corações e volte para o jogo!"
 		}
 	},
 	"shop": {

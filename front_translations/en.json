@@ -391,6 +391,10 @@
 				"description": "@:shop.offers.remove_ads_1m.notes"
 			},
 			"buy": "buy now"
+		},
+		"hearts": {
+			"title": "out of hearts?",
+			"description": "Don't let the fun stop here! Grab one of the Heart bundles and jump back into the game!"
 		}
 	},
 	"shop": {

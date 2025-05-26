@@ -391,6 +391,10 @@
 				"description": "@:shop.offers.remove_ads_1m.notes"
 			},
 			"buy": "débloquer maintenant"
+		},
+		"hearts": {
+			"title": "plus de cœurs ?",
+			"description": "Ne laissez pas le plaisir s'arrêter ici ! Prenez l'un des packs de Cœurs et retournez dans le jeu !"
 		}
 	},
 	"shop": {

@@ -147,6 +147,10 @@
 			"title": "Time for an Upgrade!",
 			"description": "Looks like WITZ needs a little tune-up to keep the fun rolling. We promise it’s worth it!",
 			"button": "Update Now"
+		},
+		"maintenance": {
+			"title": "We’ll be right back...",
+			"description": "Our servers are undergoing scheduled maintenance."
 		}
 	},
 	"splash": "General\nknowledge quiz",
@@ -391,6 +395,10 @@
 				"description": "@:shop.offers.remove_ads_1m.notes"
 			},
 			"buy": "buy now"
+		},
+		"hearts": {
+			"title": "out of hearts?",
+			"description": "Don't let the fun stop here! Grab one of the Heart bundles and jump back into the game!"
 		}
 	},
 	"shop": {

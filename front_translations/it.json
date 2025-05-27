@@ -147,6 +147,10 @@
 			"title": "È ora di un aggiornamento!",
 			"description": "Sembra che WITZ abbia bisogno di una piccola messa a punto per continuare con il divertimento. Promettiamo che ne vale la pena!",
 			"button": "Aggiorna ora"
+		},
+		"maintenance": {
+			"title": "Torniamo subito...",
+			"description": "I nostri server sono in manutenzione programmata."
 		}
 	},
 	"splash": "Quiz di cultura\ngenerale",
@@ -391,6 +395,10 @@
 				"description": "@:shop.offers.remove_ads_1m.notes"
 			},
 			"buy": "sblocca ora"
+		},
+		"hearts": {
+			"title": "cuori esauriti?",
+			"description": "Non lasciare che il divertimento finisca qui! Prendi uno dei pacchetti Cuori e torna subito in partita!"
 		}
 	},
 	"shop": {

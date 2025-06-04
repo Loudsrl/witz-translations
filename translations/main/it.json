@@ -60,6 +60,10 @@
       "GIFTED_THEME": {
         "title": "Nuovo tema in regalo!",
         "body": "Riscatta il tema negli inbox subito e gioca con gli amici"
+      },
+      "WITZ_2": {
+        "title": "Ecco un regalo per te!",
+        "body": "Riscatta subito il tuo regalo negli inbox!"
       }
     },
     "topics": {
@@ -581,7 +585,7 @@
     "promotionZone": "zona di promozione",
     "safeZone": "zona sicura",
     "seasonEndsIn": "la stagione termina tra",
-    "info": "Questa è la tua Lega attuale. Termina la stagione tra i primi 10 per essere promosso! Gli ultimi 5 retrocederanno alla Lega precedente.",
+    "info": "Questa è la tua Lega attuale. Termina la stagione in cima per essere promosso! Attento a non restare indietro o verrai retrocesso alla Lega precedente.",
     "places": "{} posizioni",
     "leagueDescription": {
       "trainingGround": "Dai risposte corrette in @:game.vsWorld o @:game.vsFriends per avanzare nella classifica e accedere alla tua prima Lega!",

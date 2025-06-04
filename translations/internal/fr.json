@@ -585,7 +585,7 @@
     "promotionZone": "zone de promotion",
     "safeZone": "zone sûre",
     "seasonEndsIn": "la saison se termine dans",
-    "info": "Ceci est votre Ligue actuelle. Terminez la saison dans le top 10 pour être promu ! Les 5 derniers seront relégués dans la Ligue précédente.",
+    "info": "C'est ta Ligue actuelle. Termine la saison en tête pour être promu ! Attention à ne pas prendre de retard ou tu seras rétrogradé dans la Ligue précédente.",
     "places": "{} places",
     "leagueDescription": {
       "trainingGround": "Donnez des réponses correctes en @:game.vsWorld ou @:game.vsFriends pour gravir les échelons et accéder à votre première Ligue !",

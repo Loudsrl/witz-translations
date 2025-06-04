@@ -933,6 +933,7 @@
 	},
 	"link_messages": {
 		"referral": "{} quer convidá-lo para jogar WITZ! Junte-se à comunidade.✨",
+		"friend": "{} quer ser seu amigo no WITZ! Prepare-se para um desafio @:game.vsFriends",
 		"code": "Junte-se à partida!"
 	}
 }

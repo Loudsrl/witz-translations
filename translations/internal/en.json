@@ -60,6 +60,10 @@
       "GIFTED_THEME": {
         "title": "New free theme!",
         "body": "Redeem the theme in your inbox now and play with friends"
+      },
+      "WITZ_2": {
+        "title": "Here is a gift for you!",
+        "body": "Redeem your gift now in your inbox!"
       }
     },
     "topics": {
@@ -581,7 +585,7 @@
     "promotionZone": "promotion zone",
     "safeZone": "safe zone",
     "seasonEndsIn": "season ends in",
-    "info": "This is your current League. Finish the season in the top 10 to get promoted! The last 5 will relegate to the previous League.",
+    "info": "This is your current League. Finish the season at the top to get promoted! Be careful not to fall behind or you'll be relegated to the previous League.",
     "places": "{} places",
     "leagueDescription": {
       "trainingGround": "Give correct answers in @:game.vsWorld or @:game.vsFriends to advance the ladder and access your first League!",

@@ -585,7 +585,7 @@
     "promotionZone": "Beförderungszone",
     "safeZone": "sichere Zone",
     "seasonEndsIn": "Saison endet in",
-    "info": "Das ist deine aktuelle Liga. Beende die Saison unter den Top 10, um aufzusteigen! Die letzten 5 steigen in die vorherige Liga ab.",
+    "info": "Das ist deine aktuelle Liga. Beende die Saison an der Spitze, um aufzusteigen! Pass auf, dass du nicht zurückfällst, sonst wirst du in die vorherige Liga abgestuft.",
     "places": "{} Plätze",
     "leagueDescription": {
       "trainingGround": "Gib richtige Antworten in @:game.vsWorld oder @:game.vsFriends, um die Leiter zu erklimmen und deine erste Liga zu erreichen!",
@@ -1014,6 +1014,7 @@
   },
   "link_messages": {
     "referral": "{} möchte dich einladen, WITZ zu spielen! Werde Teil der Community.✨",
+    "friend": "{} möchte dein Freund auf WITZ werden! Mach dich bereit für eine Herausforderung @:game.vsFriends",
     "code": "Tritt dem Match bei!"
   }
 }

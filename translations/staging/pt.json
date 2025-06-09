@@ -585,7 +585,7 @@
     "promotionZone": "zona de promoção",
     "safeZone": "zona segura",
     "seasonEndsIn": "a temporada termina em",
-    "info": "Esta é a sua Liga atual. Termine a temporada entre os 10 primeiros para ser promovido! Os últimos 5 serão despromovidos para a Liga anterior.",
+    "info": "Esta é a sua Liga atual. Termine a temporada no topo para ser promovido! Cuidado para não ficar para trás ou será rebaixado para a Liga anterior.",
     "places": "{} lugares",
     "leagueDescription": {
       "trainingGround": "Dê respostas corretas em @:game.vsWorld ou @:game.vsFriends para avançar na classificação e aceder à sua primeira Liga!",
@@ -1014,6 +1014,7 @@
   },
   "link_messages": {
     "referral": "{} quer convidá-lo para jogar WITZ! Junte-se à comunidade.✨",
+    "friend": "{} quer ser seu amigo no WITZ! Prepare-se para um desafio @:game.vsFriends",
     "code": "Junte-se à partida!"
   }
 }

@@ -330,6 +330,7 @@
     "vsFriendsInfo": "Face your friends in a private match. Whoever gets the highest score at the end of the match will be the winner!",
     "selectedThemeInfo": "tap the card and select a theme",
     "roundAmount": "{} rounds",
+    "questionReported": "Thank you for your feedback! the question has been reported",
     "gameTypePage": {
       "title": "How do you want to start?",
       "createMatchBtn": {

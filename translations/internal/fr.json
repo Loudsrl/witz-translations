@@ -330,6 +330,7 @@
     "vsFriendsInfo": "Affrontez vos amis dans un match privé. Celui qui obtient le score le plus élevé à la fin du match sera le gagnant !",
     "selectedThemeInfo": "appuyez sur la carte et sélectionnez un thème",
     "roundAmount": "{} manches",
+    "questionReported": "Merci pour votre retour ! La question a été signalée.",
     "gameTypePage": {
       "title": "Comment voulez-vous commencer ?",
       "createMatchBtn": {

@@ -3,59 +3,59 @@
     "notifications": {
       "ENGAGEMENT_1": {
         "title": "Défi dans l'arène pour toi: {ARENA_THEME_NAME}",
-        "body": "Es-tu le champion incontesté? Défie les autres experts du sujet et prouve tes connaissances!"
+        "body": "Es-tu le champion incontesté ? Défie les autres experts du sujet et prouve tes connaissances !"
       },
       "ENGAGEMENT_2": {
-        "title": "Les arènes d'aujourd'hui sont prêtes!",
-        "body": "Des défis pleins de rebondissements t'attendent, entre dans l'arène et sois le dernier gladiateur à survivre!"
+        "title": "Les arènes d'aujourd'hui sont prêtes !",
+        "body": "Des défis pleins de rebondissements t'attendent, entre dans l'arène et sois le dernier gladiateur à survivre !"
       },
       "RETENTION_1": {
-        "title": "Cela fait longtemps que tu n’as pas entraîné ton esprit!",
-        "body": "Il y a un prix qui attend d’être réclamé!"
+        "title": "Cela fait longtemps que tu n’as pas entraîné ton esprit !",
+        "body": "Il y a un prix qui attend d’être réclamé !"
       },
       "RETENTION_2": {
-        "title": "C'est l'heure d'un quiz!",
-        "body": "Les autres joueurs t’attendent dans vs Monde! Défie-les maintenant!"
+        "title": "C'est l'heure d'un quiz !",
+        "body": "Les autres joueurs t’attendent dans vs Monde ! Défie-les maintenant !"
       },
       "RETENTION_3": {
         "title": "Nouveau thème {THEME_NAME} ajouté",
-        "body": "Félicitations, un nouveau thème est désormais débloqué et partageable dans la boutique!"
+        "body": "Félicitations, un nouveau thème est désormais débloqué et partageable dans la boutique !"
       },
       "RETENTION_4": {
-        "title": "Il reste moins d’un jour avant la fin de la saison!",
-        "body": "Les autres joueurs de la ligue grimpent au classement!"
+        "title": "Il reste moins d’un jour avant la fin de la saison !",
+        "body": "Les autres joueurs de la ligue grimpent au classement !"
       },
       "RETENTION_5": {
-        "title": "Tu es passé à la ligue {LEAGUE_NAME}!",
-        "body": "Bienvenue dans la nouvelle ligue! Tu as des récompenses à récupérer!"
+        "title": "Tu es passé à la ligue {LEAGUE_NAME} !",
+        "body": "Bienvenue dans la nouvelle ligue ! Tu as des récompenses à récupérer !"
       },
       "RETENTION_6": {
-        "title": "Tu es resté à flot cette saison!",
-        "body": "Tu es toujours dans la ligue {LEAGUE_NAME}! Prépare-toi pour quelques quiz!"
+        "title": "Tu es resté à flot cette saison !",
+        "body": "Tu es toujours dans la ligue {LEAGUE_NAME}! Prépare-toi pour quelques quiz !"
       },
       "RETENTION_7": {
-        "title": "Oh non! Tu es sur le point d’être rétrogradé!",
-        "body": "Mais ne t’inquiète pas, tu as encore la possibilité de te sauver et de conserver tous tes progrès!"
+        "title": "Oh non! Tu es sur le point d’être rétrogradé !",
+        "body": "Mais ne t’inquiète pas, tu as encore la possibilité de te sauver et de conserver tous tes progrès !"
       },
       "REFERRAL_1": {
-        "title": "Invite un ami!",
+        "title": "Invite un ami !",
         "body": "Prouve que tu es le maître du quiz incontesté !"
       },
       "REFERRAL_2": {
-        "title": "{INVITING_USER_NAME} veut te défier!",
-        "body": "Entre tout de suite en jeu et remporte le VS Amis!"
+        "title": "{INVITING_USER_NAME} veut te défier !",
+        "body": "Entre tout de suite en jeu et remporte le VS Amis !"
       },
       "REFERRAL_3": {
         "title": "Nouvelle demande d'ami",
-        "body": "{INVITING_USER_NAME} veut devenir ton ami!"
+        "body": "{INVITING_USER_NAME} veut devenir ton ami !"
       },
       "REFERRAL_4": {
-        "title": "{INVITED_USER_NAME} est maintenant ton ami!",
+        "title": "{INVITED_USER_NAME} est maintenant ton ami !",
         "body": "Joue un VS Amis et prouve que tu es le plus fort"
       },
       "REVIEW": {
-        "title": "Tu t’amuses avec Witz?",
-        "body": "Laisse un bel avis et aide-nous à grandir!"
+        "title": "Tu t’amuses avec Witz ?",
+        "body": "Laisse un bel avis et aide-nous à grandir !"
       },
       "GIFTED_THEME": {
         "title": "Nouveau thème gratuit !",
@@ -400,7 +400,7 @@
         "fastest_answer": "le plus rapide !",
         "streak": "{} d'affilée !"
       },
-      "shop": "Boutique",
+      "shop": "Achetez",
       "buyPower": "appuyer pour acheter"
     },
     "rejoinGame": {

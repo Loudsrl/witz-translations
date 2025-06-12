@@ -62,8 +62,8 @@
         "body": "Löse das Thema jetzt in deinem Posteingang ein und spiel mit deinen Freunden"
       },
       "WITZ_2": {
-        "title": "Ecco un regalo per te!",
-        "body": "Riscatta subito il tuo regalo negli inbox!"
+        "title": "Hier ist ein Geschenk für dich!",
+        "body": "Löse jetzt dein Geschenk im Posteingang ein!"
       }
     },
     "topics": {
@@ -330,6 +330,7 @@
     "vsFriendsInfo": "Tritt gegen deine Freunde in einem privaten Match an. Wer am Ende des Matches die höchste Punktzahl hat, gewinnt!",
     "selectedThemeInfo": "tippe auf die Karte und wähle ein Thema",
     "roundAmount": "{} Runden",
+    "questionReported": "Vielen Dank für Ihr Feedback! Die Frage wurde gemeldet.",
     "gameTypePage": {
       "title": "Wie möchtest du starten?",
       "createMatchBtn": {

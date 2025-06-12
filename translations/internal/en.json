@@ -394,14 +394,14 @@
       "skip": "tap to skip"
     },
     "playerIsland": {
-      "pos": "pos.",
-      "score": "your score",
+      "pos": "Pos.",
+      "score": "deine Punktzahl",
       "tags": {
-        "fastest_answer": "fastest!",
-        "streak": "{} in a row!"
+        "fastest_answer": "am schnellsten!",
+        "streak": "{} in Folge!"
       },
       "shop": "Shop",
-      "buyPower": "tap to buy"
+      "buyPower": "tippen zum Shoppen"
     },
     "rejoinGame": {
       "title": "Reconnect to your match?",

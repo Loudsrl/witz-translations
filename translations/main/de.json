@@ -330,6 +330,7 @@
     "vsFriendsInfo": "Tritt gegen deine Freunde in einem privaten Match an. Wer am Ende des Matches die höchste Punktzahl hat, gewinnt!",
     "selectedThemeInfo": "tippe auf die Karte und wähle ein Thema",
     "roundAmount": "{} Runden",
+    "questionReported": "Vielen Dank für Ihr Feedback! Die Frage wurde gemeldet.",
     "gameTypePage": {
       "title": "Wie möchtest du starten?",
       "createMatchBtn": {

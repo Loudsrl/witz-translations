@@ -249,6 +249,7 @@
 		"vsFriendsInfo": "Enfrente os seus amigos numa partida privada. Quem obtiver a maior pontuação no final da partida será o vencedor!",
 		"selectedThemeInfo": "toque no cartão e selecione um tema",
 		"roundAmount": "{} rondas",
+		"questionReported": "Obrigado pelo seu feedback! A pergunta foi reportada.",
 		"gameTypePage": {
 			"title": "Como quer começar?",
 			"createMatchBtn": {

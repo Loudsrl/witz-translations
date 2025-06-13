@@ -546,6 +546,19 @@
     "witzMasteryInfo": "Débloquez des thèmes dans cette catégorie pour augmenter votre Maîtrise WITZ. Complétez la barre pour gagner un prix spécial !",
     "themeDetailBody": "Testez-vous sur le thème {} avec des questions comme",
     "themeDetailBundle": "obtenez ce pack !",
+    "suggestTheme": {
+      "card": {
+        "title": "Vous ne trouvez pas le thème parfait ?",
+        "message": "Suggérez un thème que vous aimez et aidez-nous à améliorer WITZ !",
+        "action": "suggérer un thème"
+      },
+      "modal": {
+        "title": "Suggérer un nouveau thème",
+        "message": "Votre suggestion pourrait être le prochain grand succès !",
+        "hint": "entrer un nom",
+        "action": "envoyer"
+      }
+    },
     "themeMasterySheet": {
       "topBarLocked": "débloquer ce thème",
       "body": {

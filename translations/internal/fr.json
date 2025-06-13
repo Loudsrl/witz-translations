@@ -555,8 +555,10 @@
       "modal": {
         "title": "Suggérer un nouveau thème",
         "message": "Votre suggestion pourrait être le prochain grand succès !",
-        "hint": "entrer un nom",
-        "action": "envoyer"
+        "hint": "entrez un thème",
+        "action": "envoyer",
+        "success": "Merci pour votre retour !",
+        "failure": "Oups ! Une erreur s’est produite. Veuillez réessayer."
       }
     },
     "themeMasterySheet": {

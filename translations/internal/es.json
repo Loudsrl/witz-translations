@@ -555,8 +555,10 @@
       "modal": {
         "title": "Sugerir un nuevo tema",
         "message": "¡Tu sugerencia podría ser el próximo gran éxito!",
-        "hint": "ingresa el nombre",
-        "action": "enviar"
+        "hint": "ingresa un tema",
+        "action": "enviar",
+        "success": "¡Gracias por tu opinión!",
+        "failure": "¡Ups! Algo salió mal. Inténtalo de nuevo."
       }
     },
     "themeMasterySheet": {

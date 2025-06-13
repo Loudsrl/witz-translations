@@ -275,7 +275,8 @@
 			"matchStartsIn": "match starts in",
 			"inviteFriends": "invite friends",
 			"waitingRoom": "waiting room",
-			"start": "start match"
+			"start": "start match",
+			"waitingHostStart": "waiting for the host to start..."
 		},
 		"inviteSheet": {
 			"title": "invite friends",

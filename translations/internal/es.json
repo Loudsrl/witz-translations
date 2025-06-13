@@ -356,6 +356,7 @@
       "matchStartsIn": "la partida empieza en",
       "inviteFriends": "invitar amigos",
       "waitingRoom": "sala de espera",
+      "waitingHostStart": "esperando a que el anfitrión comience...",
       "start": "empezar partida"
     },
     "inviteSheet": {

@@ -465,6 +465,19 @@
 		"witzMasteryInfo": "Desbloquea temas en esta categoría para aumentar tu Maestría WITZ. ¡Completa la barra para ganar un premio especial!",
 		"themeDetailBody": "Ponte a prueba sobre el tema {} con preguntas como",
 		"themeDetailBundle": "¡consigue este paquete!",
+		"suggestTheme": {
+			"card": {
+				"title": "¿No encuentras tu tema perfecto?",
+				"message": "¡Sugiere un tema que te encante y ayúdanos a mejorar WITZ!",
+				"action": "sugerir un tema"
+			},
+			"modal": {
+				"title": "Sugerir un nuevo tema",
+				"message": "¡Tu sugerencia podría ser el próximo gran éxito!",
+				"hint": "ingresa el nombre",
+				"action": "enviar"
+			}
+		},
 		"themeMasterySheet": {
 			"topBarLocked": "desbloquea este tema",
 			"body": {

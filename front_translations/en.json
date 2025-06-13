@@ -465,6 +465,19 @@
 		"witzMasteryInfo": "Unlock themes in this category to increase your WITZ Mastery. Complete the bar to earn a special prize!",
 		"themeDetailBody": "Test yourself on the {} theme with questionl like",
 		"themeDetailBundle": "get this bundle!",
+		"suggestTheme": {
+			"card": {
+				"title": "Can't find your perfect theme?",
+				"message": "Suggest one theme you love and help us make WITZ even better!",
+				"action": "suggest a theme"
+			},
+			"modal": {
+				"title": "Suggest a new theme",
+				"message": "Your suggestion could be the next big hit!",
+				"hint": "enter name",
+				"action": "submit"
+			}
+		},
 		"themeMasterySheet": {
 			"topBarLocked": "unlock this theme",
 			"body": {

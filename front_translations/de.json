@@ -465,6 +465,19 @@
 		"witzMasteryInfo": "Schalte Themen in dieser Kategorie frei, um deine WITZ-Meisterschaft zu erhöhen. Fülle die Leiste, um einen Sonderpreis zu erhalten!",
 		"themeDetailBody": "Teste dich zum Thema {} mit Fragen wie",
 		"themeDetailBundle": "hol dir dieses Paket!",
+		"suggestTheme": {
+			"card": {
+				"title": "Du findest kein perfektes Thema?",
+				"message": "Schlage ein Thema vor, das du liebst, und hilf uns, WITZ noch besser zu machen!",
+				"action": "Thema vorschlagen"
+			},
+			"modal": {
+				"title": "Neues Thema vorschlagen",
+				"message": "Dein Vorschlag könnte der nächste große Hit sein!",
+				"hint": "Name eingeben",
+				"action": "absenden"
+			}
+		},
 		"themeMasterySheet": {
 			"topBarLocked": "dieses Thema freischalten",
 			"body": {

@@ -474,8 +474,10 @@
 			"modal": {
 				"title": "Neues Thema vorschlagen",
 				"message": "Dein Vorschlag könnte der nächste große Hit sein!",
-				"hint": "Name eingeben",
-				"action": "absenden"
+				"hint": "Thema eingeben",
+				"action": "absenden",
+				"success": "Danke für dein Feedback!",
+				"failure": "Ups! Etwas ist schiefgelaufen. Bitte versuch es erneut."
 			}
 		},
 		"themeMasterySheet": {

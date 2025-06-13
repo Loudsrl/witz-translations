@@ -474,8 +474,10 @@
 			"modal": {
 				"title": "Suggest a new theme",
 				"message": "Your suggestion could be the next big hit!",
-				"hint": "enter name",
-				"action": "submit"
+				"hint": "enter theme",
+				"action": "submit",
+				"success": "thank you for your feedback!",
+				"failure": "Oopsie! Something went wrong. Try again."
 			}
 		},
 		"themeMasterySheet": {

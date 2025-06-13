@@ -474,8 +474,10 @@
 			"modal": {
 				"title": "Sugerir um novo tema",
 				"message": "Sua sugestão pode ser o próximo grande sucesso!",
-				"hint": "digite o nome",
-				"action": "enviar"
+				"hint": "insira um tema",
+				"action": "enviar",
+				"success": "Obrigado pelo seu feedback!",
+				"failure": "Opa! Algo deu errado. Tente novamente."
 			}
 		},
 		"themeMasterySheet": {

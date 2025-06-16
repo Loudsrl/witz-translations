@@ -604,6 +604,7 @@
     "seasonEndsIn": "Saison endet in",
     "info": "Das ist deine aktuelle Liga. Beende die Saison an der Spitze, um aufzusteigen! Pass auf, dass du nicht zurückfällst, sonst wirst du in die vorherige Liga abgestuft.",
     "places": "{} Plätze",
+    "populationPercent": "Du bist besser als {}% aller Spieler!",
     "leagueDescription": {
       "trainingGround": "Gib richtige Antworten in @:game.vsWorld oder @:game.vsFriends, um die Leiter zu erklimmen und deine erste Liga zu erreichen!",
       "currentLeague": "Das ist deine Liga! Es ist Zeit, ein Match zu spielen, um in der Rangliste aufzusteigen und bis zum Ende der Saison die nächste Liga zu erreichen",
@@ -1027,6 +1028,14 @@
       "event": "Event",
       "new": "neu",
       "offer": "Angebot"
+    },
+    "coupon": {
+      "redeem": "einlösen",
+      "redeemCode": "Code einlösen",
+      "redeemPromo": "Aktionscode einlösen",
+      "enterCode": "Code eingeben",
+      "errorClaimed": "Dieser Code wurde bereits eingelöst",
+      "errorGeneric": "Fehler beim Einlösen des Codes"
     }
   },
   "link_messages": {

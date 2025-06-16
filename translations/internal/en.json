@@ -604,6 +604,7 @@
     "seasonEndsIn": "season ends in",
     "info": "This is your current League. Finish the season at the top to get promoted! Be careful not to fall behind or you'll be relegated to the previous League.",
     "places": "{} places",
+    "populationPercent": "You're better than {}% of all the players!",
     "leagueDescription": {
       "trainingGround": "Give correct answers in @:game.vsWorld or @:game.vsFriends to advance the ladder and access your first League!",
       "currentLeague": "This is your league! It's time to play a match to climb the rankings and reach the next league by the end of the season",
@@ -1027,6 +1028,14 @@
       "event": "event",
       "new": "new",
       "offer": "offer"
+    },
+    "coupon": {
+      "redeem": "redeem",
+      "redeemCode": "redeem code",
+      "redeemPromo": "redeem promo code",
+      "enterCode": "enter code",
+      "errorClaimed": "This code has already been claimed",
+      "errorGeneric": "Error redeeming code"
     }
   },
   "link_messages": {

@@ -604,6 +604,7 @@
     "seasonEndsIn": "a temporada termina em",
     "info": "Esta é a sua Liga atual. Termine a temporada no topo para ser promovido! Cuidado para não ficar para trás ou será rebaixado para a Liga anterior.",
     "places": "{} lugares",
+    "populationPercent": "Você é melhor que {}% de todos os jogadores!",
     "leagueDescription": {
       "trainingGround": "Dê respostas corretas em @:game.vsWorld ou @:game.vsFriends para avançar na classificação e aceder à sua primeira Liga!",
       "currentLeague": "Esta é a sua liga! É hora de jogar uma partida para subir na classificação e alcançar a próxima liga até ao final da temporada",
@@ -1027,6 +1028,14 @@
       "event": "evento",
       "new": "novo",
       "offer": "oferta"
+    },
+    "coupon": {
+      "redeem": "resgatar",
+      "redeemCode": "resgatar código",
+      "redeemPromo": "resgatar código promocional",
+      "enterCode": "inserir código",
+      "errorClaimed": "Este código já foi resgatado",
+      "errorGeneric": "Erro ao resgatar o código"
     }
   },
   "link_messages": {

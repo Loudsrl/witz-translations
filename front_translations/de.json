@@ -275,6 +275,7 @@
 			"matchStartsIn": "Match beginnt in",
 			"inviteFriends": "Freunde einladen",
 			"waitingRoom": "Warteraum",
+			"waitingHostStart": "Warten auf den Start durch den Host...",
 			"start": "Match starten"
 		},
 		"inviteSheet": {
@@ -464,6 +465,21 @@
 		"witzMasteryInfo": "Schalte Themen in dieser Kategorie frei, um deine WITZ-Meisterschaft zu erhöhen. Fülle die Leiste, um einen Sonderpreis zu erhalten!",
 		"themeDetailBody": "Teste dich zum Thema {} mit Fragen wie",
 		"themeDetailBundle": "hol dir dieses Paket!",
+		"suggestTheme": {
+			"card": {
+				"title": "Du findest kein perfektes Thema?",
+				"message": "Schlage ein Thema vor, das du liebst, und hilf uns, WITZ noch besser zu machen!",
+				"action": "Thema vorschlagen"
+			},
+			"modal": {
+				"title": "Neues Thema vorschlagen",
+				"message": "Dein Vorschlag könnte der nächste große Hit sein!",
+				"hint": "Thema eingeben",
+				"action": "absenden",
+				"success": "Danke für dein Feedback!",
+				"failure": "Ups! Etwas ist schiefgelaufen. Bitte versuch es erneut."
+			}
+		},
 		"themeMasterySheet": {
 			"topBarLocked": "dieses Thema freischalten",
 			"body": {
@@ -507,6 +523,7 @@
 		"seasonEndsIn": "Saison endet in",
 		"info": "Das ist deine aktuelle Liga. Beende die Saison an der Spitze, um aufzusteigen! Pass auf, dass du nicht zurückfällst, sonst wirst du in die vorherige Liga abgestuft.",
 		"places": "{} Plätze",
+		"populationPercent": "Du bist besser als {}% aller Spieler!",
 		"leagueDescription": {
 			"trainingGround": "Gib richtige Antworten in @:game.vsWorld oder @:game.vsFriends, um die Leiter zu erklimmen und deine erste Liga zu erreichen!",
 			"currentLeague": "Das ist deine Liga! Es ist Zeit, ein Match zu spielen, um in der Rangliste aufzusteigen und bis zum Ende der Saison die nächste Liga zu erreichen",
@@ -930,6 +947,14 @@
 			"event": "Event",
 			"new": "neu",
 			"offer": "Angebot"
+		},
+		"coupon": {
+			"redeem": "einlösen",
+			"redeemCode": "Code einlösen",
+			"redeemPromo": "Aktionscode einlösen",
+			"enterCode": "Code eingeben",
+			"errorClaimed": "Dieser Code wurde bereits eingelöst",
+			"errorGeneric": "Fehler beim Einlösen des Codes"
 		}
 	},
 	"link_messages": {

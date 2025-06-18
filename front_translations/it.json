@@ -275,6 +275,7 @@
 			"matchStartsIn": "la partita inizia tra",
 			"inviteFriends": "invita amici",
 			"waitingRoom": "sala d'attesa",
+			"waitingHostStart": "in attesa che l'host inizi...",
 			"start": "inizia partita"
 		},
 		"inviteSheet": {
@@ -464,6 +465,21 @@
 		"witzMasteryInfo": "Sblocca temi in questa categoria per aumentare la tua Maestria WITZ. Completa la barra per guadagnare un premio speciale!",
 		"themeDetailBody": "Mettiti alla prova sul tema {} con domande come",
 		"themeDetailBundle": "ottieni questo pacchetto!",
+		"suggestTheme": {
+			"card": {
+				"title": "Non trovi il tema perfetto?",
+				"message": "Suggerisci un tema che ami e aiutaci a migliorare WITZ!",
+				"action": "suggerisci un tema"
+			},
+			"modal": {
+				"title": "Suggerisci un nuovo tema",
+				"message": "Il tuo suggerimento potrebbe essere il prossimo grande successo!",
+				"hint": "inserisci un tema",
+				"action": "invia",
+				"success": "Grazie per il tuo feedback!",
+				"failure": "Ops! Qualcosa è andato storto. Riprova."
+			}
+		},
 		"themeMasterySheet": {
 			"topBarLocked": "sblocca questo tema",
 			"body": {
@@ -507,6 +523,7 @@
 		"seasonEndsIn": "la stagione termina tra",
 		"info": "Questa è la tua Lega attuale. Termina la stagione in cima per essere promosso! Attento a non restare indietro o verrai retrocesso alla Lega precedente.",
 		"places": "{} posizioni",
+		"populationPercent": "Sei migliore del {}% di tutti i giocatori!",
 		"leagueDescription": {
 			"trainingGround": "Dai risposte corrette in @:game.vsWorld o @:game.vsFriends per avanzare nella classifica e accedere alla tua prima Lega!",
 			"currentLeague": "Questa è la tua lega! È ora di giocare una partita per scalare la classifica e raggiungere la prossima lega entro la fine della stagione",
@@ -930,6 +947,14 @@
 			"event": "evento",
 			"new": "nuovo",
 			"offer": "offerta"
+		},
+		"coupon": {
+			"redeem": "riscatta",
+			"redeemCode": "riscatta codice",
+			"redeemPromo": "riscatta codice promozionale",
+			"enterCode": "inserisci codice",
+			"errorClaimed": "Questo codice è già stato riscattato",
+			"errorGeneric": "Errore nel riscattare il codice"
 		}
 	},
 	"link_messages": {

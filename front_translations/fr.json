@@ -275,6 +275,7 @@
 			"matchStartsIn": "le match commence dans",
 			"inviteFriends": "inviter des amis",
 			"waitingRoom": "salle d'attente",
+			"waitingHostStart": "en attente du démarrage par l'hôte...",
 			"start": "commencer le match"
 		},
 		"inviteSheet": {
@@ -464,6 +465,21 @@
 		"witzMasteryInfo": "Débloquez des thèmes dans cette catégorie pour augmenter votre Maîtrise WITZ. Complétez la barre pour gagner un prix spécial !",
 		"themeDetailBody": "Testez-vous sur le thème {} avec des questions comme",
 		"themeDetailBundle": "obtenez ce pack !",
+		"suggestTheme": {
+			"card": {
+				"title": "Vous ne trouvez pas le thème parfait ?",
+				"message": "Suggérez un thème que vous aimez et aidez-nous à améliorer WITZ !",
+				"action": "suggérer un thème"
+			},
+			"modal": {
+				"title": "Suggérer un nouveau thème",
+				"message": "Votre suggestion pourrait être le prochain grand succès !",
+				"hint": "entrez un thème",
+				"action": "envoyer",
+				"success": "Merci pour votre retour !",
+				"failure": "Oups ! Une erreur s’est produite. Veuillez réessayer."
+			}
+		},
 		"themeMasterySheet": {
 			"topBarLocked": "débloquer ce thème",
 			"body": {
@@ -507,6 +523,7 @@
 		"seasonEndsIn": "la saison se termine dans",
 		"info": "C'est ta Ligue actuelle. Termine la saison en tête pour être promu ! Attention à ne pas prendre de retard ou tu seras rétrogradé dans la Ligue précédente.",
 		"places": "{} places",
+		"populationPercent": "Vous êtes meilleur que {}% de tous les joueurs !",
 		"leagueDescription": {
 			"trainingGround": "Donnez des réponses correctes en @:game.vsWorld ou @:game.vsFriends pour gravir les échelons et accéder à votre première Ligue !",
 			"currentLeague": "Ceci est votre ligue ! Il est temps de jouer un match pour grimper dans le classement et atteindre la ligue suivante avant la fin de la saison",
@@ -930,6 +947,14 @@
 			"event": "événement",
 			"new": "nouveau",
 			"offer": "offre"
+		},
+		"coupon": {
+			"redeem": "échanger",
+			"redeemCode": "échanger le code",
+			"redeemPromo": "échanger le code promo",
+			"enterCode": "entrer le code",
+			"errorClaimed": "Ce code a déjà été utilisé",
+			"errorGeneric": "Erreur lors de l'échange du code"
 		}
 	},
 	"link_messages": {

@@ -275,6 +275,7 @@
 			"matchStartsIn": "la partida empieza en",
 			"inviteFriends": "invitar amigos",
 			"waitingRoom": "sala de espera",
+			"waitingHostStart": "esperando a que el anfitrión comience...",
 			"start": "empezar partida"
 		},
 		"inviteSheet": {
@@ -464,6 +465,21 @@
 		"witzMasteryInfo": "Desbloquea temas en esta categoría para aumentar tu Maestría WITZ. ¡Completa la barra para ganar un premio especial!",
 		"themeDetailBody": "Ponte a prueba sobre el tema {} con preguntas como",
 		"themeDetailBundle": "¡consigue este paquete!",
+		"suggestTheme": {
+			"card": {
+				"title": "¿No encuentras tu tema perfecto?",
+				"message": "¡Sugiere un tema que te encante y ayúdanos a mejorar WITZ!",
+				"action": "sugerir un tema"
+			},
+			"modal": {
+				"title": "Sugerir un nuevo tema",
+				"message": "¡Tu sugerencia podría ser el próximo gran éxito!",
+				"hint": "ingresa un tema",
+				"action": "enviar",
+				"success": "¡Gracias por tu opinión!",
+				"failure": "¡Ups! Algo salió mal. Inténtalo de nuevo."
+			}
+		},
 		"themeMasterySheet": {
 			"topBarLocked": "desbloquea este tema",
 			"body": {
@@ -507,6 +523,7 @@
 		"seasonEndsIn": "la temporada termina en",
 		"info": "Esta es tu Liga actual. Termina la temporada en la cima para ascender. ¡Ten cuidado de no quedarte atrás o serás relegado a la Liga anterior!",
 		"places": "{} puestos",
+		"populationPercent": "¡Eres mejor que el {}% de todos los jugadores!",
 		"leagueDescription": {
 			"trainingGround": "¡Da respuestas correctas en @:game.vsWorld o @:game.vsFriends para avanzar en la clasificación y acceder a tu primera Liga!",
 			"currentLeague": "¡Esta es tu liga! Es hora de jugar una partida para subir en la clasificación y alcanzar la siguiente liga al final de la temporada",
@@ -930,6 +947,14 @@
 			"event": "evento",
 			"new": "nuevo",
 			"offer": "oferta"
+		},
+		"coupon": {
+			"redeem": "canjear",
+			"redeemCode": "canjear código",
+			"redeemPromo": "canjear código promocional",
+			"enterCode": "ingresar código",
+			"errorClaimed": "Este código ya ha sido canjeado",
+			"errorGeneric": "Error al canjear el código"
 		}
 	},
 	"link_messages": {

@@ -728,6 +728,10 @@
 	},
 	"missions": {
 		"title": "missioni",
+		"tabs": {
+			"daily": "giornaliero",
+			"referral": "referenza"
+		},
 		"weeklyChallenge": {
 			"title": "Missioni settimanali",
 			"info": "Completa le missioni giornaliere per riempire la barra della sfida settimanale—sblocca ricompense più grandi in base a quante missioni completi in una settimana.",

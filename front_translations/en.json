@@ -728,6 +728,10 @@
 	},
 	"missions": {
 		"title": "missions",
+		"tabs": {
+			"daily": "daily",
+			"referral": "referral"
+		},
 		"weeklyChallenge": {
 			"title": "Weekly missions",
 			"info": "Complete daily missions to fill the weekly challenge bar—unlock bigger rewards based on how many missions you complete in a week.",

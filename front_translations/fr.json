@@ -728,6 +728,10 @@
 	},
 	"missions": {
 		"title": "missions",
+		"tabs": {
+			"daily": "quotidien",
+			"referral": "parrainage"
+		},
 		"weeklyChallenge": {
 			"title": "Missions hebdomadaires",
 			"info": "Terminez les missions quotidiennes pour remplir la barre du défi hebdomadaire – débloquez de plus grandes récompenses en fonction du nombre de missions que vous terminez en une semaine.",

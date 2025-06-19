@@ -728,6 +728,10 @@
 	},
 	"missions": {
 		"title": "Missionen",
+		"tabs": {
+			"daily": "täglich",
+			"referral": "empfehlung"
+		},
 		"weeklyChallenge": {
 			"title": "Wöchentliche Missionen",
 			"info": "Schließe tägliche Missionen ab, um die Leiste der wöchentlichen Herausforderung zu füllen – schalte größere Belohnungen frei, basierend darauf, wie viele Missionen du in einer Woche abschließt.",

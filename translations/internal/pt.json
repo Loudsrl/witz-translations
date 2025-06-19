@@ -809,6 +809,10 @@
   },
   "missions": {
     "title": "missões",
+    "tabs": {
+      "daily": "diário",
+      "referral": "referência"
+    },
     "weeklyChallenge": {
       "title": "Missões semanais",
       "info": "Complete missões diárias para encher a barra do desafio semanal—desbloqueie recompensas maiores com base em quantas missões completa numa semana.",

@@ -794,16 +794,28 @@
     }
   },
   "friends": {
-    "title": "amici",
-    "requests": "richieste",
-    "requestsNumber": "Richieste: {}/{}",
-    "friendsNumber": "Amici: {}/{}",
-    "noFriends": "Sembri piuttosto solo qui...",
+    "title": "Amici",
+    "tabs": {
+      "friends": "I miei amici",
+      "search": "Cerca amici"
+    },
+    "requests": "Richieste in sospeso",
+    "yourFriends": "I tuoi amici",
+    "searchFriends": {
+      "title": "Cerca un giocatore",
+      "youMayKnow": "Giocatori che potresti conoscere",
+      "hintText": "Inserisci il nome dell'amico",
+      "searchResult": "Risultati della ricerca",
+      "noResult": "Nessun giocatore trovato. Prova un altro nome!"
+    },
+    "noFriends": {
+      "title": "Sembri piuttosto solo qui...",
+      "message": "I giocatori che aggiungi come amici appariranno qui."
+    },
     "noRequests": "Non hai richieste",
-    "inviteFriends": "invita nuovi amici",
-    "addFriends": "aggiungi amici",
+    "inviteFriends": "Invita amici",
     "profile": {
-      "add": "aggiungi",
+      "add": "Aggiungi",
       "removeDialogBody": "Vuoi rimuovere questo giocatore dalla tua lista amici?"
     }
   },

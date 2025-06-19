@@ -713,17 +713,29 @@
 		}
 	},
 	"friends": {
-		"title": "amis",
-		"requests": "demandes",
-		"requestsNumber": "Demandes : {}/{}",
-		"friendsNumber": "Amis : {}/{}",
-		"noFriends": "Vous semblez bien seul ici...",
+		"title": "Amis",
+		"tabs": {
+			"friends": "Mes amis",
+			"search": "Rechercher des amis"
+		},
+		"requests": "Demandes en attente",
+		"yourFriends": "Vos amis",
+		"searchFriends": {
+			"title": "Rechercher un joueur",
+			"youMayKnow": "Joueurs que vous pourriez connaître",
+			"hintText": "Saisir le nom d’un ami",
+			"searchResult": "Résultats de recherche",
+			"noResult": "Aucun joueur trouvé. Essayez un autre nom !"
+		},
+		"noFriends": {
+			"title": "Tu as l’air un peu seul ici...",
+			"message": "Les joueurs que tu ajoutes comme amis apparaîtront ici."
+		},
 		"noRequests": "Vous n'avez aucune demande",
-		"inviteFriends": "inviter de nouveaux amis",
-		"addFriends": "ajouter des amis",
+		"inviteFriends": "Inviter des amis",
 		"profile": {
-			"add": "ajouter",
-			"removeDialogBody": "Voulez-vous supprimer ce joueur de votre liste d'amis ?"
+			"add": "Ajouter",
+			"removeDialogBody": "Souhaitez-vous retirer ce joueur de votre liste d’amis ?"
 		}
 	},
 	"missions": {

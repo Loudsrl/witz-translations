@@ -714,15 +714,27 @@
 	},
 	"friends": {
 		"title": "Freunde",
-		"requests": "Anfragen",
-		"requestsNumber": "Anfragen: {}/{}",
-		"friendsNumber": "Freunde: {}/{}",
-		"noFriends": "Du siehst hier ziemlich einsam aus...",
+		"tabs": {
+			"friends": "Meine Freunde",
+			"search": "Freunde suchen"
+		},
+		"requests": "Ausstehende Anfragen",
+		"yourFriends": "Deine Freunde",
+		"searchFriends": {
+			"title": "Spieler suchen",
+			"youMayKnow": "Spieler, die du kennen könntest",
+			"hintText": "Freundesnamen eingeben",
+			"searchResult": "Suchergebnisse",
+			"noResult": "Keine Spieler gefunden. Versuche einen anderen Namen!"
+		},
+		"noFriends": {
+			"title": "Du siehst hier ziemlich einsam aus...",
+			"message": "Spieler, die du als Freunde hinzufügst, erscheinen hier."
+		},
 		"noRequests": "Du hast keine Anfragen",
-		"inviteFriends": "neue Freunde einladen",
-		"addFriends": "Freunde hinzufügen",
+		"inviteFriends": "Freunde einladen",
 		"profile": {
-			"add": "hinzufügen",
+			"add": "Hinzufügen",
 			"removeDialogBody": "Möchtest du diesen Spieler aus deiner Freundesliste entfernen?"
 		}
 	},

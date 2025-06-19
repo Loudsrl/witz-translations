@@ -713,16 +713,28 @@
 		}
 	},
 	"friends": {
-		"title": "amigos",
-		"requests": "solicitudes",
-		"requestsNumber": "Solicitudes: {}/{}",
-		"friendsNumber": "Amigos: {}/{}",
-		"noFriends": "Pareces bastante solo por aquí...",
+		"title": "Amigos",
+		"tabs": {
+			"friends": "Mis amigos",
+			"search": "Buscar amigos"
+		},
+		"requests": "Solicitudes pendientes",
+		"yourFriends": "Tus amigos",
+		"searchFriends": {
+			"title": "Buscar un jugador",
+			"youMayKnow": "Jugadores que quizá conozcas",
+			"hintText": "Introduce el nombre del amigo",
+			"searchResult": "Resultados de búsqueda",
+			"noResult": "No se encontraron jugadores. ¡Prueba con otro nombre!"
+		},
+		"noFriends": {
+			"title": "Parece que estás bastante solo por aquí...",
+			"message": "Los jugadores que agregues como amigos aparecerán aquí."
+		},
 		"noRequests": "No tienes solicitudes",
-		"inviteFriends": "invitar nuevos amigos",
-		"addFriends": "añadir amigos",
+		"inviteFriends": "Invitar amigos",
 		"profile": {
-			"add": "añadir",
+			"add": "Agregar",
 			"removeDialogBody": "¿Quieres eliminar a este jugador de tu lista de amigos?"
 		}
 	},

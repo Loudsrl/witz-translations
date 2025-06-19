@@ -714,13 +714,25 @@
 	},
 	"friends": {
 		"title": "friends",
-		"requests": "requests",
-		"requestsNumber": "Requests: {}/{}",
-		"friendsNumber": "Friends: {}/{}",
-		"noFriends": "You look pretty lonely in here...",
+		"tabs": {
+			"friends": "my friends",
+			"search": "search friends"
+		},
+		"requests": "pending requests",
+		"yourFriends": "your friends",
+		"searchFriends": {
+			"title": "search for a player",
+			"youMayKnow": "players you may know",
+			"hintText": "Enter friend name",
+			"searchResult": "search results",
+			"noResult": "No players found. Try another name!"
+		},
+		"noFriends": {
+			"title": "You look pretty lonely in here...",
+			"message": "Players you add as friends will appear here."
+		},
 		"noRequests": "You have no requests",
-		"inviteFriends": "invite new friends",
-		"addFriends": "add friends",
+		"inviteFriends": "invite friends",
 		"profile": {
 			"add": "add",
 			"removeDialogBody": "Do you want to remove this player from your friend list?"
